@@ -1,0 +1,15 @@
+.thingsmain{
+    background-color: #f0f3f5;
+    padding-bottom: 20px;
+    padding: 0px;
+}
+
+.contents{
+   /* width: 100%; */
+}
+
+@media all and (max-width: 600px){
+    .thingsmain{
+        overflow-x: hidden;
+    }
+}

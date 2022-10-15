@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import {Manager} from "./components";
+import React, {useEffect, useState} from "react";
+import { getPlacesData } from "./api";
 
-function App() {
+const App = () => {
+
+  const [places, setPlaces] = useState([])
+
+  const[cords, setCords] = useState({})
+
+  const [bounds, setBounds] = useState(null)
+
+  //pass places for api fetch, pass local stores jsons to save fetches
+  //api fetch for neaby places when user asks
+  //need to change api fetch from boundaries to nearby 
+  //replace object in places={} 
+
+  // useEffect(() => {
+  //     getPlacesData().then((data) => {
+
+  //        console.log(data)
+
+  //       setPlaces(data)
+  //     })
+  // }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Manager/>
+    </>
   );
 }
 

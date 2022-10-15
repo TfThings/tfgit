@@ -1,0 +1,218 @@
+.card{
+    background: white;
+    padding: 0rem;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    border-radius: .25rem;
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.card .header{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    overflow: hidden;
+}
+
+.card .header > img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: 200px;
+    object-position: center;
+    padding: 0;
+}
+
+.card .header .rank{
+    position: absolute;
+    text-align:center;
+    margin-top: -30px;
+    margin-left: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.card .title{
+    padding: 0rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    height: 45px;
+    font-family: 'Nunito';
+}
+
+.card .body{
+    font-size: .9rem;
+    padding: 1rem;
+    
+}
+
+.card .footer{
+    margin-top: 0rem;
+}
+
+.ribbon4 a{
+    color: white;
+}
+
+.ribbon4 {
+    position: absolute;
+    margin-top: -160px;
+    padding: 8px 10px;
+    background: #00B3ED;
+    box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    
+  }
+  .ribbon4:before, .ribbon4:after {
+    content: "";
+    position: absolute;
+    
+  }
+  .ribbon4:before {
+    width: 7px;
+    height: 121%;
+    top: 0px;
+    left: -6.5px;
+    padding: 0 0 7px;
+    background:#00B3ED;
+    border-radius: 5px 0 0 5px;
+    
+    
+  }
+  .ribbon4:after {
+    width: 5px;
+    height: 10px;
+    bottom: -10px;
+    left: -4.5px;
+    background: lightblue;
+    border-radius: 5px 0 0 5px;
+    
+    
+   }
+
+   .ratingCircletwoColumn{
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: -180px;
+    margin-left: 530px;
+    background-color: #00B3ED;
+    /* box-shadow: 0 4px 0px 0px rgba(46, 46, 46, 0.25); */
+    text-align:center;
+   }
+
+   .ratingCircle{
+    background-color:rgba(0, 0, 0, 0.05);
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: -160px;
+    margin-left: 240px;
+    /* box-shadow: 0 4px 0px 0px rgba(46, 46, 46, 0.25); */
+    text-align:center;
+   }
+
+   .ratingCircle h1{
+    color: yellow;
+    margin-top: -1px;
+    font-size: 1.2rem;
+   }
+
+   .ratingCircle span{
+    color: yellow;
+    position: relative;
+    left: 15px;
+    top: 2px;
+    font-size: 1.3rem;
+   }
+
+   .ratingCircletwoColumn h1{
+    color: yellow;
+    margin-top: 3px;
+    font-size: 1.3rem;
+   }
+
+   .ratingCircletwoColumn span{
+    color: yellow;
+    position: relative;
+    left: 19px;
+    top: 4px;
+    font-size: 1.5rem;
+   }
+
+.ribbon4Two a{
+    color: white;
+}
+
+.ribbon4Two {
+    position: absolute;
+    margin-top: -195px;
+    padding: 8px 10px;
+    background: #00B3ED;
+    box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    
+  }
+  .ribbon4Two:before, .ribbon4Two:after {
+    content: "";
+    position: absolute;
+    
+  }
+  .ribbon4Two:before {
+    width: 7px;
+    height: 121%;
+    top: 0px;
+    left: -6.5px;
+    padding: 0 0 7px;
+    background:#00B3ED;
+    border-radius: 5px 0 0 5px;
+    
+    
+  }
+  .ribbon4Two:after {
+    width: 5px;
+    height: 10px;
+    bottom: -10px;
+    left: -4.5px;
+    background: lightblue;
+    border-radius: 5px 0 0 5px;
+   }
+
+   @media all and (max-width: 600px){
+
+    .card .title{
+      font-size: .9rem;
+      width: 100%;
+      margin-left: 0.4rem;
+    }
+
+    .ribbon4 {
+      margin-top: -90px;
+      padding: 1px 10px;
+    }
+
+    .ribbon4Two {
+      margin-top: -90px;
+      padding: 1px 10px;
+    }
+
+    .ratingCircle{
+      margin-left: 115px;
+      margin-top: -95px;
+    }
+
+    .ratingCircletwoColumn{
+      margin-left: 110px;
+      margin-top: -95px;
+      width: 60px;
+      height: 60px;
+      background-color:rgba(0, 0, 0, 0.05);
+    }
+  }
+
+   

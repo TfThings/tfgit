@@ -1,0 +1,60 @@
+.featurecard{
+    background: rgb(254, 254, 254) no-repeat center center/cover;
+    padding: 0px;
+    width: 300px;
+    height: 500px;
+    margin-top: 10px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    
+    border-radius: 20px;
+}
+
+.featurecard .title{
+    display: flex;
+    align-items: stretch;
+    color: white;
+    font-size: 1.6rem;
+    font-family: nunito;
+    text-align:center;
+    padding: 0rem;
+    margin-left: 1rem;
+}
+
+.featurecard h1{
+    position: relative;
+    bottom: 90px;
+}
+
+.featurecard img{
+    /* opacity: 1; */
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.featurecard img:hover{
+    -webkit-filter: brightness(100%);
+}
+
+@media all and (max-width: 600px){
+    .featurecard{
+        width: 175px;
+        height: 275px;
+        line-height: 30px;
+        
+    }
+
+    .featurecard h1{
+        bottom: 150px;
+        right: 7px;
+    }
+}

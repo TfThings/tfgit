@@ -1,0 +1,289 @@
+.home{
+    background-color: rgba(0, 0, 0, .5);
+    color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0rem;
+}
+
+.home::before{
+    content: '';
+    background: url('../assets/tfback0.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.home h1{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+.home .search-text{
+    margin: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.search{
+    display: flex;
+    background-color: white;
+    color: #333;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.search input[type=text] {
+    border: transparent;
+    background-color: transparent;
+    width: 400px;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+}
+
+.search input[type=text]:focus {
+    outline: none;
+}
+
+.search label{
+    padding: 0 14px 0 8px;
+
+}
+
+.search .radio{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.search button {
+    background-image: linear-gradient(45deg, #5651e5 0%, #709dff 100%);
+    border: 1px solid #5651e5;
+    color: #fff;
+    padding: 13px;
+    border-radius: 43px;
+
+    cursor: pointer;
+}
+
+.scrollbox{
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: -1px;
+    z-index: 9;
+}
+
+.scrollbox.isSticky{
+    z-index: 9;
+    background: #fff;
+    box-shadow: rgb(0, 0, 0/25%) 0px 0px 14px;
+    display: flex;
+    padding: 14px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.homebox{
+    padding: 45px 40px 40px 40px;
+    min-height: fit-content;
+    background-color: #4485e0;
+    margin-bottom: 0rem;
+}
+
+.hometitle{
+    position: relative;
+    top: -15px;
+}
+
+.homebox .boxmenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+}
+
+.homebox .box{
+    background: rgb(254, 254, 254) no-repeat center center/cover;
+    padding: 0px;
+    width: 300px;
+    height: 500px;
+    margin-top: 10px;
+    line-height: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-align:center;
+    border-radius: 20px;
+    
+}
+
+.box h1{
+    position: relative;
+    bottom: 70px;
+}
+
+.box img{
+    /* opacity: 1; */
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 20px;
+
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.box img:hover{
+    -webkit-filter: brightness(100%);
+}
+
+.countyWrap{
+    padding: 45px 80px 40px 40px;
+    min-height: fit-content;
+    background: url('../assets/waves3.png') no-repeat center center/cover;
+    background-color: #4485e0;
+}
+
+.countyDiv{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    /* text-decoration: underline; */
+    margin-bottom: 4rem;
+    
+}
+
+.countyMap{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top:  30px;
+    left: 0;
+    padding: 0px;
+}
+
+.maptop{
+    position:relative;
+    top: 0;
+    left: 0;
+    transition: 1s ease;
+    z-index: 0;
+}
+
+.mapmid{
+    position: relative;
+    top: -10px;
+    left: 0;
+    transition: 1s ease;
+    z-index: 0;
+}
+
+.mapbot{
+    position: relative;
+    top: -20px;
+    left: 0;
+    transition: 1s ease;
+    z-index: 0;
+}
+
+.box figure{
+    position: relative;
+}
+
+.box figure::before{
+    position: absolute;
+    top: 0;
+    left: -10000px;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 10%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+
+.box figure:hover::before{
+    -webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+
+.countyMap img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: 1s ease;
+    z-index: 3;
+}
+
+
+.homebox h1{
+    color: white;
+    text-align: center;
+    font-size: 2.2em;
+    padding: 0px;
+    /* text-decoration: underline; */
+}
+
+@media screen and (max-width: 500px) {
+    .home{
+        height: 70vh;
+    }
+    
+    .search input[type=text]{
+        width: 100%;
+    }
+}
+
+/* .homebox .box:before{
+    background: rgb(255, 255, 255) no-repeat center center/cover;
+    padding: 5px;
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    text-align: center;
+    border-radius: 20px;
+} */

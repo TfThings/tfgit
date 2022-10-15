@@ -1,0 +1,15 @@
+import Features from './Features'
+import Download from './Download'
+import SectionWrapper from './SectionWrapper'
+import Home from './Home'
+import Navbar from './Navbar'
+import Footer from './Footer'
+import Thingstodo from './Thingstodo'
+import SearchHeader from './SearchHeader'
+import Card from './Card'
+import Manager from './Manager'
+import PlaceDetails from './PlaceDetails/PlaceDetails'
+import CityDetails from './CityDetails'
+import FeaturedCard from './FeaturedCard'
+
+export{Features, Manager, Download, SectionWrapper, Home, Navbar, Footer, Thingstodo, SearchHeader, Card, PlaceDetails, CityDetails, FeaturedCard}

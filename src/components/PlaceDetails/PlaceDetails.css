@@ -1,0 +1,267 @@
+.thing{
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.thingHeader{
+    font-size: 2.5rem;
+}
+
+.thingContainer{
+   
+}
+
+.container{
+    /* background-color: white; */
+}
+
+.image{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.image img{
+    border-radius: 25px;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: auto;
+    object-position: center;
+    padding: 0;
+}
+
+.aboutContainer{
+    background-color: white;
+    display: grid;
+    width: 750px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 /25%);
+    margin: 0 auto;
+}
+
+.aboutContainer .header h1{
+    font-size: 2.5rem;
+    /* text-decoration: underline; */
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 700px;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.icon span{
+    color: white;
+    position:relative;
+    
+    font-size:1.7rem;
+    left: 0px;
+    top: 15px;
+}
+
+.icon.rating span{
+    
+}
+
+.icon h1{
+    padding-top: 40px;
+}
+
+.aboutContainer .icons{
+    display:flex;
+    flex-flow:row wrap;
+    gap: 40px;
+    align-items: center;
+    margin: 0 auto;
+    text-align:center;
+    margin-top: 20px;
+    /* justify-content:space-between; */
+}
+
+.details{
+    display: grid;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.details .row{
+    margin-top: 60px;
+    position: relative;
+    right: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.details .catrow{
+    display: flex;
+    margin-top: 0px;
+    position: relative;
+    left: 240px;
+    bottom: 100px;
+    gap: 20px;
+}
+
+.row.address{
+    margin-top: 0px;
+}
+
+.aboutContainer .desc{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.aboutContainer .desc h1{
+    font-size: 2rem;
+}
+
+.aboutContainer .improve{
+    border-top: 1px solid gray;
+}
+
+.box{
+    /* display: block; */
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    padding:8px;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    
+    /* flex-flow: row;    */
+    /* flex-basis: 100%;  */
+}
+
+.box span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+    /* text-align: left; */
+}
+
+.box.phone{
+    font-size: 1.5rem;
+}
+
+.box.phone h1{
+    top: 0;
+    left: 13px;
+}
+
+.box.website{
+    font-size: 1.5rem;
+}
+
+.box.website span{
+    padding-left: 0px;
+}
+
+.box.website h1{
+    top: 0px;
+    left: 40px;
+}
+
+.box.address h1{
+    top: -30px;
+    left: 30px;
+    width: 200px;
+    font-size:.9rem;
+}
+
+.box.address span{
+    font-size: 1.6rem;
+    position: relative;
+    right: 4px;
+    top: 2px;
+    
+}
+
+.box h1{
+    color: white; 
+}
+
+.desc{
+
+}
+
+.red{
+    background-color: #d23f31;
+}
+
+.blue{
+    background-color: #4285f4;
+}
+
+.green{
+    background-color: #0f9d58;
+}
+
+.orange{
+    background-color: #e67e22;
+}
+
+.yellow{
+    background-color:#f1c40f;
+}
+
+@media all and (max-width: 600px){
+
+    .image img{
+        padding: 5px;
+    }
+
+    .aboutContainer{
+        width: 350px;
+    }
+
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon span{
+        font-size:1rem;
+        left: 0px;
+        top: 15px;
+    }
+
+    .icon h1{
+        padding-top: 35px;
+        font-size: .9rem;
+    }
+
+    .aboutContainer .header h1{
+        width: 300px;
+    }
+
+    .aboutContainer .icons{   
+        gap: 30px;
+        margin-left: 30px;
+    }
+
+    .details{
+        display: grid;
+        padding: 20px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .details .row{
+        right: 20px;
+    }
+
+    .aboutContainer .desc h2{
+        font-size: .9rem;
+        max-width: 320px;
+    }
+}
