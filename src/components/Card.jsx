@@ -15,10 +15,10 @@ const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColu
         localStorage.setItem("cityToShowString", cityName)
     }
     
-    if(!place){return null}
-    if(place.location_id == "34230"){return null}
-    if(!place.photo) {return null}
-    if(place.description == "") {return null}
+    if(!place){return}
+    if(place.location_id == "34230"){return}
+    if(!place.photo) {return}
+    if(place.description == "") {return}
 
     return(
         <div className='card'>

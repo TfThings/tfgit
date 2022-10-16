@@ -1,14 +1,7 @@
 import React, {useState} from 'react'
 import {Link} from "react-router-dom";
-import{TiThMenu} from 'react-icons/ti'
-import {ImCross} from 'react-icons/im'
-import {AiOutlineMenu} from 'react-icons/ai'
-import {CgClose} from 'react-icons/cg'
 import {GiPalmTree} from 'react-icons/gi'
-import assets from '../assets'
 import './Navbar.css'
-import Home from './Home';
-import { Route } from 'react-router-dom';
 
 const Navbar = () => {
 

@@ -1,12 +1,12 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import {Home, Navbar, Footer, Thingstodo, PlaceDetails, CityDetails} from "./index"
+import {Routes, Route } from "react-router-dom";
+import {Navbar, Footer, Thingstodo, PlaceDetails, CityDetails} from "./index"
 import FortMyersAll from '../StoredJsons/FortMyersAll.json'
 import FortMyersBeachAll from '../StoredJsons/FortMyersBeachAll.json'
 import CapeCoralAll from '../StoredJsons/CapeCoralAll.json'
 import NaplesAll from '../StoredJsons/NaplesAll.json'
 import EsteroAll from '../StoredJsons/EsteroAll.json'
-import { useState, useEffect } from 'react';
+import {useState} from 'react';
 
 const Manager = () => {
 

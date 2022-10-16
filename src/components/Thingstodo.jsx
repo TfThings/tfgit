@@ -1,9 +1,7 @@
 import React from 'react'
 import './Thingstodo.css'
-import assets from '../assets'
 import SearchHeader from './SearchHeader'
 import FortMyersAll from '../StoredJsons/FortMyersAll.json'
-import FortMyersBeachAll from '../StoredJsons/FortMyersBeachAll.json'
 import CapeCoralAll from '../StoredJsons/CapeCoralAll.json'
 import NaplesAll from '../StoredJsons/NaplesAll.json'
 import EsteroAll from '../StoredJsons/EsteroAll.json'
@@ -16,7 +14,7 @@ const Thingstodo = ({setPlace, setCity}) => {
         <SearchHeader/>
         <div className='contents'>
             <CardArray cityCollection={FortMyersAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>
-            <CardArray cityCollection={FortMyersBeachAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>
+            {/* <CardArray cityCollection={FortMyersBeachAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/> */}
             <CardArray cityCollection={CapeCoralAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>
             <CardArray cityCollection={NaplesAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>
             <CardArray cityCollection={EsteroAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>        

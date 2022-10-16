@@ -1,14 +1,14 @@
 import {Manager} from "./components";
-import React, {useEffect, useState} from "react";
-import { getPlacesData } from "./api";
+import React from "react";
+// import { getPlacesData } from "./api";
 
 const App = () => {
 
-  const [places, setPlaces] = useState([])
+  // const [places, setPlaces] = useState([])
 
-  const[cords, setCords] = useState({})
+  // const[cords, setCords] = useState({})
 
-  const [bounds, setBounds] = useState(null)
+  // const [bounds, setBounds] = useState(null)
 
   //pass places for api fetch, pass local stores jsons to save fetches
   //api fetch for neaby places when user asks

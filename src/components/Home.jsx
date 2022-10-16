@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '../styles/Global'
 import assets from '../assets'
 import {AiOutlineSearch} from 'react-icons/ai'
 import './Home.css'

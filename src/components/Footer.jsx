@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import "react-icons/fa"
-import {FaInstagram, FaFacebookSquare, FaTwitterSquare, FaYoutube} from 'react-icons/fa'
+import {FaFacebookSquare, FaTwitterSquare} from 'react-icons/fa'
 import {GrInstagram} from 'react-icons/gr'
 import {IoLogoYoutube} from 'react-icons/io'
 import {GiPalmTree} from 'react-icons/gi'

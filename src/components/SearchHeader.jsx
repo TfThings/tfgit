@@ -1,6 +1,5 @@
 import React from 'react'
 import './SearchHeader.css'
-import {AiOutlineSearch} from 'react-icons/ai'
 
 const SearchHeader = () => {
   return (
