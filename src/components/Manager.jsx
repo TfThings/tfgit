@@ -6,8 +6,10 @@ import FortMyersBeachAll from '../StoredJsons/FortMyersBeachAll.json'
 import CapeCoralAll from '../StoredJsons/CapeCoralAll.json'
 import NaplesAll from '../StoredJsons/NaplesAll.json'
 import EsteroAll from '../StoredJsons/EsteroAll.json'
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
+import ReactGA from 'react-ga4'
 
+ReactGA.initialize('G-ZMDTVMWFRY')
 const Manager = () => {
 
     var [cityToShowString, setCity] = useState('')
@@ -17,6 +19,11 @@ const Manager = () => {
     var cityToShow = NaplesAll
 
     var currentPlaceObject = cityToShow[placeToShowData]
+
+    useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: JSON.stringify(window.location.pathname + window.location.search)});
+        console.log("INIT GA " + window.location.pathname + window.location.search)
+    })
 
     const SetCityCollection = () => {
 

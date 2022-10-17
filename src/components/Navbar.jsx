@@ -1,12 +1,12 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {Link} from "react-router-dom";
 import {GiPalmTree} from 'react-icons/gi'
 import './Navbar.css'
 
 const Navbar = () => {
 
-    const[click, setClick] = useState(false)
-    const handleClick=() => setClick(!click)
+    // const[click, setClick] = useState(false)
+    // const handleClick=() => setClick(!click)
 
   return (
     <div className='navbar'>
