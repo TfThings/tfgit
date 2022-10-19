@@ -6,16 +6,16 @@ import './FeatureCard.css'
 const FeaturedCard = ({place, setPlace, setCity, cityName, index, subCollection}) => {
     
     const handleClick = () => {
-        const ob = {subCollection: subCollection, placeIndex:index}
-        {setPlace(ob)}
+        
+        {setPlace(index)}
         {setCity(cityName)}
-        localStorage.setItem("placeToShowData", JSON.stringify(ob))
-        localStorage.setItem("cityToShowString", cityName)
     }
   
+    const datString ="-c:"+cityName+"-s:"+subCollection+"-i:"+index
+    // console.log("SET FEATURE " + index + " " + cityName + " " + subCollection + " " + place.address + " " + datString)
     return (
     <div className='featurecard'>
-            <Link onClick={handleClick} to={"/things/"+place.address_obj.city+"/"+place.name+place.address}>
+            <Link onClick={handleClick} to={"/things/"+cityName+"/"+place.name+place.address+"="+datString}>
             <img src={place.photo ? place.photo.images.large.url : assets.capeCoral1} alt="kfwfw"/>
             <h1 className='title'>{place.name}</h1>
             <div className='footer'> </div>

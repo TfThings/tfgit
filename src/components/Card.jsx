@@ -7,12 +7,12 @@ import './Card.css'
 const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColumn}) => {
 
     const handleClick = () => {
-        console.log("INDEX " + index)
-        const ob = {subCollection: subCollection, placeIndex:index}
-        {setPlace(ob)}
-        localStorage.setItem("placeToShowData", JSON.stringify(ob))
+        // console.log("INDEX " + index)
+        
+        {setPlace(index)}
+        
         {setCity(cityName)}
-        localStorage.setItem("cityToShowString", cityName)
+        
     }
     
     if(!place){return}
@@ -20,9 +20,11 @@ const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColu
     if(!place.photo) {return}
     if(place.description == "") {return}
 
+    const datString ="-c:"+cityName+"-s:"+subCollection+"-i:"+index
+
     return(
         <div className='card'>
-            <Link onClick={handleClick} to={"/things/"+cityName+"/"+place.name+place.address}>
+            <Link onClick={handleClick} to={"/things/"+cityName+"/"+place.name+place.address+"="+datString}>
             <div className='header'>
                 <img src={place.photo ? place.photo.images.large.url : assets.capeCoral1} alt="kfwfw"/>
                 <div className={twoColumn ? 'ribbon4Two' : 'ribbon4'}>#{place.ranking_position}/{place.ranking_denominator}</div>
@@ -36,6 +38,3 @@ const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColu
 }
 
 export default Card
-
-//<Link onClick={handleClick} to={"/things/"+place.name+place.address}>MORE INFO</Link>
-//<div className='body'>{place.description ? place.description : "Sadly No Description was given, but it's still probably a great place"}</div>

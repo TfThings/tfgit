@@ -12,7 +12,7 @@ const CardArray = ({cityCollection, twoColumn, setPlace, setCity, rests, headerS
     const subCollection = rests ? cityCollection.Restaurants : cityCollection.Attractions
 
     const showMoreClick = () => {
-        setCount(displayCount + 4 <= subCollection.length ? displayCount + 4 : subCollection.length)
+        setCount(displayCount + 4 <= subCollection.length ? displayCount + 20 : subCollection.length)
     }
 
     const viewCityClick = (city) => {

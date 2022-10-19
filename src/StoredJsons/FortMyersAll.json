@@ -7,7 +7,7 @@
 
         "FeaturedIndex0": 152,
         "FeaturedIndex1": 157,
-        "FeaturedIndex2": 159,
+        "FeaturedIndex2": 161,
         "FeaturedIndex3": 141
     },
     {
@@ -22735,14 +22735,14 @@
         "phone": "+1 239-768-4210",
         "website": "https://www.milb.com/fort-myers",
         "address_obj": {
-            "street1": "14400 Ben C Pratt/6 Mile Cypress Pkwy",
+            "street1": "14400 Ben C Pratt 6 Mile Cypress Pkwy",
             "street2": null,
             "city": "Fort Myers",
             "state": "FL",
             "country": "United States",
             "postalcode": "33912-4326"
         },
-        "address": "14400 Ben C Pratt/6 Mile Cypress Pkwy, Fort Myers, FL 33912-4326",
+        "address": "14400 Ben C Pratt 6 Mile Cypress Pkwy, Fort Myers, FL 33912-4326",
         "is_candidate_for_contact_info_suppression": false,
         "subtype": [
             {
