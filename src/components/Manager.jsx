@@ -102,7 +102,7 @@ const Manager = () => {
 
         placeIndex = parseInt(ii, 10)
 
-        // console.log("CHECKING " + cityToShowString + " " + placeIndex + " " + sS)
+        console.log("CHECKING " + cityToShowString + " " + placeIndex + " " + sS)
     }
 
     const SetCityCollection = () => {
@@ -112,7 +112,7 @@ const Manager = () => {
             setCity("Naples")
         }
 
-        // console.log("SETTING CITY " + cityToShowString)
+        console.log("SETTING CITY " + cityToShowString)
         
         if(cityToShowString == 'Fort Myers')
         {
@@ -152,7 +152,7 @@ const Manager = () => {
 
         currentPlaceObject = st
 
-        // console.log("SET PLACE " + currentPlaceObject + " " + sS + " "  + placeIndex)
+        console.log("SET PLACE " + currentPlaceObject + " " + sS + " "  + placeIndex)
      }
 
     return (
