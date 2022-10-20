@@ -6,7 +6,7 @@ import {HiPhoneOutgoing} from 'react-icons/hi'
 import FeaturedSection from '../FeaturedSection'
 import CardArray from '../CardArray'
 import call from 'react-native-phone-call'
-import openMap from 'react-native-open-maps'
+import openMap, {createOpenLink} from 'react-native-open-maps'
 import EmailSect from '../EmailSect'
 const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
 
@@ -31,7 +31,9 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
         var lat = JSON.parse(spot.latitude)
         var long = JSON.parse(spot.longitude)
         console.log("OPENED MAP " + spot.latitude + " " + spot.longitude + " " + dest + " " + dest.longitude + " " + lat)
-        openMap({latitude: lat, longitude: long})
+        var loc = {latitude: lat, longitude: long}
+        openMap(loc)
+        // createOpenLink(loc)
     }
 
     useEffect(() => {
@@ -90,6 +92,8 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
         <EmailSect isImprovement={true} place={place}/>
         <FeaturedSection collection={cityCollection} subString={isRest ? "Restaurants" : "Things"} subCollection={isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
         <CardArray cityCollection={cityCollection} twoColumn={false} headerString={isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest} setPlace={setPlace} setCity={setCity}/>
+        <FeaturedSection collection={cityCollection} subString={!isRest ? "Restaurants" : "Things"} subCollection={isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
+        <CardArray cityCollection={cityCollection} twoColumn={false} headerString={!isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest} setPlace={setPlace} setCity={setCity}/>
     </div>
     </>
   )
