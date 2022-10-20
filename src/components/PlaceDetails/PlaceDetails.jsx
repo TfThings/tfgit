@@ -92,8 +92,8 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
         <EmailSect isImprovement={true} place={place}/>
         <FeaturedSection collection={cityCollection} subString={isRest ? "Restaurants" : "Things"} subCollection={isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
         <CardArray cityCollection={cityCollection} twoColumn={false} headerString={isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest} setPlace={setPlace} setCity={setCity}/>
-        <FeaturedSection collection={cityCollection} subString={!isRest ? "Restaurants" : "Things"} subCollection={isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
-        <CardArray cityCollection={cityCollection} twoColumn={false} headerString={!isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest} setPlace={setPlace} setCity={setCity}/>
+        <FeaturedSection collection={cityCollection} subString={!isRest ? "Restaurants" : "Things"} subCollection={!isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
+        <CardArray cityCollection={cityCollection} twoColumn={false} headerString={!isRest ? "Other Restaurants in" : "Other Things in"} rests={!isRest} setPlace={setPlace} setCity={setCity}/>
     </div>
     </>
   )
