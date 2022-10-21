@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import assets from '../assets'
-import { Helmet } from 'react-helmet-async'
 import './FeatureCard.css'
 
 const FeaturedCard = ({place, setPlace, setCity, cityName, index, subCollection}) => {

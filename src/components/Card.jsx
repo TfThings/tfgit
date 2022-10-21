@@ -2,7 +2,6 @@ import React from 'react'
 import {FaStar} from 'react-icons/fa'
 import assets from '../assets'
 import {Link} from "react-router-dom";
-import { Helmet } from 'react-helmet-async'; 
 import './Card.css'
 
 const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColumn}) => {
