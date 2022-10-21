@@ -24,7 +24,6 @@ const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColu
 
     return(
         <div className='card'>
-            <a className='soe' href={"/things/"+cityName+"/"+place.name+place.address}>{place.name} is one of the best things in {cityName} Learn more Here {place.description}</a>
             <Link onClick={handleClick} to={"/things/"+cityName+"/"+place.name+place.address+"="+datString}>
             {/* <Helmet prioritizeSeoTags>
                 <title>{place.name} Best Things in Florida</title>
