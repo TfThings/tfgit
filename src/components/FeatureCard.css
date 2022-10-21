@@ -10,6 +10,10 @@
     border-radius: 20px;
 }
 
+.soe{
+    display: none;
+}
+
 .featurecard .title{
     display: flex;
     align-items: stretch;

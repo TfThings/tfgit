@@ -47,10 +47,8 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
     <>
     <div>
         {selfUpdate()}
+        <a className='soe' href={"/things/"+cityCollection.Attractions[0].city_name+"/"+place.name+place.address}>{place.name} is one of the best things in {cityCollection.Attractions[0].city_name} Learn more Here {place.description}</a>
         <div className='thing'>
-                {/* <div className='thingHeader'>
-                    <h1>{place.name}</h1>
-                </div> */}
             <section className='thingContainer'>
                     <div className='container'>
                         <div className='image'>

@@ -14,10 +14,14 @@ const Thingstodo = ({setPlace, setCity}) => {
         <SearchHeader/>
         <div className='contents'>
             <CardArray cityCollection={FortMyersAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>
+            <CardArray cityCollection={FortMyersAll} rests={true} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Restaurants in" link={true}/>
             {/* <CardArray cityCollection={FortMyersBeachAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/> */}
             <CardArray cityCollection={CapeCoralAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>
+            <CardArray cityCollection={CapeCoralAll} rests={true} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Restaurants in" link={true}/>
             <CardArray cityCollection={NaplesAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>
-            <CardArray cityCollection={EsteroAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>        
+            <CardArray cityCollection={NaplesAll} rests={true} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Restaurants in" link={true}/>
+            <CardArray cityCollection={EsteroAll} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Things in" link={true}/>  
+            <CardArray cityCollection={EsteroAll} rests={true} twoColumn={false} setPlace={setPlace} setCity={setCity} headerString="Top Restaurants in" link={true}/>       
         </div>
     </div>
   )

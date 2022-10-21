@@ -18,7 +18,6 @@ const CardArray = ({cityCollection, twoColumn, setPlace, setCity, rests, headerS
     const viewCityClick = (city) => {
        
         {setCity(city)}
-        localStorage.setItem("cityToShowString", cityName)
      }
 
   return (
@@ -26,9 +25,13 @@ const CardArray = ({cityCollection, twoColumn, setPlace, setCity, rests, headerS
                 <div className='heading'>{headerString} {cityName}</div>
                 <ul className='itemlist'>
                     {(subCollection).slice(0 ,displayCount).map((place, i) => {
+                        if(place && place.location_id != "34230" && place.photo && place.description != "")
+                        {
                        return(
                        <Card twoColumn={twoColumn} place={place} subCollection={rests ? "Restaurants" : "Attractions"} cityName={cityName} key={i} index= {i} setPlace={setPlace} setCity={setCity}/>
-                    )}) }
+                    )
+                       }
+                    }) }
                 </ul>
                
                {link ? <Link to={"/thingsin/"+cityCollection.Attractions[1].address_obj.city}> <button className='more' onClick={() => {viewCityClick(cityName)}}>
