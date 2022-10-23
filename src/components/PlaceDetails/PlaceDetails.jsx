@@ -8,11 +8,18 @@ import CardArray from '../CardArray'
 import call from 'react-native-phone-call'
 import openMap, {createOpenLink} from 'react-native-open-maps'
 import EmailSect from '../EmailSect'
+import {Helmet, HelmetData} from 'react-helmet-async'
 const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const selfUpdate = () => {
         window.scrollTo(0,0)
     }
+
+    const helmetData = new HelmetData({})
 
     const makeCall = (phoneNumber) => {
        
@@ -35,19 +42,31 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
         openMap(loc)
         // createOpenLink(loc)
     }
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
-
-
     const isRest = place.subtype ? false : true
+
+    const cityName = cityCollection.Attractions[0].city_name
+
+    const soeTitle = place.name + " in " + cityName + ", Directions - Reviews and More"
+    const soeDesc = "Get Directions, Hours, Reviews and More about " + place.name + ". Find More Things Around " + place.name + " and In " + cityName + " All Hand Picked For You."
+    const soeLoc = "https://www.thingsflorida.com" + window.location.pathname
+    const soeKeys = place.name + ", " + cityName + ", " + (isRest ? "Restaurant" : place.subtype[0].name) + ", " + "Top Things to do in"+ ", " + "reviews, " + "hours"
 
   return (
     <>
     <div>
+    <Helmet helmetData={helmetData} prioritizeSeoTags>
+            <title>{soeTitle}</title>
+            <meta name="description" content={soeDesc}/>
+            <link rel="canonical" hreflang="en" href={soeLoc}/>
+            <link rel="alternate" hreflang="en" href={soeLoc}/>
+            <meta name="keywords" content={soeKeys}/>
+            <meta name='og:title' content={soeTitle}/>
+            <meta name='og:type' content="website"/>
+            <meta name='og:url' content={soeLoc}/>
+            <meta name='og:image' content={place.photo.images.large.url}/>
+            <meta name='og:desc' content={place.description}/>
+    </Helmet>
         {selfUpdate()}
-        <a className='soe' href={"/things/"+cityCollection.Attractions[0].city_name+"/"+place.name+place.address}>{place.name} is one of the best things in {cityCollection.Attractions[0].city_name} Learn more Here {place.description}</a>
         <div className='thing'>
             <section className='thingContainer'>
                     <div className='container'>
@@ -95,6 +114,8 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
     </div>
     </>
   )
+
+  const {helmet} = helmetData.context
 }
 
 export default PlaceDetails
