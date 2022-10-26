@@ -1,0 +1,96 @@
+
+.rw{
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    margin: auto;
+}
+
+.row.address{
+    margin-top: 0px;
+}
+
+.bx{
+    /* display: block; */
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    padding:8px;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    
+    /* flex-flow: row;    */
+    /* flex-basis: 100%;  */
+}
+
+.bx span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 5px;
+    /* text-align: left; */
+}
+
+.bx.phone{
+    font-size: 1.5rem;
+}
+
+.bx.phone h1{
+    top: 0;
+    left: 13px;
+}
+
+.bx.website{
+    font-size: 1.5rem;
+}
+
+.bx.website span{
+    padding-left: 0px;
+}
+
+.bx.website h1{
+    top: 0px;
+    left: 40px;
+}
+
+.bx.address h1{
+    top: -30px;
+    left: 30px;
+    width: 200px;
+    font-size:.9rem;
+}
+
+.bx.address span{
+    font-size: 1.6rem;
+    position: relative;
+    right: 4px;
+    top: 2px;
+    
+}
+
+.bx h1{
+    color: white; 
+}
+
+.red{
+    background-color: #d23f31;
+}
+
+.blue{
+    background-color: #4285f4;
+}
+
+.green{
+    background-color: #0f9d58;
+}
+
+.orange{
+    background-color: #e67e22;
+}
+
+.yellow{
+    background-color:#f1c40f;
+}

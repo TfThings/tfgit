@@ -5,10 +5,12 @@ import {FaMapMarkerAlt} from 'react-icons/fa'
 import {HiPhoneOutgoing} from 'react-icons/hi'
 import FeaturedSection from '../FeaturedSection'
 import CardArray from '../CardArray'
+import InfoArray from '../InfoArray'
 import call from 'react-native-phone-call'
 import openMap, {createOpenLink} from 'react-native-open-maps'
 import EmailSect from '../EmailSect'
 import {Helmet, HelmetData} from 'react-helmet-async'
+import ServicesButton from '../ServicesButton'
 const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
 
     useEffect(() => {
@@ -82,11 +84,7 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
                                 <div className='icon green'><span>YES</span><h1>is open</h1></div>
                             </div>
                             <div className='details'>
-                                <div className='row'>
-                                    <button onClick={() => makeCall(place.phone)} className='box phone blue'><span><HiPhoneOutgoing/><h1>{place.phone}</h1></span></button>
-                                    <a href={place.website} target="_blank" rel="noreferrer noopener" className='box website red'><span><BsBoxArrowUpRight/><h1>Visit Website</h1></span></a>
-                                    <button onClick={() => openMobileMap(place)} className='box address orange'><span><FaMapMarkerAlt/></span><h1>{place.address}</h1></button>
-                                </div>
+                                <InfoArray place={place}/>
                                 {/* <div className='catrow'>
                                     <div><h1>{place.subcategory[0].name}</h1></div>
                                     <div><h1>{isRest ? "" : place.subtype[0].name}</h1></div>
@@ -107,6 +105,7 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
             </section>
         </div>
         <EmailSect isImprovement={true} place={place}/>
+        <ServicesButton/>
         <FeaturedSection collection={cityCollection} subString={isRest ? "Restaurants" : "Things"} subCollection={isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
         <CardArray cityCollection={cityCollection} twoColumn={false} headerString={isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest} setPlace={setPlace} setCity={setCity}/>
         <FeaturedSection collection={cityCollection} subString={!isRest ? "Restaurants" : "Things"} subCollection={!isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>

@@ -1,0 +1,16 @@
+.strs{
+    display:flex;
+    flex-flow:row wrap;
+    gap: 5px;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 3px;
+}
+
+.yel{
+    color: #ffc107;
+}
+
+.clear{
+    color: #e4e5e9;
+}

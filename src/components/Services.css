@@ -1,0 +1,161 @@
+.pHeader{
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.pHeader h1{
+    position:absolute;
+    /* text-align: left; */
+    
+    font-size: 5rem;
+    color: white;
+    /* top: 495px;
+    right: 1100px; */
+
+    padding: 0rem;
+    margin-left: 20rem;
+    margin-top: 24rem;
+}
+
+.sCon .st{
+    font-size: 2.2rem;
+    /* text-decoration: underline; */
+    margin-left: 0px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.pHeader img{
+    margin: 0 auto;
+    border-radius: 10px;
+    
+
+    display: block;
+    width: 1250px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: 500px;
+    object-position: center;
+    padding: 0;
+}
+
+
+.rowHolder{
+    margin-top: 10px;
+}
+
+.row{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.sCard{
+    position: relative;
+    width: 360px;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    font-size: 1rem;
+}
+
+.sCard .t{
+    font-size: 1.3rem;
+    padding: 5px;
+    color: rgb(45, 45, 45);
+}
+
+.sCard .ag{
+    padding: 3px;
+    color: rgb(30, 30, 30);
+}
+
+.sCard > img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: 130px;
+    object-position: center;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.sCard .ics {
+    position: relative;
+    display:flex;
+    flex-flow:row;
+    gap: 5px;
+    align-items: center;
+    margin: 0 auto;
+    text-align:center;
+    padding: 3px;
+
+    /* overflow-x: hidden; */
+
+}
+
+.sCard .ic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.sCard .ser{
+    display: block;
+    background-color: rgba(151, 151, 151, 0.281);
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.sCard .ser h2{
+    font-size: .8rem;
+    padding: 5px;
+}
+
+.bLow{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 3px;
+    align-items:center;
+    /* top: 30px; */
+    padding: 5px;
+    
+}
+
+.lCon{
+    
+    width: 100%;
+    height: 40px;
+    background-color: #4285f4;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.lMore{
+    
+    width: 100%;
+    height: 40px;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+@media all and (max-width: 600px){
+
+    .pHeader h1{
+        margin-top: 9.4rem;
+        margin-left: 1rem;
+        font-size: 2.5rem;
+        
+    }
+}

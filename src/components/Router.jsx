@@ -6,7 +6,8 @@ import FortMyersBeachAll from '../StoredJsons/FortMyersBeachAll.json'
 import CapeCoralAll from '../StoredJsons/CapeCoralAll.json'
 import NaplesAll from '../StoredJsons/NaplesAll.json'
 import EsteroAll from '../StoredJsons/EsteroAll.json'
-import {Thingstodo, PlaceDetails, CityDetails} from "./index"
+import FortMyersBus from '../StoredJsons/FortMyersBus.json'
+import {Thingstodo, PlaceDetails, CityDetails, Services, ServiceDetails} from "./index"
 
 const Router = () => {
 
@@ -135,6 +136,12 @@ const Router = () => {
         }
 
         console.log("SETTING CITY " + cityToShowString)
+
+        if(cityToShowString == 'Services')
+        {
+            cityToShow = FortMyersBus
+            return
+        }
         
         if(cityToShowString == 'Fort Myers')
         {
@@ -169,12 +176,8 @@ const Router = () => {
     }
 
     const SetPlaceObject = () => {
-
-        const st = sS == "Attractions" ? cityToShow.Attractions[placeIndex] : cityToShow.Restaurants[placeIndex]
-
+        var st = sS == "Roofing" ? cityToShow.Roofing[placeIndex] : (sS ==  "Attractions" ? cityToShow.Attractions[placeIndex] : cityToShow.Restaurants[placeIndex])
         currentPlaceObject = st
-
-        console.log("SET PLACE " + currentPlaceObject + " " + sS + " "  + placeIndex)
      }
   return (
     <>
@@ -184,6 +187,8 @@ const Router = () => {
     <Routes>
         <Route path="/" element={<Thingstodo setCity = {setCity} setPlace={setPlace}/>}/>
         <Route path='/thingsin/:id' element={<CityDetails cityCollection={cityToShow} setPlace={setPlace} setCity={setCity}/>}/>
+        <Route path='/services' element={<Services setCity={setCity} setPlace={setPlace}/>}/>
+        <Route path='/services/:id' element={<ServiceDetails place={currentPlaceObject}/>}/>
         <Route path="/things">
             <Route index element={<Thingstodo setCity = {setCity} setPlace={setPlace}/>}/>
             <Route path=":id/:id" element={<PlaceDetails place={currentPlaceObject} cityCollection={cityToShow} setPlace={setPlace} setCity={setCity}/>}/>

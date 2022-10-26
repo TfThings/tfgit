@@ -1,0 +1,473 @@
+{
+    "Roofing":[
+        { 
+            "collection_type": "Roofing",
+            "city_name": "Fort Myers",
+            "banner_Image": "/bannerimages/fortmyers-banner.jpg",
+    
+            "FeaturedIndex0": 152,
+            "FeaturedIndex1": 157,
+            "FeaturedIndex2": 161,
+            "FeaturedIndex3": 141
+        },
+        {
+            "location_id": "1",
+            "name": "Storm Team Construction INC.",
+            "latitude": "26.62679303155206",
+            "longitude": "-81.8041058",
+            "num_reviews": "72",
+            "age": "15+ years in business",
+            "rating": "4.8",
+            "awards": [],
+            "ranking_category": "roofing",
+            "description": "At Storm Team Construction, they want to be the absolute best in the business. They strive to make each process as simple as possible. All of their customers get concierge level service care. They dont only do a great job of building structures and laying roofs, they are into building a strong reputation throughout every community they serve.",
+            "phone": "888-918-3245",
+            "website": "https://stormteamconstruction.com/",
+            "contact_website": "https://stormteamconstruction.com/contact/",
+            "email": "mailbox@stormteamusa.com",
+            "address_obj": {
+                "street1": "9160 Forum Corporate Pkwy Suite 362",
+                "street2": "",
+                "city": "Fort Myers",
+                "state": "FL",
+                "country": "United States",
+                "postalcode": "33905"
+            },
+            "address": "9160 Forum Corporate Pkwy Suite 362 Fort Myers, FL 33905",
+            "location_string": "Fort Myers, Florida",
+            "category": {
+                "key": "a",
+                "name": "Roofing"
+            },
+            "services": [
+                {
+                    "key": "47",
+                    "name": "Roofing"
+                },
+                {
+                    "key": "49",
+                    "name": "Window & Doors"
+                },
+                {
+                    "key": "57",
+                    "name": "Solar"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://stormteamconstruction.com/wp-content/uploads/2021/06/SR-Our-Team-V2-e1633991339519.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            },
+            "hours": {
+                "week_ranges": [
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ]
+                ],
+                "timezone": "America/New_York"
+            },
+            "is_candidate_for_contact_info_suppression": false,
+            "offer_group": {
+                "lowest_price": "$0.12",
+                "offer_list": [
+                    {
+                        "url": "https://www.tripadvisor.com/Commerce?url=https%3A%2F%2Fwww.viator.com%2Ftours%2FMiami%2FGulf-of-Mexico-Florida-State-and-Outlet-Shopping-Two-Days%2Fd662-129240P5%3Feap%3Dmobile-app-11383%26aid%3Dtripenandr&partnerKey=1&urlKey=aabaa5e4f0adbddaa&logme=true&uidparam=refid&attrc=true&Provider=Viator&area=viator_multi&slot=1&cnt=1&geo=145417&clt=TM&from=api&nt=true",
+                        "price": "$640.00",
+                        "rounded_up_price": "$640",
+                        "offer_type": "",
+                        "title": "West Coast Tour Gulf of Mexico/Naples/Ft.Myers/Sanibel/Outlet Shopping Two Days.",
+                        "product_code": "129240P5",
+                        "partner": "Viator",
+                        "image_url": "https://media.tacdn.com/media/attractions-splice-spp-360x240/09/b5/5c/7e.jpg",
+                        "description": null,
+                        "primary_category": "4WD, ATV & Off-Road Tours"
+                    }
+                ]
+            }
+        },
+        {
+            "location_id": "2",
+            "name": "Total Home Roofing",
+            "latitude": "26.324159669491237",
+            "longitude": "-81.7844673042313",
+            "num_reviews": "101",
+            "rating": "4.5",
+            "age": "18+ years in business",
+            "awards": [],
+            "ranking_category": "roofing",
+            "description": "Total Home Roofing is your top choice when it comes to your roof and receiving the highest quality customer support.",
+            "phone": "(239) 249-3100",
+            "website": "https://www.throofing.com/naples-fl/",
+            "contact_website": "https://www.throofing.com/schedule-now/",
+            "email": "",
+            "address_obj": {
+                "street1": "28440 Old 41 Rd, Suite 9",
+                "street2": "",
+                "city": "Bonita Springs",
+                "state": "FL",
+                "country": "United States",
+                "postalcode": "34135"
+            },
+            "address": "28440 Old 41 Rd, Suite 9 Bonita Springs, FL 34135",
+            "location_string": "Bonita Springs, Florida",
+            "category": {
+                "key": "a",
+                "name": "Roofing"
+            },
+            "services": [
+                {
+                    "name": "Roofing"
+                },
+                {
+                    "name": "Roof Repair"
+                },
+                {
+                    "name": "Roof inspection"
+                },
+                {
+                    "name": "Roof installation"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://www.throofing.com/wp-content/uploads/2021/08/tileRoof.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            },
+            "hours": {
+                "week_ranges": [
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ],
+                    [
+                        {
+                            "open_time": 540,
+                            "close_time": 1050
+                        }
+                    ]
+                ],
+                "timezone": "America/New_York"
+            },
+            "is_candidate_for_contact_info_suppression": false
+        },
+        {
+            "name": "MHI Roofing Florida",
+            "rating": "5",
+            "num_reviews": "21",
+            "age": "43+ years in business",
+            "phone": "(239) 970-1434",
+            "address": "1646 Cheshire Cir W, Lehigh Acres, FL 33936",
+            "latitude": "26.597613491640704",
+            "longitude": "-81.66124003665577",
+            "website": "http://mhiroof.com/florida/",
+            "contact_website": "https://mhiroof.com/florida-free-inspection",
+            "description": "Since 1979, MHI Roofing has protected what matters most: your home. They provide the highest quality roofing and exterior services to commercial and residential customers, and a commitment to exceptional customer service has earned us a reputation as one of the best contractors in the industry.",
+            "services": [
+                {
+                    "name": "Roof Repair"
+                },
+                {
+                    "name": "Roof installation"
+                },
+                {
+                    "name": "Attic venting"
+                },
+                {
+                    "name": "Skylight installation"
+                },
+                {
+                    "name": "Skylight repair"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://mhiroof.com/wp-content/uploads/2021/12/mhi-footer-bg.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Crown Roofing",
+            "rating": "3",
+            "num_reviews": "2",
+            "age": "10+ years in business",
+            "phone": "(888) 923-6090",
+            "address": "5802 Corporation Cir, Fort Myers, FL 33905",
+            "latitude": "26.661506914843674",
+            "longitude": "-81.80568203068499",
+            "website": "https://www.crownroofing.com/",
+            "contact_website": "https://www.crownroofing.com/contact/",
+            "description": "Crown Roofing Services all of central, South, and Southwest Florida. They specialize in new construction roofing, roofing replacements, roof maintenance, and any other roof service need.",
+            "services": [
+                {
+                    "name": "Roof Repair"
+                },
+                {
+                    "name": "Roof installation"
+                },
+                {
+                    "name": "Roof inspection"
+                },
+                {
+                    "name": "Skylight installation"
+                },
+                {
+                    "name": "Skylight repair"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://www.crownroofing.com/wp-content/uploads/2022/08/Crown-Roofing-About-Us-page-Group-Photo-new.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "MooreCorp Roofing INC.",
+            "rating": "4.6",
+            "num_reviews": "17",
+            "age": "29+ years in business",
+            "phone": "(239) 320-9910",
+            "address": "720 NE 25th Ave Suite 19, Cape Coral, FL 33909",
+            "latitude": "26.666279520840778",
+            "longitude": "-81.92265659999998",
+            "website": "https://moorecorproofinginc.com/",
+            "contact_website": "https://moorecorproofinginc.com/contact-us/",
+            "description": "MooreCorp Roofing is a Southwest Florida company committed to a higher standard for customers and employees. Always striving to be the best in the area and putting the customer first, always choosing the best solution for each job is always their mission.",
+            "services": [
+                {
+                    "name": "Roof Repair"
+                },
+                {
+                    "name": "Roof installation"
+                },
+                {
+                    "name": "Roof inspection"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://moorecorproofinginc.com/wp-content/uploads/2022/08/image-1-2.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "ROOFING NATION LLC",
+            "rating": "5",
+            "num_reviews": "6",
+            "age": "23+ years in business",
+            "phone": "(800) 959-1799",
+            "address": "10830 NW 138th St #1, Hialeah Gardens, FL 33018",
+            "latitude": "25.89816597032043",
+            "longitude": "-80.3746857153425",
+            "website": "https://www.roofing-nation.com/",
+            "contact_website": "https://www.roofing-nation.com/#contact",
+            "description": "Specializes in providing quality at the time of performing a roofing job, specialize in roof replacement, tile roof system, shingle roof system, metal roof system, commercial flat roof and residential flat roofs plus of course, roof repairs.",
+            "services": [
+                {
+                    "name": "Roofing"
+                },
+                {
+                    "name": "Roof installation"
+                },
+                {
+                    "name": "Roof repair"
+                },
+                {
+                    "name": "Attic venting"
+                },
+                {
+                    "name": "Skylight repair"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://www.roofing-nation.com/assets/img/testimonial/tf1.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Rams Roofing LLC",
+            "rating": "5",
+            "num_reviews": "34",
+            "age": "4+ years in business",
+            "phone": "(239) 719-6932",
+            "address": "10956 K Nine Drive Unit 1, Bonita Springs, FL 34135",
+            "latitude": "26.326920647727363",
+            "longitude": "-81.77199450000002",
+            "website": "https://www.ramsroofingllc.com/",
+            "description": "Rams Roofing LLC, has over 22 years of experience providing professional roofing services for residential and commercial customers.",
+            "services": [
+                {
+                    "name": "Roof installation"
+                },
+                {
+                    "name": "Roof repair"
+                },
+                {
+                    "name": "Gutter repair"
+                },
+                {
+                    "name": "Gutter installation"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://lirp.cdn-website.com/2b937fa4/dms3rep/multi/opt/rams-roofing--shop-698w.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "AFFORDABLE ROOFING",
+            "rating": "3.8",
+            "num_reviews": "133",
+            "age": "13+ years in business",
+            "phone": "(239) 458-4968",
+            "address": "11819 Metro Pkwy Unit B, Fort Myers, FL 33966",
+            "latitude": "26.571293861123248",
+            "longitude": "-81.8513609153425",
+            "website": "https://affordableroofingfl.net/",
+            "contact_website": "https://affordableroofingfl.net/contact-us/",
+            "description": "As a credible roofing company that serves other areas of Southwest Florida, no other roofing service can compete with Affordable Roofing and Gutters expertise and experience.",
+            "services": [
+                {
+                    "name": "Roof installation"
+                },
+                {
+                    "name": "Roof repair"
+                },
+                {
+                    "name": "Attic venting"
+                },
+                {
+                    "name": "Skylight repair"
+                },
+                {
+                    "name": "Skylight installation"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://611530.smushcdn.com/1414604/wp-content/uploads/2015/02/slider4.jpg?lossy=1&strip=1&webp=1",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          }
+    ]
+}
