@@ -49,7 +49,7 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
     const cityName = cityCollection.Attractions[0].city_name
 
     const soeTitle = place.name + " in " + cityName + ", Directions - Reviews and More"
-    const soeDesc = "Get Directions, Hours, Reviews and More about " + place.name + ". Find More Things Around " + place.name + " and In " + cityName + " All Hand Picked For You."
+    const soeDesc = "Get Directions, Hours, Reviews and More about " + place.name + ". Find More Things Around " + place.name + " and In " + cityName + " All Hand Picked For You. Get Directions and More To " + place.address + "."
     const soeLoc = "https://www.thingsflorida.com" + window.location.pathname
     const soeKeys = place.name + ", " + cityName + ", " + (isRest ? "Restaurant" : place.subtype[0].name) + ", " + "Top Things to do in"+ ", " + "reviews, " + "hours"
 

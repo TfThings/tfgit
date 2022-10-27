@@ -24,7 +24,7 @@ const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColu
 
     return(
         <div className='card'>
-            <Link onClick={handleClick} to={"/things/"+cityName+"/"+place.name+place.address+"="+datString}>
+            <Link onClick={handleClick} to={"/things/"+cityName+"/"+place.name+"="+datString}>
             {/* <Helmet prioritizeSeoTags>
                 <title>{place.name} Best Things in Florida</title>
                 <meta name="description" content={place.description}/>

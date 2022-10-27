@@ -122,9 +122,7 @@ const Router = () => {
 
         cityToShowString = decodeURI(cS)
 
-        placeIndex = parseInt(ii, 10)
-
-        console.log("CHECKING " + cityToShowString + " " + placeIndex + " " + sS)
+        placeIndex = ii
     }
 
     const SetCityCollection = () => {
@@ -176,8 +174,42 @@ const Router = () => {
     }
 
     const SetPlaceObject = () => {
-        var st = sS == "Roofing" ? cityToShow.Roofing[placeIndex] : (sS ==  "Attractions" ? cityToShow.Attractions[placeIndex] : cityToShow.Restaurants[placeIndex])
+        var st = {}
+        // st = sS ==  "Attractions" ? cityToShow.Attractions[placeIndex] : cityToShow.Restaurants[placeIndex]
+        
+        st = GetPlaceObject()
+        
         currentPlaceObject = st
+     }
+
+     var GetPlaceObject = () =>{
+        console.log("DOING THE STUFF " + sS)
+        if(!sS)
+        {
+            // LookAtDataString()
+        }
+
+        if(sS == "Attractions")
+        {
+            return cityToShow.Attractions[placeIndex]
+        }
+
+        if(sS == "Restaurants")
+        {
+            return cityToShow.Restaurants[placeIndex]
+        }
+
+        if(sS == "Roofing")
+        {
+            return cityToShow.Roofing[placeIndex]
+            
+        }
+
+        if(sS == "Fencing")
+        {
+            return cityToShow.Fencing[placeIndex]
+            
+        }
      }
   return (
     <>

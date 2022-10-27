@@ -38,7 +38,7 @@
 }
 
 .abC .sI{
-    position: relative;
+    /* position: relative;
     display:flex;
     flex-flow:row;
     gap: 5px;
@@ -46,7 +46,17 @@
     margin: 0 auto;
     text-align:center;
     padding: 5px;
-    width: auto;
+    width: auto; */
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-gap: 5px;
+    gap: 3px;
+    align-items: center;
+    margin: 0 auto;
+    text-align:center;
+    padding: 3px;
+    width: fit-content;
 }
 
 .abC .sI .sr{

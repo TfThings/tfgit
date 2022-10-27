@@ -1,0 +1,104 @@
+.sCard{
+    position: relative;
+    /* width: 360px; */
+    width: 90%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    font-size: 1rem;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.sCard .t{
+    font-size: 1.3rem;
+    padding: 5px;
+    color: rgb(45, 45, 45);
+}
+
+.sCard .ag{
+    padding: 3px;
+    color: rgb(30, 30, 30);
+}
+
+.sCard img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: 200px;
+    object-position: center;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.sCard .ics {
+    /* position: relative;
+    display:flex;
+    flex-flow:row; */
+    display: grid;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-gap: 5px;
+    gap: 3px;
+    align-items: center;
+    margin: 0 auto;
+    text-align:center;
+    padding: 3px;
+    width: fit-content;
+
+    /* overflow-x: hidden; */
+
+}
+
+.sCard .ic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.sCard .ser{
+    display: block;
+    background-color: rgba(151, 151, 151, 0.281);
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.sCard .ser h2{
+    font-size: .7rem;
+    padding: 5px;
+    
+}
+
+.bLow{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 3px;
+    align-items:center;
+    /* top: 30px; */
+    padding: 5px;
+    
+}
+
+.lCon{
+    
+    width: 100%;
+    height: 40px;
+    background-color: #4285f4;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.lMore{
+    
+    width: 100%;
+    height: 40px;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3rem;
+}

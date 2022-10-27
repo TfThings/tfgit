@@ -14,7 +14,13 @@ const ServiceDetails = ({place}) => {
 
   const helmetData = new HelmetData({})
 
+  const SelfUpdate = () => {
+    window.scrollTo(0,0)
+  }
+
   return (
+    <>
+      {SelfUpdate()}
       <div className='cr'>
         <Helmet helmetData={helmetData} prioritizeSeoTags>
             <title>{soeTitle}</title>
@@ -62,6 +68,7 @@ const ServiceDetails = ({place}) => {
         </div>
         <EmailSect isImprovement={true} place={place}/>
       </div>
+    </>
   )
   const {helmet} = helmetData.context
 }
