@@ -4,16 +4,7 @@ import assets from '../assets'
 import {Link} from "react-router-dom";
 import './Card.css'
 
-const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColumn}) => {
-
-    const handleClick = () => {
-        // console.log("INDEX " + index)
-        
-        {setPlace(index)}
-        
-        {setCity(cityName)}
-        
-    }
+const Card = ({place, subCollection, index, cityName, twoColumn}) => {
     
     // if(!place){return}
     // if(place.location_id == "34230"){return}
@@ -24,7 +15,7 @@ const Card = ({place, setPlace, subCollection, index, setCity, cityName, twoColu
 
     return(
         <div className='card'>
-            <Link onClick={handleClick} to={"/things/"+cityName+"/"+place.name+"="+datString}>
+            <Link to={"/things/"+cityName+"/"+place.name+"="+datString}>
             {/* <Helmet prioritizeSeoTags>
                 <title>{place.name} Best Things in Florida</title>
                 <meta name="description" content={place.description}/>

@@ -958,5 +958,433 @@
             "website": "http://poolfencesouthwestfl.com/",
             "services": "Aluminum fence installation"
           }
+    ],
+
+
+
+    "Poolcage":[
+        { 
+            "collection_type": "Pool Cages",
+            "city_name": "Fort Myers",
+            "banner_Image": "/bannerimages/poolcage-banner00.jpg",
+    
+            "FeaturedIndex0": 1,
+            "FeaturedIndex1": 2,
+            "FeaturedIndex2": 3,
+            "FeaturedIndex3": 4
+        },
+        {
+            "name": "Ron's Custom Screen Inc",
+            "main_service": "Screen repair service",
+            "rating": "4.5",
+            "num_reviews": "12",
+            "age": "24+ years in business",
+            "phone": "(239) 495-9795",
+            "website": "https://www.ronsscreenswfl.com/",
+            "contact_website": "https://www.ronsscreenswfl.com/contact",
+            "address": "25150 Bernwood Dr. Unit 9 Bonita Springs, FL 34135",
+            "latitude": "26.36992783155407",
+            "longitude": "-81.8013412",
+            "description": "Ron's Custom Screen is a family-owned and operated screen enclosure company here in beautiful southwest Florida. Ron's Custom Screen has been providing high-quality screen enclosures for over 25years.  Ron takes pride in his work and brings over 35 years of experience, offering a personal touch and a hands-on experience as the owner.",
+            "services": [
+                {
+                    "name": "Pool Cage"
+                },
+                {
+                    "name": "Screen Repair"
+                },
+                {
+                    "name": "Enclosure Replacement"
+                },
+                {
+                    "name": "Railings"
+                },
+                {
+                    "name": "Deck Extensions"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://static.wixstatic.com/media/3bd598_657b2bd03ff32528d157b24c152ff7c4.jpg/v1/crop/x_103,y_38,w_2969,h_2233/fill/w_1036,h_778,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/DSC00614_JPG.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Cape Coral Screen & Vinyl a division of Florida’s Best Aluminum",
+            "main_service": "Screen repair service",
+            "rating": "4.1",
+            "num_reviews": "38",
+            "age": "10+ years in business",
+            "phone": "(239) 574-5557",
+            "website": "https://www.capecoralscreen.com/",
+            "contact_website": "https://www.capecoralscreen.com/contact-us/",
+            "address": "1110 NE Pine Island Rd #19 Cape Coral, FL 33909",
+            "latitude": "26.662420607252717",
+            "longitude": "-81.95081940218583",
+            "description": "Cape Coral Screen & Vinyl, offers reliable customer service to Lee County and the surrounding areas. They are committed to excellent service when it comes to all windows, doors, garage screens, patio installation and repairs. Earning their clients trust and confidence since 1982, they ensure an affordable service that you can rely on when you need it the most",
+            "services": [
+                {
+                    "name": "Pool Cage"
+                },
+                {
+                    "name": "Screen Repair"
+                },
+                {
+                    "name": "Enclosure Replacement"
+                },
+                {
+                    "name": "Garage Screen"
+                },
+                {
+                    "name": "Windows"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://secureservercdn.net/166.62.108.173/l6d.20e.myftpupload.com/wp-content/uploads/2018/07/43-images-1.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Premier Pool Enclosures",
+            "main_service": "Screen repair service",
+            "rating": "4.3",
+            "num_reviews": "12",
+            "age": "5+ years in business",
+            "phone": "(239) 437-5553",
+            "website": "http://www.premierpoolenclosures.com/",
+            "contact_website": "http://www.premierpoolenclosures.com/contact.htm",
+            "address": "3601 Hanson St, Fort Myers, FL 33916",
+            "latitude": "26.623812983257523",
+            "longitude": "-81.83939543102197",
+            "description": "Serving ALL of Southwest Florida they are a full service, licensed and insured, aluminum company. Their products range from house gutters, to railing, to our exclusive custom screen enclosures AND even concrete or paver deck extensions!",
+            "services": [
+                {
+                    "name": "Pool Cage"
+                },
+                {
+                    "name": "Screen Repair"
+                },
+                {
+                    "name": "Enclosure Replacement"
+                },
+                {
+                    "name": "Soffit & Fascia"
+                },
+                {
+                    "name": "Gutters"
+                },
+                {
+                    "name": "Hurricane Bracing"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "http://www.premierpoolenclosures.com/images/swimming_pool_screen_enclosures.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Arrow Screen Repair - Pool Enclosure or Lanai Screen Repair & Rescreening",
+            "main_service": "Screen repair service",
+            "rating": "4.8",
+            "num_reviews": "21",
+            "age": "10+ years in business",
+            "phone": "(239) 785-3300",
+            "website": "http://screenrepairfortmyers.com/",
+            "contact_website": "http://screenrepairfortmyers.com/Contact_Fort_Myers_Screen_Repair.php",
+            "address": "3601 Hanson St, Fort Myers, FL 33916",
+            "latitude": "26.623812983257523",
+            "longitude": "-81.83939543102197",
+            "description": "Screen Repair Fort Myers - No job too small. Affordable screen repair service rescreening window screens, lanais, screen doors and pool cages in Ft Myers FL. Fast screen repair service and quality screen repair in Fort Myers.",
+            "services": [
+                {
+                    "name": "Pool Cage"
+                },
+                {
+                    "name": "Screen Repair"
+                },
+                {
+                    "name": "Enclosure Replacement"
+                },
+                {
+                    "name": "Lanai Screen Repair"
+                },
+                {
+                    "name": "Screen Doors"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "http://screenrepairfortmyers.com/images/Lanai%20&%20Pool%20Cage%20Screen%20Repair.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "R. Townsend Rescreens , Inc.",
+            "main_service": "Screen repair service",
+            "rating": "4.8",
+            "num_reviews": "17",
+            "age": "10+ years in business",
+            "phone": "(239) 244-4759",
+            "website": "http://www.rtownsendrescreens.com/",
+            "contact_website": "http://www.rtownsendrescreens.com/contact-us.html",
+            "address": "North Fort Myers",
+            "latitude": "26.623812983257523",
+            "longitude": "-81.83939543102197",
+            "description": "A family owned business proudly serving the South West Florida area.   We provide residents of our community with screening products, services related to screens and aluminum.",
+            "services": [
+                {
+                    "name": "Pool Cage"
+                },
+                {
+                    "name": "Screen Repair"
+                },
+                {
+                    "name": "Enclosure Replacement"
+                },
+                {
+                    "name": "Lanai Screen Repair"
+                },
+                {
+                    "name": "Carport"
+                },
+                {
+                    "name": "Florida Glass"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "http://nebula.wsimg.com/e980c0543559ba3c292d653a6c4cc2d0?AccessKeyId=9D431F3592BA6FA94C18&disposition=0&alloworigin=1",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Re-Screening Pro",
+            "main_service": "Screen repair service",
+            "rating": "4.5",
+            "num_reviews": "54",
+            "age": "15+ years in business",
+            "phone": "(239) 246-1925",
+            "website": "http://re-screeningpro.com/pool-enclosure-screen-repair",
+            "contact_website": "http://re-screeningpro.com/pool-enclosure-screen-repair",
+            "address": "7170 Nalle Grade Rd, North Fort Myers, FL 33917",
+            "latitude": "26.754293555403972",
+            "longitude": "-81.8391968153441",
+            "description": "They have earned an impeccable reputation for pool enclosure screen repair and have repaired screens at hundreds of homes since their inception in 2005. We are proud not only of the high quality professional work they perform each and every job, but of their unrivaled customer service that is second to none.",
+            "services": [
+                {
+                    "name": "Pool Cage"
+                },
+                {
+                    "name": "Screen Repair"
+                },
+                {
+                    "name": "Enclosure Replacement"
+                },
+                {
+                    "name": "Lanai Screen Repair"
+                },
+                {
+                    "name": "Window Screen"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "http://re-screeningpro.com/hosted/images/ea/6e1c6032ab11e6bcf85b20b5e24486/tropical-pool.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "ABC Screen Masters Inc",
+            "main_service": "Screen repair service",
+            "rating": "4.2",
+            "num_reviews": "13",
+            "age": "10+ years in business",
+            "phone": "(239) 772-7336",
+            "website": "https://www.abcscreenmasters.com/",
+            "contact_website": "https://www.abcscreenmasters.com/contact-us",
+            "address": "1110 NE Pine Island Rd, Cape Coral, FL 33909",
+            "latitude": "26.754293555403972",
+            "longitude": "-81.8391968153441",
+            "description": "Since 1989, ABC Screen Masters, Inc. has delivered high quality work with exceptional industry leading customer service. We serve the Fort Myers and Southwest Florida, including the cities of Cape Coral and Estero.",
+            "services": [
+                {
+                    "name": "Pool Cage"
+                },
+                {
+                    "name": "Screen Repair"
+                },
+                {
+                    "name": "Enclosure Replacement"
+                },
+                {
+                    "name": "Lanai Screen Repair"
+                },
+                {
+                    "name": "Picture Windows"
+                },
+                {
+                    "name":"Screen Door"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://lirp.cdn-website.com/9a9609d9/dms3rep/multi/opt/231-359w.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Custom Built Screen Enclosures, Inc",
+            "main_service": "· Screen repair service",
+            "rating": 3.4,
+            "num_reviews": "(9)",
+            "age": "5+ years in business",
+            "phone": "Open ⋅ Closes 5PM · (239) 800-2342",
+            "website": "http://www.cbseinc.com/",
+            "services": ""
+          },
+          {
+            "name": "Topla-Screen Enclosures - Aluminum Design",
+            "main_service": "· Screen repair service",
+            "rating": 4.9,
+            "num_reviews": "(36)",
+            "age": "20+ years in business",
+            "phone": "Open ⋅ Closes 5PM · (239) 333-6779",
+            "website": "http://www.toplainc.com/",
+            "services": "pool"
+          },
+          {
+            "name": "Screens Plus Sales & Service",
+            "main_service": "· Screen repair service",
+            "rating": 4.6,
+            "num_reviews": "(44)",
+            "age": "35+ years in business · 1110 NE Pine Island Rd #45 · In Park 1110 Plaza",
+            "phone": "Open ⋅ Closes 4PM · (239) 772-1234",
+            "website": "http://screensplussales.com/",
+            "services": "pool cage"
+          },
+          {
+            "name": "Anderson Screen Enclosures Inc.",
+            "main_service": "· Screen repair service",
+            "rating": 3,
+            "num_reviews": "(3)",
+            "age": "5+ years in business · 2645 NE 9th Ave #5",
+            "phone": "Open ⋅ Closes 6PM · (239) 424-8438",
+            "website": "",
+            "services": ""
+          },
+          {
+            "name": "Daniel's Screen Services",
+            "main_service": "· Screen repair service",
+            "rating": 4.9,
+            "num_reviews": "(166)",
+            "age": "3+ years in business",
+            "phone": "Open 24 hours · (239) 560-6594",
+            "website": "http://www.screenservicebydaniel.com/",
+            "services": "pool cage"
+          },
+          {
+            "name": "Rescreen Professionals",
+            "main_service": "· Screen repair service",
+            "rating": 4.9,
+            "num_reviews": "(93)",
+            "age": "30+ years in business · Punta Gorda, FL",
+            "phone": "Open ⋅ Closes 5:30PM · (941) 763-0510",
+            "website": "http://www.rescreen-professionals.com/",
+            "services": "pool cage"
+          },
+          {
+            "name": "CV Screening",
+            "main_service": "· Screen repair service",
+            "rating": 4.8,
+            "num_reviews": "(137)",
+            "age": "10+ years in business · Port Charlotte, FL · In Paulson Center Executive Office & Virtual Suites",
+            "phone": "Open ⋅ Closes 7PM · (941) 539-6868",
+            "website": "https://www.cvscreeningllc.com/",
+            "services": "pool cage"
+          },
+          {
+            "name": "Zip Pool Cage Screen Repair SWFL LLC",
+            "main_service": "No reviews · Screen repair service",
+            "rating": "",
+            "num_reviews": "",
+            "age": "Open ⋅ Closes 9PM · (239) 980-1022",
+            "phone": "",
+            "website": "http://www.zippoolcages.com/",
+            "services": ""
+          },
+          {
+            "name": "TPI Aluminum Specialties, INC.",
+            "main_service": "· Screen repair service",
+            "rating": 4.9,
+            "num_reviews": "(253)",
+            "age": "Open 24 hours · (239) 332-3900",
+            "phone": "",
+            "website": "http://www.tpialum.com/",
+            "services": "pool cage"
+          },
+          {
+            "name": "Seaview Screen Service",
+            "main_service": "· Screen repair service",
+            "rating": 3.8,
+            "num_reviews": "(6)",
+            "age": "3+ years in business · 1003 SE 12th Ave",
+            "phone": "Open ⋅ Closes 5PM · (239) 772-4244",
+            "website": "https://rescreening.com/",
+            "services": ""
+          },
+          {
+            "name": "Anderson Enclosures LLC",
+            "main_service": "· Screen repair service",
+            "rating": 5,
+            "num_reviews": "(16)",
+            "age": "Open ⋅ Closes 5PM · (941) 889-9360",
+            "phone": "",
+            "website": "http://andersonenclosures.com/",
+            "services": "pool cages"
+          }
     ]
 }

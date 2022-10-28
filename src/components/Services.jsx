@@ -62,6 +62,7 @@ const Services = () => {
             <ul className='row'>
                 <ServiceHolder subCollection={FortMyersBus.Roofing} index={1}/>
                 <ServiceHolder subCollection={FortMyersBus.Fencing} index={2}/>
+                <ServiceHolder subCollection={FortMyersBus.Poolcage} index={3}/>
             </ul>
         </div>
     </div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Card from './Card'
 import './CardArray.css'
 
-const CardArray = ({cityCollection, twoColumn, setPlace, setCity, rests, headerString, link}) => {
+const CardArray = ({cityCollection, twoColumn, rests, headerString, link}) => {
 
     const [displayCount, setCount] = useState(5)
 
@@ -15,11 +15,6 @@ const CardArray = ({cityCollection, twoColumn, setPlace, setCity, rests, headerS
         setCount(displayCount + 4 <= subCollection.length ? displayCount + 20 : subCollection.length)
     }
 
-    const viewCityClick = (city) => {
-       
-        {setCity(city)}
-     }
-
   return (
     <div className='container'>
                 <div className='heading'>{headerString} {cityName}</div>
@@ -28,13 +23,13 @@ const CardArray = ({cityCollection, twoColumn, setPlace, setCity, rests, headerS
                         if(place && place.location_id != "34230" && place.photo && place.description != "")
                         {
                        return(
-                       <Card twoColumn={twoColumn} place={place} subCollection={rests ? "Restaurants" : "Attractions"} cityName={cityName} key={i} index= {i} setPlace={setPlace} setCity={setCity}/>
+                       <Card twoColumn={twoColumn} place={place} subCollection={rests ? "Restaurants" : "Attractions"} cityName={cityName} key={i} index= {i}/>
                     )
                        }
                     }) }
                 </ul>
                
-               {link ? <Link to={"/thingsin/"+cityCollection.Attractions[1].address_obj.city}> <button className='more' onClick={() => {viewCityClick(cityName)}}>
+               {link ? <Link to={"/thingsin/=:"+cityCollection.Attractions[1].address_obj.city}> <button className='more'>
                 VIEW ALL {rests ? "RESTAURANTS" : "THINGS"} IN {cityName}
                 </button></Link> :
                  <button className='more' onClick={() => {showMoreClick()}}>

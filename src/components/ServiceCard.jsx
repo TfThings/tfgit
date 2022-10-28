@@ -5,7 +5,7 @@ import StarReview from './StarReview';
 import './ServiceCard.css'
 
 const ServiceCard = ({place, index, subString}) => {
-    const datString ="-c:"+"Services"+"-s:"+subString+"-i:"+place.id
+    const datString ="-c:"+"Services"+"-s:"+subString+"-i:"+index
 
     const handleClick = () => {
         // console.log("INDEX " + index)

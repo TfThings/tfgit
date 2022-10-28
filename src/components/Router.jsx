@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState, useEffect} from 'react';
-import {Routes, Route, useLocation } from "react-router-dom";
+import {Routes, Route, useLocation} from "react-router-dom";
 import FortMyersAll from '../StoredJsons/FortMyersAll.json'
 import FortMyersBeachAll from '../StoredJsons/FortMyersBeachAll.json'
 import CapeCoralAll from '../StoredJsons/CapeCoralAll.json'
@@ -11,12 +11,18 @@ import {Thingstodo, PlaceDetails, CityDetails, Services, ServiceDetails} from ".
 
 const Router = () => {
 
-    const location = useLocation()
     var [cityToShowString, setCity] = useState('')
     var [placeIndex, setPlaceI] = useState(0)
     var [placeToShowData, setPlace] = useState() 
     var cityToShow = NaplesAll
     var currentPlaceObject = cityToShow[placeToShowData]
+
+    const location = useLocation()
+
+
+    useEffect(() => {
+        
+    },[location])
 
     var cS = ''
     var sS = ''
@@ -27,37 +33,6 @@ const Router = () => {
         var foundDat = false
         var newSt = ""
         var lastChar = ""
-
-        // if(newSt == "")
-        // {
-        //     var lc1 = ""
-        //     var lc2 = ""
-        //     var found = false
-        //     st.split("").map((char) => {
-                
-        //         if(found)
-        //         {
-        //             cS = cS + char
-        //         }
-
-        //         if(lc2 + lc1 == "in")
-        //         {
-        //             found = true
-        //         }
-
-        //         if(lc1)
-        //         {
-        //             lc2 = lc1
-        //         }
-        //         lc1 = char
-        //     })
-        //     // console.log("FOUND NO DATA")
-
-        //     cityToShowString = decodeURI(cS)
-            
-        //     return
-            
-        // }
 
         st.split("").map((char) => {
 
@@ -72,6 +47,8 @@ const Router = () => {
             }
             
             lastChar = char
+
+            // console.log("GETTING IT " + char)
         })
 
         if(!newSt)
@@ -133,7 +110,7 @@ const Router = () => {
 
         }
 
-        console.log("SETTING CITY " + cityToShowString)
+        // console.log("SETTING CITY " + cityToShowString)
 
         if(cityToShowString == 'Services')
         {
@@ -183,11 +160,13 @@ const Router = () => {
      }
 
      var GetPlaceObject = () =>{
-        console.log("DOING THE STUFF " + sS)
+        // console.log("DOING THE STUFF " + sS)
         if(!sS)
         {
             // LookAtDataString()
         }
+
+        sS = decodeURI(sS)
 
         if(sS == "Attractions")
         {
@@ -210,6 +189,11 @@ const Router = () => {
             return cityToShow.Fencing[placeIndex]
             
         }
+
+        if(sS == "Pool Cages")
+        {
+            return cityToShow.Poolcage[placeIndex]
+        }
      }
   return (
     <>
@@ -217,13 +201,13 @@ const Router = () => {
     {SetCityCollection()}
     {SetPlaceObject()}
     <Routes>
-        <Route path="/" element={<Thingstodo setCity = {setCity} setPlace={setPlace}/>}/>
-        <Route path='/thingsin/:id' element={<CityDetails cityCollection={cityToShow} setPlace={setPlace} setCity={setCity}/>}/>
-        <Route path='/services' element={<Services setCity={setCity} setPlace={setPlace}/>}/>
+        <Route path="/" element={<Thingstodo/>}/>
+        <Route path='/thingsin/:id' element={<CityDetails cityCollection={cityToShow}/>}/>
+        <Route path='/services' element={<Services/>}/>
         <Route path='/services/:id' element={<ServiceDetails place={currentPlaceObject}/>}/>
         <Route path="/things">
-            <Route index element={<Thingstodo setCity = {setCity} setPlace={setPlace}/>}/>
-            <Route path=":id/:id" element={<PlaceDetails place={currentPlaceObject} cityCollection={cityToShow} setPlace={setPlace} setCity={setCity}/>}/>
+            <Route index element={<Thingstodo/>}/>
+            <Route path=":id/:id" element={<PlaceDetails place={currentPlaceObject} cityCollection={cityToShow}/>}/>
         </Route>
     </Routes>
     </>

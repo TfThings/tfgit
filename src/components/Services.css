@@ -54,7 +54,7 @@
 }
 
 .shit{
-    
+  text-align: center;  
 }
 
 .shit > img{
@@ -76,13 +76,15 @@
    position: relative;
 }
 
-.shd .sht{
+.shd .shit .sht{
     position:absolute;
-    font-size: 5rem;
+    width: 100%;
+    max-height: 100px;
+    /* background-color:#f1c40f; */
+    font-size: 4.1rem;
     color: black;
-    top: 40px;
-    right: 30px;
-    padding: 0rem;
+    top: 50px;
+    padding: 0px;
     color: white;
     font-family: 'Raleway';
     z-index: 2;

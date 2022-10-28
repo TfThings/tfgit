@@ -7,7 +7,7 @@ import {Helmet, HelmetData} from 'react-helmet-async'
 
 const helmetData = new HelmetData({})
 
-const CityDetails = ({cityCollection, setPlace, setCity}) => {
+const CityDetails = ({cityCollection}) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -37,10 +37,10 @@ const CityDetails = ({cityCollection, setPlace, setCity}) => {
         <div className='pageHeader'><h1>{cityName}</h1><img src={`${cityCollection.Attractions[0].banner_Image}`} alt="kfrjk"/></div>
         <div className='contents'>
             <ServicesButton/>
-            <FeaturedSection collection={cityCollection} subString="Things" subCollection={cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
-            <CardArray cityCollection={cityCollection} twoColumn={true} setPlace={setPlace} setCity={setCity} rests={false} headerString="Top Things in"/>
-            <FeaturedSection collection={cityCollection} subString="Restaurants" subCollection={cityCollection.Restaurants} setPlace={setPlace} setCity={setCity}/>
-            <CardArray cityCollection={cityCollection} twoColumn={true} setPlace={setPlace} setCity={setCity} rests={true} headerString="Top Restaurants in"/>
+            <FeaturedSection collection={cityCollection} subString="Things" subCollection={cityCollection.Attractions}/>
+            <CardArray cityCollection={cityCollection} twoColumn={true} rests={false} headerString="Top Things in"/>
+            <FeaturedSection collection={cityCollection} subString="Restaurants" subCollection={cityCollection.Restaurants}/>
+            <CardArray cityCollection={cityCollection} twoColumn={true} rests={true} headerString="Top Restaurants in"/>
         </div>
     </div>
   )

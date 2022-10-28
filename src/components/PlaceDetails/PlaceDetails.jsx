@@ -6,12 +6,10 @@ import {HiPhoneOutgoing} from 'react-icons/hi'
 import FeaturedSection from '../FeaturedSection'
 import CardArray from '../CardArray'
 import InfoArray from '../InfoArray'
-import call from 'react-native-phone-call'
-import openMap, {createOpenLink} from 'react-native-open-maps'
 import EmailSect from '../EmailSect'
 import {Helmet, HelmetData} from 'react-helmet-async'
 import ServicesButton from '../ServicesButton'
-const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
+const PlaceDetails = ({place, cityCollection, index}) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -23,27 +21,6 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
 
     const helmetData = new HelmetData({})
 
-    const makeCall = (phoneNumber) => {
-       
-        const args = {
-            number: phoneNumber, // String value with the number to call
-            prompt: true, // Optional boolean property. Determines if the user should be prompted prior to the call 
-            skipCanOpen: true // Skip the canOpenURL check
-        }
-
-        call(args).catch(console.error)
-        console.log("CALLING " + phoneNumber)
-    }
-
-    const openMobileMap =(spot) => {
-        const dest = spot.latitude + "," + spot.longitude
-        var lat = JSON.parse(spot.latitude)
-        var long = JSON.parse(spot.longitude)
-        console.log("OPENED MAP " + spot.latitude + " " + spot.longitude + " " + dest + " " + dest.longitude + " " + lat)
-        var loc = {latitude: lat, longitude: long}
-        openMap(loc)
-        // createOpenLink(loc)
-    }
     const isRest = place.subtype ? false : true
 
     const cityName = cityCollection.Attractions[0].city_name
@@ -106,10 +83,10 @@ const PlaceDetails = ({place, cityCollection, index, setPlace, setCity}) => {
         </div>
         <EmailSect isImprovement={true} place={place}/>
         <ServicesButton/>
-        <FeaturedSection collection={cityCollection} subString={isRest ? "Restaurants" : "Things"} subCollection={isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
-        <CardArray cityCollection={cityCollection} twoColumn={false} headerString={isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest} setPlace={setPlace} setCity={setCity}/>
-        <FeaturedSection collection={cityCollection} subString={!isRest ? "Restaurants" : "Things"} subCollection={!isRest ? cityCollection.Restaurants : cityCollection.Attractions} setPlace={setPlace} setCity={setCity}/>
-        <CardArray cityCollection={cityCollection} twoColumn={false} headerString={!isRest ? "Other Restaurants in" : "Other Things in"} rests={!isRest} setPlace={setPlace} setCity={setCity}/>
+        <FeaturedSection collection={cityCollection} subString={isRest ? "Restaurants" : "Things"} subCollection={isRest ? cityCollection.Restaurants : cityCollection.Attractions}/>
+        <CardArray cityCollection={cityCollection} twoColumn={false} headerString={isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest}/>
+        <FeaturedSection collection={cityCollection} subString={!isRest ? "Restaurants" : "Things"} subCollection={!isRest ? cityCollection.Restaurants : cityCollection.Attractions}/>
+        <CardArray cityCollection={cityCollection} twoColumn={false} headerString={!isRest ? "Other Restaurants in" : "Other Things in"} rests={!isRest}/>
     </div>
     </>
   )
