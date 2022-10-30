@@ -61,7 +61,7 @@
     margin: 0 auto;
     border-radius: 10px;
     display: block;
-    width: 99%;
+    width: 95%;
     aspect-ratio: 16/9;
     object-fit: cover;
     max-height: 200px;
@@ -78,10 +78,10 @@
 
 .shd .shit .sht{
     position:absolute;
-    width: 100%;
+    width: 99%;
     max-height: 100px;
     /* background-color:#f1c40f; */
-    font-size: 4.1rem;
+    font-size: 3.9rem;
     color: black;
     top: 50px;
     padding: 0px;
@@ -93,7 +93,7 @@
 .sdm{
     background-color:white;
     margin: auto;
-    width: 330px;
+    width: 310px;
     padding-bottom: 30px;
     border-radius: 10px;
     position: relative;

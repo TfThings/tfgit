@@ -276,48 +276,6 @@
             }
           },
           {
-            "id": "4",
-            "name": "Crown Roofing",
-            "rating": "3",
-            "num_reviews": "2",
-            "age": "10+ years in business",
-            "phone": "(888) 923-6090",
-            "address": "5802 Corporation Cir, Fort Myers, FL 33905",
-            "latitude": "26.661506914843674",
-            "longitude": "-81.80568203068499",
-            "website": "https://www.crownroofing.com/",
-            "contact_website": "https://www.crownroofing.com/contact/",
-            "description": "Crown Roofing Services all of central, South, and Southwest Florida. They specialize in new construction roofing, roofing replacements, roof maintenance, and any other roof service need.",
-            "services": [
-                {
-                    "name": "Roof Repair"
-                },
-                {
-                    "name": "Roof installation"
-                },
-                {
-                    "name": "Roof inspection"
-                },
-                {
-                    "name": "Skylight installation"
-                },
-                {
-                    "name": "Skylight repair"
-                }
-            ],
-            "photo": {
-                "images": {
-                    "large": {
-                        "width": "1024",
-                        "url": "https://www.crownroofing.com/wp-content/uploads/2022/08/Crown-Roofing-About-Us-page-Group-Photo-new.jpg",
-                        "height": "682"
-                    }
-                },
-                "uploaded_date": "2014-10-14T17:02:55-0400",
-                "caption": ""
-            }
-          },
-          {
             "name": "MooreCorp Roofing INC.",
             "id": "5",
             "rating": "4.6",
