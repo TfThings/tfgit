@@ -13,4 +13,5 @@ import CityDetails from './CityDetails'
 import FeaturedCard from './FeaturedCard'
 import Services from './Services'
 import ServiceDetails from './ServiceDetails'
-export{Features, Manager, Download, SectionWrapper, Home, Navbar, Footer, Thingstodo, SearchHeader, Card, PlaceDetails, CityDetails, FeaturedCard, Services, ServiceDetails}
+import ContactUs from './ContactUs'
+export{Features, Manager, Download, SectionWrapper, Home, Navbar, Footer, Thingstodo, SearchHeader, Card, PlaceDetails, CityDetails, FeaturedCard, Services, ServiceDetails, ContactUs}

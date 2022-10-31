@@ -6,6 +6,7 @@ import {GrInstagram} from 'react-icons/gr'
 import {IoLogoYoutube} from 'react-icons/io'
 import {GiPalmTree} from 'react-icons/gi'
 import EmailSect from './EmailSect'
+import {Link} from "react-router-dom";
 const Footer = () => {
 
     const company=["About", "How it works","Press", "Support"]
@@ -34,15 +35,10 @@ const Footer = () => {
         )
     }
 
-    const makeSocial = () =>{
-        return(
-            <div></div>
-        )
-    }
-
   return (
     <div className='footer'>
-        <EmailSect/>
+       <Link to="/contact" className='fli'><button className='bbfooter'>I Don't See My Business Listed</button></Link>
+        {/* <EmailSect/> */}
         <footer className='gfooter'>
             <div className='footercontainer'>
                 <div className='top'>
