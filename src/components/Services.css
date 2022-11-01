@@ -70,6 +70,7 @@
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
     position: relative;
     z-index: 1;
+    -webkit-filter: brightness(85%);
 }
 
 .shd {
@@ -81,7 +82,7 @@
     width: 99%;
     max-height: 100px;
     /* background-color:#f1c40f; */
-    font-size: 3.9rem;
+    font-size: 3.2rem;
     color: black;
     top: 50px;
     padding: 0px;

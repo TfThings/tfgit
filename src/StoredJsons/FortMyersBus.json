@@ -1344,5 +1344,307 @@
             "website": "http://andersonenclosures.com/",
             "services": "pool cages"
           }
+    ],
+
+    "PoolCleaning":[
+        { 
+            "collection_type": "Pool Cleaning",
+            "city_name": "Fort Myers",
+            "banner_Image": "/bannerimages/pool-cleaning-banner00.jpg",
+    
+            "FeaturedIndex0": 152,
+            "FeaturedIndex1": 157,
+            "FeaturedIndex2": 161,
+            "FeaturedIndex3": 141
+        },
+        {
+            "name": "Gulfstream Pool Care",
+            "main_service": "Pool cleaning service",
+            "rating": "4.7",
+            "num_reviews": "120",
+            "age": "7+ years in business",
+            "phone": "(239) 574-7665",
+            "website": "https://gulfstreampoolcare.com/",
+            "contact_website": "https://gulfstreampoolcare.com/contact-us/",
+            "address": "924 SE 13th PL Cape Coral, FL 33990",
+            "latitude": "26.634137812053442",
+            "longitude": "-81.94593241534248",
+            "description": "Gulfstream Pool Care was founded in October of 2009 with the mission to provide the most comprehensive pool service available in Southwest Florida. From their humble beginnings starting over a decade ago to today, their mission still remains the same. Integrity, honesty, and a traditional work ethic have solidified our companys reputation as Southwest Floridas premier pool care company.",
+            "services": [
+                {
+                    "name": "Pool Cleaning"
+                },
+                {
+                    "name": "Leak Detection"
+                },
+                {
+                    "name": "Pool Lighitng"
+                },
+                {
+                    "name": "Pool Heating"
+                },
+                {
+                    "name": "Salt Water Systems"
+                },
+                {
+                    "name":"Pool Renovation"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://gulfstreampoolcare.com/wp-content/uploads/2020/03/pool-cta-background.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Swordfish Pool Service",
+            "main_service": "Pool cleaning service",
+            "rating": "5",
+            "num_reviews": "50",
+            "age": "5+ years in business",
+            "phone": "(239) 249-5931",
+            "website": "https://swordfishpools.net/",
+            "contact_website": "https://www.swordfishpools.net/contact-us",
+            "address": "121 SW 37th Ave, Cape Coral, FL 33991",
+            "latitude": "26.650338994236595",
+            "longitude": "-82.04954600218598",
+            "description": "At Swordfish Pool Service, every pool and every client is special to them. They take great pride in their work and strive for 100% customer satisfaction. Don't just take their word for it, check out all of their 5 star reviews on Google! If you are in or near Cape Coral, Florida please give them a call or fill out their contact form to discuss your needs today!",
+            "services": [
+                {
+                    "name": "Pool Cleaning"
+                },
+                {
+                    "name": "Chemical Treatment"
+                },
+                {
+                    "name": "Algae Cleaning"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://static.wixstatic.com/media/8e29fc9caeac45eca7ba7756230db91b.jpg/v1/fill/w_3456,h_1826,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8e29fc9caeac45eca7ba7756230db91b.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "MyPoolExperts",
+            "main_service": "Pool cleaning service",
+            "rating": "4.9",
+            "num_reviews": "27",
+            "age": "3+ years in business",
+            "phone": "(239) 284-8186",
+            "website": "https://mypoolexperts.business.site/?utm_source=gmb&utm_medium=referral",
+            "contact_website": "https://mypoolexperts.business.site/?utm_source=gmb&utm_medium=referral",
+            "address": "3609 Northwest 3rd Street Cape Coral, FL 33993",
+            "latitude": "26.657791952281876",
+            "longitude": "-82.0488437",
+            "description": "Review From Customer - We recently moved to Cape Coral and we were not happy with our first Pool Maintenance Company and decided to use My Pool Experts because it is owner/operator and the reviews were excellent. So happy we made the switch to My Pool Experts! Romel takes great care of our pool, it looks fantastic and Romel is always prompt and professional and provides weekly updates and communication. I highly recommend this company",
+            "services": [
+                {
+                    "name": " Pool Cleaning"
+                },
+                {
+                    "name": "Chemical Treatment"
+                },
+                {
+                    "name": "Algae Cleaning"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://lh3.googleusercontent.com/p/AF1QipOayMSbyzAx4hDCz731SnV_GIGbhvdeN8nz7rf_=s1280-p-no-v1",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Pool Doctor Service & Supplies Inc.",
+            "main_service": "Pool cleaning service",
+            "rating": "4.6",
+            "num_reviews": "656",
+            "age": "45+ years in business",
+            "phone": "(239) 574-1133",
+            "website": "https://www.mypooldoctor.com/",
+            "contact_website": "http://mypooldoctor.com/contact-us/",
+            "address": "2104 Del Prado Blvd S. Cape Coral",
+            "latitude": "26.613428891154516",
+            "longitude": "-81.94135545985776",
+            "description": "The Pool Doctor has operated the top Cape Coral pool store & been serving the needs of Lee County pool owners and operators since 1974. Visit their headquarters at 2104 Del Prado Blvd South. They are ¼ mile north of Veterans Bridge on the left (west) side of the road. Enter the office from the store. Just call or visit them they are here to help!",
+            "services": [
+                {
+                    "name": "Pool Cleaning"
+                },
+                {
+                    "name": "Chemical Treatment"
+                },
+                {
+                    "name": "Algae Cleaning"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "http://mypooldoctor.com/wp-content/uploads/sites/12/2022/02/raelphoto-0960-sfw-600x387.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Laguna Blue Pool Maintenance",
+            "main_service": "Pool cleaning service",
+            "rating": "4.5",
+            "num_reviews": "28",
+            "age": "3+ years in business",
+            "phone": "(239) 560-5954",
+            "website": "http://www.lagunabluepool.com/",
+            "contact_website": "https://www.lagunabluepool.com/contact.html",
+            "address": "1408 SE 11th Place, Cape Coral, FL 33990",
+            "latitude": "26.62642327427419",
+            "longitude": "-81.95112683102192",
+            "description": "Welcome to Laguna Blue Pool Maintenance Company where they want you to love your pool again! You have a choice in pool cleaning services but they feel the employees of Laguna Blue are what separate them from all the others. Their employees are taught the fundamentals of customer service.",
+            "services": [
+                {
+                    "name": "Pool Cleaning"
+                },
+                {
+                    "name": "Chemical Treatment"
+                },
+                {
+                    "name": "Algae Cleaning"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://www.lagunabluepool.com/images/block-bg-2.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Pool Troopers",
+            "main_service": "· Pool cleaning service",
+            "rating": 4.9,
+            "num_reviews": "(55)",
+            "age": "3+ years in business",
+            "phone": "· (239) 628-4335",
+            "website": "https://pooltroopers.com/locations/cape-coral"
+          },
+          {
+            "name": "Absolute Pool Services",
+            "main_service": "· Pool cleaning service",
+            "rating": 4.8,
+            "num_reviews": "(33)",
+            "age": "5+ years in business",
+            "phone": "· (239) 309-8384",
+            "website": "http://www.abspoolservices.com/"
+          },
+          {
+            "name": "ASP - America's Swimming Pool Company of Fort Myers",
+            "main_service": "· Pool cleaning service",
+            "rating": 4.8,
+            "num_reviews": "(82)",
+            "age": "· (239) 319-4427",
+            "phone": "",
+            "website": "https://www.asppoolco.com/fortmyers/?utm_source=GMB&utm_medium=organic&utm_campaign=capecoral"
+          },
+          {
+            "name": "Aquatec Pool & Spa",
+            "main_service": "· Pool cleaning service",
+            "rating": 4.7,
+            "num_reviews": "(72)",
+            "age": "5+ years in business",
+            "phone": "",
+            "website": "http://aquatecswfl.com/"
+          },
+          {
+            "name": "Brandon Pools",
+            "main_service": "· Pool cleaning service",
+            "rating": 4.9,
+            "num_reviews": "(27)",
+            "age": "15+ years in business",
+            "phone": "· (239) 292-4366",
+            "website": "http://brandonpools.org/"
+          },
+          {
+            "name": "The Pool Guy of SW Florida",
+            "main_service": "· Pool cleaning service",
+            "rating": 5,
+            "num_reviews": "(27)",
+            "age": "3+ years in business",
+            "phone": "· (239) 241-1050",
+            "website": "http://poolguyofswfl.wixsite.com/pool"
+          },
+          {
+            "name": "Edgewater Pools & Spa Services",
+            "main_service": "· Pool cleaning service",
+            "rating": 4.9,
+            "num_reviews": "(285)",
+            "age": "10+ years in business · Naples, FL",
+            "phone": "· (239) 961-8379",
+            "website": "http://edgewaterpoolsandspa.com/"
+          },
+          {
+            "name": "SWFL Pool Solutions",
+            "main_service": "· Pool cleaning service",
+            "rating": 5,
+            "num_reviews": "(29)",
+            "age": "5+ years in business · Bonita Springs, FL",
+            "phone": "· (239) 494-6378",
+            "website": "https://www.swflpoolsolutions.com/"
+          },
+          {
+            "name": "Murphy's Pool Services",
+            "main_service": "· Pool cleaning service",
+            "rating": 5,
+            "num_reviews": "(25)",
+            "age": "3+ years in business · Fort Myers Beach, FL",
+            "phone": "Open 24 hours · (239) 284-9956",
+            "website": "https://www.facebook.com/Murphys-Pool-Services-107190218129432/"
+          },
+          {
+            "name": "Pool Troopers",
+            "main_service": "· Pool cleaning service",
+            "rating": 4.6,
+            "num_reviews": "(87)",
+            "age": "3+ years in business · Naples, FL",
+            "phone": "· (866) 766-5877",
+            "website": "https://pooltroopers.com/locations/naples-fl-pool-service/?utm_source=GBP&utm_medium=organic"
+          },
+          {
+            "name": "Pool Perfection",
+            "main_service": "· Pool cleaning service",
+            "rating": 3.9,
+            "num_reviews": "(45)",
+            "age": "5+ years in business · Cape Coral, FL",
+            "phone": "Open 24 hours · (239) 240-5452",
+            "website": "http://www.poolperfectioncc.com/contact.asp"
+          }
+         
     ]
 }

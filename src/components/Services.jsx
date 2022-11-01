@@ -63,6 +63,7 @@ const Services = () => {
                 <ServiceHolder subCollection={FortMyersBus.Roofing} index={1}/>
                 <ServiceHolder subCollection={FortMyersBus.Fencing} index={2}/>
                 <ServiceHolder subCollection={FortMyersBus.Poolcage} index={3}/>
+                <ServiceHolder subCollection={FortMyersBus.PoolCleaning} index={4}/>
             </ul>
         </div>
     </div>

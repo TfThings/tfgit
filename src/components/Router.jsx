@@ -194,6 +194,11 @@ const Router = () => {
         {
             return cityToShow.Poolcage[placeIndex]
         }
+
+        if(sS == "Pool Cleaning")
+        {
+            return cityToShow.PoolCleaning[placeIndex]
+        }
      }
   return (
     <>
