@@ -1,0 +1,28 @@
+.bbh{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;     */
+    margin-top: 15px;
+}
+
+.bbh .bbis{
+    background-color: #00B3ED;
+    width: 90%;
+    height: 50px;
+    color: white;
+    font-size: 1.7rem;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: auto;
+    justify-content: center;
+}
+
+.bbh .bbis span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

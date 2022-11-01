@@ -46,7 +46,7 @@ const ServiceCard = ({place, index, subString}) => {
         </ul>
         <div className='bLow'>
             <button onClick={() => makeCall(place.phone)} className='lCon'>Call Business</button>
-            <Link className='lMore' onClick={handleClick} to={"/services/"+place.name+place.address+"="+datString}><button className='lMore'>Learn More</button></Link>
+            <Link className='lMore' onClick={handleClick} to={"/services/"+place.name+"="+datString}><button className='lMore'>Learn More</button></Link>
         </div>
     </div>
     )

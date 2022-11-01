@@ -9,6 +9,7 @@ import InfoArray from '../InfoArray'
 import EmailSect from '../EmailSect'
 import {Helmet, HelmetData} from 'react-helmet-async'
 import ServicesButton from '../ServicesButton'
+import BackButton from '../BackButton'
 const PlaceDetails = ({place, cityCollection, index}) => {
 
     useEffect(() => {
@@ -87,6 +88,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
         <CardArray cityCollection={cityCollection} twoColumn={false} headerString={isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest}/>
         <FeaturedSection collection={cityCollection} subString={!isRest ? "Restaurants" : "Things"} subCollection={!isRest ? cityCollection.Restaurants : cityCollection.Attractions}/>
         <CardArray cityCollection={cityCollection} twoColumn={false} headerString={!isRest ? "Other Restaurants in" : "Other Things in"} rests={!isRest}/>
+        <BackButton/>
     </div>
     </>
   )

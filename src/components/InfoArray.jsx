@@ -4,6 +4,7 @@ import {FaMapMarkerAlt} from 'react-icons/fa'
 import {HiPhoneOutgoing} from 'react-icons/hi'
 import openMap, {createOpenLink} from 'react-native-open-maps'
 import call from 'react-native-phone-call'
+import ReactGA from "react-ga4";
 import './InfoArray.css'
 const InfoArray = ({place}) => {
 
@@ -25,6 +26,17 @@ const InfoArray = ({place}) => {
         var loc = {latitude: lat, longitude: long}
         openMap(loc)
         // createOpenLink(loc)
+    }
+
+    const CallGaEvent = () =>{
+        ReactGA.event({
+            category: "site_visit",
+            action: "site_visit",
+            label: "siteVisit", // optional
+            value: 99, // optional, must be a number
+            nonInteraction: true, // optional, true/false
+            transport: "xhr", // optional, beacon/xhr/image
+          });
     }
 
   return (

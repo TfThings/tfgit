@@ -4,6 +4,7 @@ import InfoArray from './InfoArray'
 import StarReview from './StarReview'
 import EmailSect from './EmailSect'
 import {Helmet, HelmetData} from 'react-helmet-async'
+import BackButton from './BackButton'
 
 const ServiceDetails = ({place}) => {
 
@@ -67,6 +68,7 @@ const ServiceDetails = ({place}) => {
           </div>
         </div>
         <EmailSect isImprovement={true} place={place}/>
+        <BackButton/>
       </div>
     </>
   )

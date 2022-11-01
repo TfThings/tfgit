@@ -1,5 +1,7 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser'
+import {Link} from "react-router-dom";
+import BackButton from './BackButton';
 import './ContactUs.css'
 
 const ContactUs = () => {
@@ -38,8 +40,8 @@ const ContactUs = () => {
                 {/* <input type='text' name='message' placeholder='Leave a message here then press send...' required/>
                 <button type="submit" value="Send">Send</button> */}
             </form>
-            <button className='bbth'>Back To Home</button>
         </div>
+        <BackButton/>
     </div>
   )
 }
