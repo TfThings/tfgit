@@ -8,6 +8,10 @@
     max-height: 300px;
 }
 
+.spin{
+  animation: 2s linear 0s infinite alternate spin;
+}
+
 .soe{
   display: none;
 }
@@ -216,6 +220,15 @@
       width: 60px;
       height: 60px;
       background-color:rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  @keyframes spin{
+    from{
+      transform: rotate(3deg);
+    }
+    to{
+      transform: rotate(-3deg);
     }
   }
 

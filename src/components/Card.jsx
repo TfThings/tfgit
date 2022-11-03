@@ -4,7 +4,7 @@ import assets from '../assets'
 import {Link} from "react-router-dom";
 import './Card.css'
 
-const Card = ({place, subCollection, index, cityName, twoColumn}) => {
+const Card = ({place, subCollection, index, cityName, twoColumn, spin}) => {
     
     // if(!place){return}
     // if(place.location_id == "34230"){return}
@@ -14,7 +14,7 @@ const Card = ({place, subCollection, index, cityName, twoColumn}) => {
     const datString ="-c:"+cityName+"-s:"+subCollection+"-i:"+index
 
     return(
-        <div className='card'>
+        <div className={spin ? "card spin" : "card"}>
             <Link to={"/things/"+cityName+"/"+place.name+"="+datString}>
             {/* <Helmet prioritizeSeoTags>
                 <title>{place.name} Best Things in Florida</title>

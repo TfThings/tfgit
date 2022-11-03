@@ -20,10 +20,11 @@ const CardArray = ({cityCollection, twoColumn, rests, headerString, link}) => {
                 <div className='heading'>{headerString} {cityName}</div>
                 <ul className='itemlist'>
                     {(subCollection).slice(0 ,displayCount).map((place, i) => {
+                        var ri = Math.floor(Math.random() * 2)
                         if(place && place.location_id != "34230" && place.photo && place.description != "")
                         {
                        return(
-                       <Card twoColumn={twoColumn} place={place} subCollection={rests ? "Restaurants" : "Attractions"} cityName={cityName} key={i} index= {i}/>
+                       <Card twoColumn={twoColumn} place={place} subCollection={rests ? "Restaurants" : "Attractions"} cityName={cityName} key={i} index= {i} spin={ri == 1 ? true : false }/>
                     )
                        }
                     }) }

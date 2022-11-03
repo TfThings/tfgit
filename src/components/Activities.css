@@ -1,0 +1,117 @@
+.apHeader{
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.apHeader h1{
+    position:absolute;
+    /* text-align: left; */
+    
+    font-size: 5rem;
+    color: white;
+    /* top: 495px;
+    right: 1100px; */
+
+    padding: 0rem;
+    margin-top: 25%;
+    margin-left: 10%;
+
+    /* margin-left: 20rem;
+    margin-top: 24rem; */
+}
+
+.apHeader img{
+    margin: 0 auto;
+    border-radius: 10px;
+    
+
+    display: block;
+    width: 1250px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: 500px;
+    object-position: center;
+    padding: 0;
+}
+
+.arow{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.ash{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ashH{
+    position:absolute;
+    width: 89%;
+    max-height: 100px;
+    /* background-color:#f1c40f; */
+    font-size: 3.1rem;
+    color: black;
+    top: 40px;
+    padding: 0px;
+    color: white;
+    font-family: 'Raleway';
+    z-index: 2;
+}
+
+.ash > img{
+    margin: 0 auto;
+    border-radius: 10px;
+    display: block;
+    width: 98%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: 200px;
+    object-position: center;
+    padding: 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    position: relative;
+    z-index: 1;
+    -webkit-filter: brightness(99%);
+}
+
+.ashb{
+    background-color:white;
+    margin: auto;
+    width: 310px;
+    height: 70px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 5px;
+    border-style: solid;
+    border-color: rgba(190, 190, 190, 0.277);
+    border-width: 2px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.botash{
+    background-color: #f1c40f;
+    color: white;
+    width: 95%;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+@media all and (max-width: 600px){
+    .apHeader h1{
+        margin-top: 30%;
+        margin-left: 10px;
+    }
+}

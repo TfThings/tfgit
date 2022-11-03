@@ -7,7 +7,7 @@ import CapeCoralAll from '../StoredJsons/CapeCoralAll.json'
 import NaplesAll from '../StoredJsons/NaplesAll.json'
 import EsteroAll from '../StoredJsons/EsteroAll.json'
 import FortMyersBus from '../StoredJsons/FortMyersBus.json'
-import {Thingstodo, PlaceDetails, CityDetails, Services, ServiceDetails, ContactUs} from "./index"
+import {Thingstodo, PlaceDetails, CityDetails, Services, ServiceDetails, ContactUs, Activities} from "./index"
 
 const Router = () => {
 
@@ -207,10 +207,11 @@ const Router = () => {
     {SetPlaceObject()}
     <Routes>
         <Route path="/" element={<Thingstodo/>}/>
-        <Route path='/thingsin/:id' element={<CityDetails cityCollection={cityToShow}/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
+        <Route path="/activities" element={<Activities/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/services/:id' element={<ServiceDetails place={currentPlaceObject}/>}/>
+        <Route path='/thingsin/:id' element={<CityDetails cityCollection={cityToShow}/>}/>
         <Route path="/things">
             <Route index element={<Thingstodo/>}/>
             <Route path=":id/:id" element={<PlaceDetails place={currentPlaceObject} cityCollection={cityToShow}/>}/>
