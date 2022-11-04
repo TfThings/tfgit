@@ -24,11 +24,12 @@ const Services = () => {
                     <img src={subCollection[0].banner_Image} alt="Image Here"/>
                     <h1 className='sht'>{subCollection[0].collection_type}</h1>
                 </div>
-                <div className={`sdm ${index == menuOpen ? 'active' : 'inactive'}`}>
+                <div className={`sdm ${index == menuOpen ? 'active scaleYIn' : 'inactive'}`}>
                     <ul className='sdmu'>
                     {(subCollection).slice(1 ,10).map((place, i) => {
                         if(place.contact_website && menuOpen == index)
                         {
+                            
                         return(
                             <ServiceCard place={place} index={i + 1} subString={subCollection[0].collection_type} key={i}/>
                         )

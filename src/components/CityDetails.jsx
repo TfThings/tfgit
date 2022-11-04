@@ -15,8 +15,8 @@ const CityDetails = ({cityCollection}) => {
 
       const cityName = cityCollection.Attractions[0].city_name
 
-      const soeTitle = "Find the Best Things to do in " + cityName
-      const soeDesc = "Find The Best Things To Do in all of " + cityName + " with the best hand picked collection for you. Get Directions, Reviews, Phone Numbers and more about your favorite local places."
+      const soeTitle = "Find the Best Things to do in " + cityName + ", Find Restaurants, Activities and More"
+      const soeDesc = "Find The Best Things To Do in all of " + cityName + " everything hand picked for you. Get Directions, Reviews, Phone Numbers and more about your favorite local places and find new places to explore. Don't see something for you, let us know."
       const soeLoc = "https://www.thingsflorida.com" + window.location.pathname
       const soeKeys = cityName + ", " + "Things in, To do, Restaurants, Places, Food"
       const soeImage = "https://www.thingsflorida.com" + cityCollection.Attractions[0].banner_Image

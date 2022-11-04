@@ -7,6 +7,10 @@
     padding: 2px;
 }
 
+.scale{
+    animation: 1.5s linear 0s infinite alternate scale;
+}
+
 .hed .hd{
     position: absolute;
     top: 40%;
@@ -49,4 +53,14 @@
     margin-top: 3px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
     /* text-transform: uppercase; */
+}
+
+@keyframes scale {
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(.98);
+    }
 }

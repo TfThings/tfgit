@@ -102,6 +102,7 @@
     border-style: solid;
     border-color: rgba(190, 190, 190, 0.277);
     border-width: 2px;
+    transform-origin : 100% 0 0;
 }
 
 .sdm.active{
@@ -139,6 +140,14 @@
     font-size: 1.5rem;
 }
 
+.scaleY{
+    animation: 1s linear 0s normal scaleIn;
+}
+
+.scaleYIn{
+    animation: .5s linear 0s normal scaleDown;
+}
+
 @media all and (max-width: 600px){
 
     .pHeader h1{
@@ -146,5 +155,27 @@
         margin-left: 1rem;
         font-size: 2.5rem;
         
+    }
+}
+
+@keyframes scaleDown{
+    from{
+        transform: scaleY(0);
+        /* transform: scaleY(1); */
+    }
+    to{
+        transform: scaleY(1);
+        /* transform: scaleY(.8); */
+    }
+}
+
+@keyframes scaleIn{
+    from{
+        transform: scaleY(1);
+        /* transform: scaleY(1); */
+    }
+    to{
+        transform: scaleY(0);
+        /* transform: scaleY(.8); */
     }
 }
