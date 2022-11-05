@@ -18,7 +18,25 @@
 
 .sCard .ag{
     padding: 3px;
-    color: rgb(30, 30, 30);
+    background-color: #f39c12;
+    padding: 6px 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.sCard .sag{
+    background-color: #ff6348;
+    color: white;
+    width: 95%;
+    height: 35px;
+    margin: auto;
+    border-radius: 7px;
+    padding: 5.5px 10px;
+    margin-top: 5px;
 }
 
 .sCard img{
@@ -54,7 +72,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .sCard .ser{
@@ -102,3 +120,46 @@
     color: white;
     font-size: 1.3rem;
 }
+
+.sCard .ribbon4 a{
+    color: white;
+}
+
+.sCard .ribbon4 {
+    position: absolute;
+    margin-top: 5px;
+    padding: 10px 10px;
+    background: #00B3ED;
+    box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    width: auto;
+    
+  }
+  .sCard .ribbon4:before, .ribbon4:after {
+    content: "";
+    position: absolute;
+    
+  }
+  .sCard .ribbon4:before {
+    width: 7px;
+    height: 121%;
+    top: 0px;
+    left: -6.5px;
+    padding: 0 0 7px;
+    background:#00B3ED;
+    border-radius: 5px 0 0 5px;
+    
+    
+  }
+
+  .sCard .ribbon4:after {
+    width: 5px;
+    height: 10px;
+    bottom: -10px;
+    left: -4.5px;
+    background: lightblue;
+    border-radius: 5px 0 0 5px;
+    
+    
+   }

@@ -39,10 +39,10 @@ const ServiceDetails = ({place}) => {
           <img src={place.photo.images.large.url} alt="lkrgelrm"/>
         </div>
         <div className='abC'>
-          <div className='he'><h1>{place.name}</h1></div>
+          <div className='ribbon4'><h1>{place.name}</h1></div>
           <div className='srS'>
-            <StarReview rating={place.rating} count={place.num_reviews}/>
-            <h2>{place.age}</h2>
+            <div className='sdsr'><StarReview rating={place.rating} count={place.num_reviews}/></div>
+            <h2 className='sda'>{place.age}</h2>
           </div>
           <h1 className='serT'>Services</h1>
           <div className='sI'>

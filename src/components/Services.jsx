@@ -29,7 +29,6 @@ const Services = () => {
                     {(subCollection).slice(1 ,10).map((place, i) => {
                         if(place.contact_website && menuOpen == index)
                         {
-                            
                         return(
                             <ServiceCard place={place} index={i + 1} subString={subCollection[0].collection_type} key={i}/>
                         )

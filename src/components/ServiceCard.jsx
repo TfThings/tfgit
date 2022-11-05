@@ -25,12 +25,12 @@ const ServiceCard = ({place, index, subString}) => {
 
     return(
     <div className='sCard'>
-        <h1 className='t'>{place.name}</h1>
+        <div className='ribbon4'>{place.name}</div>
         <Link onClick={handleClick} to={"/services/"+place.name+"="+datString}>
             <img className='im' src={place.photo.images.large.url} alt="PhotoWasHere"/>
         </Link>
         <h2 className='ag'>{place.age}</h2>
-        <StarReview rating={place.rating} count={place.num_reviews}/>
+        <div className='sag'><StarReview rating={place.rating} count={place.num_reviews}/></div>
         <ul className='ics'>
             {place.services.map((ser, i) => {
                 return(
