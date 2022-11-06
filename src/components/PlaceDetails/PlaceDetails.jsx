@@ -54,7 +54,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
                             <img src={place.photo.images.large.url} alt="lkrgelrm"/>
                         </div>
                         <div className='aboutContainer'>
-                            <div className='header'><h1>{place.name}</h1></div>
+                            <div className='ribbon4'><h1>{place.name}</h1></div>
                             <div className='icons'>
                                 <div className='icon rating yellow'><span>{place.rating ? place.rating : "N/A"}</span><h1>Rating</h1></div>
                                 <div className='icon review orange'><span>{place.num_reviews ? place.num_reviews : "N/A"}</span><h1>Review Amount</h1></div>
@@ -70,7 +70,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
                             </div>
                             <div className='desc'>
                                 <h1>About</h1>
-                                <h2>{place.description}</h2>
+                                <h2 className='pdd'>{place.description}</h2>
                             </div>
                             {/* <div className='hours'>
                                 <h1>Hours</h1>

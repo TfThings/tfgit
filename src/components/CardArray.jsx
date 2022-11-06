@@ -37,7 +37,7 @@ const CardArray = ({cityCollection, twoColumn, rests, headerString, link}) => {
                 VIEW MORE {rests ? "RESTAURANTS" : "THINGS"} IN {cityName}
                 </button>
                 }
-            </div>
+    </div>
   )
 }
 

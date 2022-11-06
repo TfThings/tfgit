@@ -56,7 +56,7 @@ const ServiceDetails = ({place}) => {
           </div>
           <div className='dec'>
             <h1>About The Company</h1>
-            <h2>{place.description}</h2>
+            <h2 className='sdd'>{place.description}</h2>
           </div>
           <div className='det'>
             <InfoArray place={place}/>
