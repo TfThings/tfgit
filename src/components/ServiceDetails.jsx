@@ -36,7 +36,7 @@ const ServiceDetails = ({place}) => {
             <meta name='og:desc' content={place.description}/>
         </Helmet>
         <div className='ime'>
-          <img src={place.photo.images.large.url} alt="lkrgelrm"/>
+          <img src={place.photo.images.large.url} alt="PhotoGoesHere"/>
         </div>
         <div className='abC'>
           <div className='ribbon4'><h1>{place.name}</h1></div>

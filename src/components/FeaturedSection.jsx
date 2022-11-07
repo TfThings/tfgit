@@ -12,6 +12,7 @@ const FeaturedSection = ({subCollection, subString}) => {
                 <FeaturedCard place={subCollection[subCollection[0].FeaturedIndex2]} index={subCollection[0].FeaturedIndex2} cityName={subCollection[0].city_name} subCollection={subCollection[0].collection_type}/>
                 <FeaturedCard place={subCollection[subCollection[0].FeaturedIndex3]} index={subCollection[0].FeaturedIndex3} cityName={subCollection[0].city_name} subCollection={subCollection[0].collection_type}/>
             </ul>
+            <div className="bbl"></div>
     </div>
   )
 }

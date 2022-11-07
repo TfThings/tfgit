@@ -31,6 +31,8 @@ const ContactUs = () => {
                 <input className='sfem inpt' name='from_name' type='text' placeholder='Put Your Email Here...' required/>
                 <label className='sfemt'>Subject</label>
                 <input className='sfsub inpt' name='to_name' type='text' placeholder='Put Subject Of Message Here...'/>
+                <label className='sfemt'>Contact Number</label>
+                <input className='sfsub inpt' name='to_number' type='text' placeholder='Put a phone Number To Contact You at...'/>
                 <label className='sfemt'>Message</label>
                 <textarea className='sfbody inpt' name="message" placeholder='Leave a message here and press send!' required/>
                 <button className='embb' type="submit" value="Send">Send</button>

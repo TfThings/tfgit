@@ -1,3 +1,10 @@
+.ime{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
 .ime img{
     border-radius: 5px;
     display: block;
@@ -12,7 +19,7 @@
 .abC{
     background-color: white;
     display: grid;
-    width: 360px;
+    width: 500px;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 1px 4px 0 rgb(0 0 0 /25%);
@@ -58,10 +65,15 @@
     grid-gap: 5px;
     gap: 3px;
     align-items: center;
-    margin: 0 auto;
+    margin: 5px;
     text-align:center;
-    padding: 3px;
+    padding: 5px;
     width: fit-content;
+
+    /* border: solid;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.397);
+    border-radius: 10px; */
 }
 
 .abC .sI .sr{
@@ -71,7 +83,8 @@
     height: 100%;
     width: 100%;
     margin: auto;
-    padding: 2px;
+    padding: 3px;
+    font-size: .9rem;
 }
 
 .abC .iA{
@@ -216,3 +229,31 @@
     background: lightblue;
     border-radius: 5px 5px 5px 5px;     */
    }
+
+   @media all and (max-width: 600px){
+
+    .ime{
+        width: 100%;
+    }
+
+    .ime img{
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        max-height: auto;
+        object-position: center;
+        padding: 0;
+    }
+
+    .abC{
+        background-color: white;
+        display: grid;
+        width: 360px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 1px 4px 0 rgb(0 0 0 /25%);
+        margin: 0 auto;
+    }
+}
