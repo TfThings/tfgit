@@ -8,6 +8,7 @@ import EsteroAll from '../StoredJsons/EsteroAll.json'
 import CardArray from './CardArray'
 import {Helmet, HelmetData} from 'react-helmet-async'
 import ServicesButton from './ServicesButton'
+import ActivitiesButton from './ActivitiesButton'
 
 
 const helmetData = new HelmetData({})
@@ -30,6 +31,7 @@ const Thingstodo = () => {
         <SearchHeader/>
         <div className='contents'>
             <ServicesButton/>
+            <ActivitiesButton/>
             <CardArray cityCollection={FortMyersAll} twoColumn={false} headerString="Top Things in" link={true}/>
             <CardArray cityCollection={FortMyersAll} rests={true} twoColumn={false} headerString="Top Restaurants in" link={true}/>
             {/* <CardArray cityCollection={FortMyersBeachAll} twoColumn={false} headerString="Top Things in" link={true}/> */}

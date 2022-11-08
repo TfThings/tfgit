@@ -4,7 +4,7 @@ import './ServicesButton.css'
 
 const ServicesButton = () => {
   return (
-    <Link to={"/services/"}>
+    <Link to={"/services"}>
         <div className='hed scale'>
             <img src={process.env.PUBLIC_URL + "/bannerImages/fortmyers-banner.jpg"} alt="Photogoeshere"/>
             <div className='hd'>

@@ -25,6 +25,7 @@ const Activities = () => {
   return (
     <div>
         <div className='apHeader'><h1>Activities</h1><img src={process.env.PUBLIC_URL + "/bannerImages/fortMyersBeachBanner.jpg"} alt="kfrjk"/></div>
+        <h1 className='apt'>Lee County Activities</h1>
         <div className='arholder'>
             <ul className='arow'>
                 <ActivityHolder/>

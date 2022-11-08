@@ -1,6 +1,7 @@
 .apHeader{
     margin: 0 auto;
     padding-top: 10px;
+    width: 100%;
 }
 
 .apHeader h1{
@@ -16,8 +17,16 @@
     margin-top: 25%;
     margin-left: 10%;
 
+
+
     /* margin-left: 20rem;
     margin-top: 24rem; */
+}
+
+.apt{
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
 .apHeader img{
