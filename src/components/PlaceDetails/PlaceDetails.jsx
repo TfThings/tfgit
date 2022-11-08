@@ -10,6 +10,7 @@ import EmailSect from '../EmailSect'
 import {Helmet, HelmetData} from 'react-helmet-async'
 import ServicesButton from '../ServicesButton'
 import BackButton from '../BackButton'
+import ActivitiesButton from '../ActivitiesButton'
 const PlaceDetails = ({place, cityCollection, index}) => {
 
     useEffect(() => {
@@ -27,7 +28,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
     const cityName = cityCollection.Attractions[0].city_name
 
     const soeTitle = place.name + " in " + cityName + ", Directions - Reviews and More"
-    const soeDesc = "Get Directions, Hours, Reviews and More about " + place.name + ". Find More Things Around " + place.name + " and In " + cityName + " All Hand Picked For You. Get Directions and More To " + place.address + "."
+    const soeDesc = "Get Directions, Hours, Reviews and More about " + place.name + ". Find More Things Around " + cityName + " All Hand Picked For You. Get Directions and More!"
     const soeLoc = "https://www.thingsflorida.com" + window.location.pathname
     const soeKeys = place.name + ", " + cityName + ", " + (isRest ? "Restaurant" : place.subtype[0].name) + ", " + "Top Things to do in"+ ", " + "reviews, " + "hours"
 
@@ -84,6 +85,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
         </div>
         <EmailSect isImprovement={true} place={place}/>
         <ServicesButton/>
+        <ActivitiesButton/>
         <FeaturedSection collection={cityCollection} subString={isRest ? "Restaurants" : "Things"} subCollection={isRest ? cityCollection.Restaurants : cityCollection.Attractions}/>
         <CardArray cityCollection={cityCollection} twoColumn={false} headerString={isRest ? "Other Restaurants in" : "Other Things in"} rests={isRest}/>
         <FeaturedSection collection={cityCollection} subString={!isRest ? "Restaurants" : "Things"} subCollection={!isRest ? cityCollection.Restaurants : cityCollection.Attractions}/>

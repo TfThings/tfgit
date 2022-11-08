@@ -9,6 +9,7 @@ import CardArray from './CardArray'
 import {Helmet, HelmetData} from 'react-helmet-async'
 import ServicesButton from './ServicesButton'
 import ActivitiesButton from './ActivitiesButton'
+import ShowcaseCard from './ShowcaseCard'
 
 
 const helmetData = new HelmetData({})
@@ -30,6 +31,7 @@ const Thingstodo = () => {
         </Helmet>
         <SearchHeader/>
         <div className='contents'>
+            <ShowcaseCard/>
             <ServicesButton/>
             <ActivitiesButton/>
             <CardArray cityCollection={FortMyersAll} twoColumn={false} headerString="Top Things in" link={true}/>

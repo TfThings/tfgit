@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const ActivitiesButton = () => {
   return (
-    <Link to='Activities'>
+    <Link to='/activities'>
     <div className='hed scale'>
         <img src={process.env.PUBLIC_URL + "/bannerImages/fortMyersBeachBanner.jpg"} alt="Photogoeshere"/>
         <div className='hd'>
