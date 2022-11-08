@@ -199,6 +199,11 @@ const Router = () => {
         {
             return cityToShow.PoolCleaning[placeIndex]
         }
+
+        if(sS == "Pavers")
+        {
+            return cityToShow.Pavers[placeIndex]
+        }
      }
   return (
     <>

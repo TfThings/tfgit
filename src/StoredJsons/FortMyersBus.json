@@ -1645,6 +1645,305 @@
             "phone": "Open 24 hours · (239) 240-5452",
             "website": "http://www.poolperfectioncc.com/contact.asp"
           }
-         
+    ],
+        
+    "Pavers":[
+        { 
+            "collection_type": "Pavers",
+            "city_name": "Fort Myers",
+            "banner_Image": "/bannerimages/PoolPaver.png",
+    
+            "FeaturedIndex0": 152,
+            "FeaturedIndex1": 157,
+            "FeaturedIndex2": 161,
+            "FeaturedIndex3": 141
+        },
+        {
+            "name": "Next Level Paver Company LLC",
+            "main_service": "Paving contractor",
+            "rating": "4.8",
+            "num_reviews": "154",
+            "age": "3+ years in business",
+            "phone": "(239) 800-5353",
+            "website": "https://nextlevelpaversllc.com/",
+            "contact_website": "https://nextlevelpaversllc.com/contact-us/",
+            "address": "906 SE 9th Terrace, Cape Coral, FL 33990",
+            "latitude": "26.63485874671467",
+            "longitude": "-81.95577200000001",
+            "description": "They are dedicated to the hardscape industry and customer satisfaction for 10 years. They understand your concerns regarding the maintenance and care of paver installations.",
+            "services": [
+                {
+                    "name": "Paver Installation"
+                },
+                {
+                    "name": "Paver Repair"
+                },
+                {
+                    "name": "Retaining Wall"
+                },
+                {
+                    "name": "Travertine Pavers"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://nextlevelpaversllc.com/wp-content/uploads/2021/06/elevation-transition.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Master Z Pavers Inc",
+            "main_service": "Paving contractor",
+            "rating": "4.8",
+            "num_reviews": "128",
+            "age": "10+ years in business",
+            "phone": "(239) 877-5447",
+            "website": "http://masterzpavers.com/",
+            "contact_website": "https://masterzpavers.com/contact/",
+            "address": "3212 Katherine St, Fort Myers, FL 33916",
+            "latitude": "26.627321774198524",
+            "longitude": "-81.84776143090473",
+            "description": "Master Z Pavers Inc. specialize in new and renovation installations for driveway, deck, patio, walkways and pool coping and tile. They have years of experience in renovations, new surfaces, brick pavers, coping & tile, custom water features & fountains, commercial and residential renovations, skilled craftsmen and excellent supervision.",
+            "services": [
+                {
+                    "name": "Paver Installation"
+                },
+                {
+                    "name": "Paver Repair"
+                },
+                {
+                    "name": "Retaining Wall"
+                },
+                {
+                    "name": "Travertine Pavers"
+                },
+                {
+                    "name": "Fountains"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://i0.wp.com/masterzpavers.com/wp-content/uploads/2020/05/Master-z-pavers-gallery-3.jpg?w=770&ssl=1",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Bastos Pavers Inc",
+            "main_service": "Paving contractor",
+            "rating": "4.6",
+            "num_reviews": "106",
+            "age": "15+ years in business",
+            "phone": "(239) 275-7283",
+            "website": "http://www.bastospavers.com/",
+            "contact_website": "http://bastospavers.com/contact/",
+            "address": "3251 Old Metro Parkway. Fort Myers, FL 33916",
+            "latitude": "26.61883239160535",
+            "longitude": "-81.85158127323272",
+            "description": "Bastos Pavers Inc. number one priority is and has always been customer satisfaction. Their team is made up of the best installers in the Lee County area and they aim to provide you with the best quality service every time you come to them for residential or commercial.",
+            "services": [
+                {
+                    "name": "Paver Installation"
+                },
+                {
+                    "name": "Paver Repair"
+                },
+                {
+                    "name": "Retaining Wall"
+                },
+                {
+                    "name": "Fire Pits"
+                },
+                {
+                    "name": "Summer Kitchen"
+                },
+                {
+                    "name": "Walk Ways"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "http://bastospavers.com/wp-content/uploads/revslider/home/home-slider_1-80.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Kingsway Paver Sealing & Pressure Cleaning",
+            "main_service": "Pressure washing service",
+            "rating": "4.9",
+            "num_reviews": "148",
+            "age": "7+ years in business",
+            "phone": "(239) 440-8245",
+            "website": "https://kingswaypaversealing.com/",
+            "contact_website": "https://kingswaypaversealing.com/contact-us",
+            "address": "1224 Allen St, Fort Myers, FL 33916",
+            "latitude": "26.654011550852765",
+            "longitude": "-81.85110120000002",
+            "description": "Kingsway is committed to serving their customers and their community with quality and value building and maintaining long term relationships. Their reputation with customers and their work speak for themselves. They are the #1 paver cleaning and sealing service in Fort Myers and the surrounding areas.",
+            "services": [
+                {
+                    "name": "Paver Cleaning"
+                },
+                {
+                    "name": "Power Sealing"
+                },
+                {
+                    "name": "Pressure Washing"
+                },
+                {
+                    "name": "Gutter Cleaning"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "https://kingswaypaversealing.com/wp-content/uploads/2022/04/Paver-Sealing-49.jpg",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "Platinum Pavers of SWFL",
+            "main_service": "Bricklayer",
+            "rating": "5",
+            "num_reviews": "257",
+            "age": "20+ years in business",
+            "phone": "(239) 316-4630",
+            "website": "https://platinumpavers.net/",
+            "contact_website": "https://platinumpavers.net/contact/",
+            "address": "Lehigh Acres, FL 33971",
+            "latitude": "26.61883239160535",
+            "longitude": "-81.85158127323272",
+            "description": "Their team of experts are extremely devoted to professionalism, customer service and quality workmanship with every project. Furthermore their commitment to quality is backed by a 100% warranty for workmanship and materials to insure a superb customer experience.  This is something you seldom get from other interlocking brick paver renovation companies.",
+            "services": [
+                {
+                    "name": "Paver Installation"
+                },
+                {
+                    "name": "Paver Repair"
+                },
+                {
+                    "name": "Paver Driveways"
+                },
+                {
+                    "name": "Pool Decks"
+                },
+                {
+                    "name": "Retain Walls"
+                }
+            ],
+            "photo": {
+                "images": {
+                    "large": {
+                        "width": "1024",
+                        "url": "/bannerimages/PoolPaver.png",
+                        "height": "682"
+                    }
+                },
+                "uploaded_date": "2014-10-14T17:02:55-0400",
+                "caption": ""
+            }
+          },
+          {
+            "name": "MFS Pavers Inc",
+            "main_service": "· Bricklayer",
+            "rating": 5,
+            "num_reviews": "(25)",
+            "age": "· (239) 703-2371",
+            "phone": "",
+            "website": "https://mfs-pavers-inc.business.site/?utm_source=gmb&utm_medium=referral",
+            "services": "companies"
+          },
+          {
+            "name": "Tropical Pavers & Stone",
+            "main_service": "· Swimming pool contractor",
+            "rating": 4.5,
+            "num_reviews": "(36)",
+            "age": "5+ years in business · Fort Myers, FL",
+            "phone": "· (239) 317-0444",
+            "website": "https://tropicalpaversandstone.com/",
+            "services": "Paving Contractors"
+          },
+          {
+            "name": "West Coast Pavers Inc",
+            "main_service": "· Masonry contractor",
+            "rating": 4.7,
+            "num_reviews": "(34)",
+            "age": "20+ years in business · Fort Myers, FL",
+            "phone": "· (239) 590-9834",
+            "website": "https://wcpavers.com/",
+            "services": ""
+          },
+          {
+            "name": "Tricircle Pavers",
+            "main_service": "· Manufacturer",
+            "rating": 3.8,
+            "num_reviews": "(60)",
+            "age": "Fort Myers, FL",
+            "phone": "· (239) 332-2325",
+            "website": "http://www.tricirclepavers.com/",
+            "services": ""
+          },
+          {
+            "name": "Perfect Paver Co",
+            "main_service": "· Paving contractor",
+            "rating": 4.9,
+            "num_reviews": "(74)",
+            "age": "3+ years in business · Estero, FL · In Estero Executive Center",
+            "phone": "· (239) 533-0035",
+            "website": "https://www.perfectpaverco.com/locations/naples-ft-myers-bonita-springs/",
+            "services": ""
+          },
+          {
+            "name": "Paver Protectors, Inc.",
+            "main_service": "· Paving contractor",
+            "rating": 4.9,
+            "num_reviews": "(660)",
+            "age": "10+ years in business · Fort Myers, FL",
+            "phone": "· (239) 288-0705",
+            "website": "https://www.paverprotectors.com/",
+            "services": "companies"
+          },
+          {
+            "name": "Xtreme Paver Sealers",
+            "main_service": "· Pressure washing service",
+            "rating": 5,
+            "num_reviews": "(25)",
+            "age": "3+ years in business · Cape Coral, FL",
+            "phone": "· (239) 984-5622",
+            "website": "https://xtremepaversealers.com/",
+            "services": "Pavers Contractors"
+          },
+          {
+            "name": "Advanced Pavers Corporation",
+            "main_service": "· Paving contractor",
+            "rating": 4.4,
+            "num_reviews": "(34)",
+            "age": "· (239) 822-1558",
+            "phone": "",
+            "website": "https://advancedpaversfl.com/",
+            "services": ""
+          }
     ]
 }

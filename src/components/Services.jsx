@@ -21,7 +21,7 @@ const Services = () => {
         return(
             <div className='shd'>
                 <div className='shit' onClick={() => setOpen(menuOpen == index ? 0 : index)}>
-                    <img src={subCollection[0].banner_Image} alt="Image Here"/>
+                    <img src={subCollection[0].banner_Image} alt="Image Goes Here"/>
                     <h1 className='sht'>{subCollection[0].collection_type}</h1>
                 </div>
                 <div className={`sdm ${index == menuOpen ? 'active scaleYIn' : 'inactive'}`}>
@@ -64,6 +64,7 @@ const Services = () => {
                 <ServiceHolder subCollection={FortMyersBus.Fencing} index={2}/>
                 <ServiceHolder subCollection={FortMyersBus.Poolcage} index={3}/>
                 <ServiceHolder subCollection={FortMyersBus.PoolCleaning} index={4}/>
+                <ServiceHolder subCollection={FortMyersBus.Pavers} index={5}/>
             </ul>
         </div>
     </div>
