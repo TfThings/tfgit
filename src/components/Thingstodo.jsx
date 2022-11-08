@@ -31,7 +31,7 @@ const Thingstodo = () => {
         </Helmet>
         <SearchHeader/>
         <div className='contents'>
-            <ShowcaseCard/>
+            {/* <ShowcaseCard/> */}
             <ServicesButton/>
             <ActivitiesButton/>
             <CardArray cityCollection={FortMyersAll} twoColumn={false} headerString="Top Things in" link={true}/>
