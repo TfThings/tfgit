@@ -19,7 +19,6 @@ const Router = () => {
 
     const location = useLocation()
 
-
     useEffect(() => {
         
     },[location])
@@ -34,25 +33,29 @@ const Router = () => {
         var newSt = ""
         var lastChar = ""
 
-        st.split("").map((char) => {
-
-            if(foundDat)
-            {
-                newSt = newSt + char
-            }
-
-            if(char == "=")
-            {
-                foundDat = true
-            }
-            
-            lastChar = char
-
-            // console.log("GETTING IT " + char)
-        })
+        newSt = location.search
 
         if(!newSt)
         {
+            st.split("").map((char) => {
+
+                if(foundDat)
+                {
+                    newSt = newSt + char
+                }
+    
+                if(char == "=")
+                {
+                    foundDat = true
+                }
+                
+                lastChar = char
+    
+                // console.log("GETTING IT " + char)
+            })
+        }
+
+        if(!newSt){
             return
         }
 

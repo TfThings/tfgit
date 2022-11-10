@@ -15,7 +15,7 @@ const Card = ({place, subCollection, index, cityName, twoColumn, spin}) => {
 
     return(
         <div className={spin ? "card spin" : "card"}>
-            <Link to={"/things/"+cityName+"/"+place.name+"="+datString}>
+            <Link to={"/things/"+cityName+"/"+place.name+"?"+datString}>
             {/* <Helmet prioritizeSeoTags>
                 <title>{place.name} Best Things in Florida</title>
                 <meta name="description" content={place.description}/>

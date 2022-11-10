@@ -26,7 +26,7 @@ const ServiceCard = ({place, index, subString}) => {
     return(
     <div className='sCard'>
         <div className='ribbon4'>{place.name}</div>
-        <Link onClick={handleClick} to={"/services/"+place.name+"="+datString}>
+        <Link onClick={handleClick} to={"/services/"+place.name+"?"+datString}>
             <img className='im' src={place.photo.images.large.url} alt="PhotoWasHere"/>
         </Link>
         <h2 className='ag'>{place.age}</h2>
@@ -46,7 +46,7 @@ const ServiceCard = ({place, index, subString}) => {
         </ul>
         <div className='bLow'>
             <button onClick={() => makeCall(place.phone)} className='lCon'>Call Business</button>
-            <Link className='lMore' onClick={handleClick} to={"/services/"+place.name+"="+datString}><button className='lMore'>Learn More</button></Link>
+            <Link className='lMore' onClick={handleClick} to={"/services/"+place.name+"?"+datString}><button className='lMore'>Learn More</button></Link>
         </div>
     </div>
     )

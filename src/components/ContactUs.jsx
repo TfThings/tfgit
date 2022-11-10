@@ -30,17 +30,12 @@ const ContactUs = () => {
                 <label className='sfemt'>Your Email</label>
                 <input className='sfem inpt' name='from_name' type='text' placeholder='Put Your Email Here...' required/>
                 <label className='sfemt'>Subject</label>
-                <input className='sfsub inpt' name='to_name' type='text' placeholder='Put Subject Of Message Here...'/>
+                <input className='sfsub inpt' name='to_name' type='text' placeholder='Put Subject of Message Here...'/>
                 <label className='sfemt'>Contact Number</label>
-                <input className='sfsub inpt' name='to_number' type='text' placeholder='Put a phone Number To Contact You at...'/>
+                <input className='sfsub inpt' name='to_number' type='text' placeholder='Put a Phone Number To Contact You at...'/>
                 <label className='sfemt'>Message</label>
                 <textarea className='sfbody inpt' name="message" placeholder='Leave a message here and press send!' required/>
                 <button className='embb' type="submit" value="Send">Send</button>
-                {/* <input className='sfbody' type='text' name='message' placeholder='Leave a message here then press send...' required/> */}
-                {/* <input className='hiddenTag' type='text' name='to_name' defaultValue={"VALUEHERE"} /> */}
-                    {/* <textarea name="message" placeholder='Leave a message here and press send!'/> */}
-                {/* <input type='text' name='message' placeholder='Leave a message here then press send...' required/>
-                <button type="submit" value="Send">Send</button> */}
             </form>
         </div>
         <BackButton/>

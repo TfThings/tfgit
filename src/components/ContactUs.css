@@ -14,12 +14,15 @@
 .sby .sfbt{
     font-size: 1.5rem;
     text-decoration: underline;
-    color: rgba(21, 113, 193, 0.929);
+    color: white;
+    background-color: #ffd32a;
+    border-radius: 7px;
+    height: 40px;
 }
 
 .sby .sbyd{
     border-bottom: 2px solid rgba(108, 108, 108, 0.169);
-    color: rgba(24, 110, 186, 0.929);
+    color: black;
     font-size: .85rem;
     padding: 3px;
 }
