@@ -22,10 +22,10 @@ const Card = ({place, subCollection, index, cityName, twoColumn, spin}) => {
             </Helmet> */}
             <div className='header'>
                 <img src={place.photo ? place.photo.images.large.url : assets.capeCoral1} alt="kfwfw"/>
-                <div className={twoColumn ? 'ribbon4Two' : 'ribbon4'}>#{place.ranking_position}/{place.ranking_denominator}</div>
-                <div className={twoColumn ? 'ratingCircletwoColumn' : 'ratingCircle'}><span><FaStar/></span><h1>{place.rating}</h1></div>
+                <div className='ribbon4 rRating'>#{place.ranking_position}/{place.ranking_denominator}</div>
+                <div className='ratingCircle'><span><FaStar/></span><h2>{place.rating}</h2></div>
             </div>
-            <h1 className='title'>{place.name}</h1>
+            <h2 className='ribbon4 rTitle'>{place.name}</h2>
             <div className='footer'> </div>
             </Link>
         </div>

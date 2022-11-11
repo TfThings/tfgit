@@ -5,7 +5,7 @@ import './CardArray.css'
 
 const CardArray = ({cityCollection, twoColumn, rests, headerString, link}) => {
 
-    const [displayCount, setCount] = useState(5)
+    const [displayCount, setCount] = useState(3)
 
     const cityName = cityCollection.Attractions[0].city_name
 

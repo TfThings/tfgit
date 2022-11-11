@@ -21,7 +21,7 @@ const Services = () => {
         return(
             <div className='shd'>
                 <div className='shit' onClick={() => setOpen(menuOpen == index ? 0 : index)}>
-                    <img src={subCollection[0].banner_Image} alt="Image Goes Here"/>
+                    <img src={subCollection[0].banner_Image} style={{width: '200px', height: '200px'}} alt="Image Goes Here"/>
                     <h1 className='sht'>{subCollection[0].collection_type}</h1>
                 </div>
                 <div className={`sdm ${index == menuOpen ? 'active scaleYIn' : 'inactive'}`}>

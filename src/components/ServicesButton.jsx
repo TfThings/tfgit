@@ -9,7 +9,7 @@ const ServicesButton = () => {
             <img src={process.env.PUBLIC_URL + "/bannerImages/fortmyers-banner.jpg"} alt="Photogoeshere"/>
             <div className='hd'>
                 <h2 className='cr'>Now Showing</h2>
-                <h1 className='cer'>Lee County Services</h1>
+                <h2 className='cer'>Lee County Services</h2>
             </div>
             <button className='bsb'>View Services</button>
         </div>

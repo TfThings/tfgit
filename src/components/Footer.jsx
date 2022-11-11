@@ -52,7 +52,7 @@ const Footer = () => {
                     </div>
                     <div className='connectwith'>
                         <div className='connect'>
-                            <h1>CONNECT WITH US</h1>
+                            <h2>CONNECT WITH US</h2>
                             <div className='socials'>
                                 <a href='https://www.instagram.com/thingsflorida/?hl=en'><GrInstagram/></a>
                                 <a href='https://www.facebook.com/ThingsFlorida'><FaFacebookSquare/></a>
@@ -63,7 +63,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='bottom'>
-                    <h1><span><GiPalmTree/></span>2022 ThingsFlorida, Inc. All rights reserved.</h1>
+                    <h2><span><GiPalmTree/></span>2022 ThingsFlorida, Inc. All rights reserved.</h2>
                     <div className='copy'>
                         {/* <ul>
                             <li><a href='#'>Privacy Policy</a></li>

@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='container'>
-        <Link to="/"><h1 className='navTitle'><span>Things<GiPalmTree/></span>Florida</h1></Link>
+        <Link to="/"><h2 className='navTitle'><span>Things<GiPalmTree/></span>Florida</h2></Link>
             {/* <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 
                 <li><Link to="/things">Find Things</Link></li>

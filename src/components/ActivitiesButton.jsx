@@ -8,7 +8,7 @@ const ActivitiesButton = () => {
         <img src={process.env.PUBLIC_URL + "/bannerImages/fortMyersBeachBanner.jpg"} alt="Photogoeshere"/>
         <div className='hd'>
             <h2 className='cr'>Now Showing</h2>
-            <h1 className='cer'>Lee County Activities</h1>
+            <h2 className='cer'>Lee County Activities</h2>
         </div>
         <button className='bsb'>View Activities</button>
     </div>

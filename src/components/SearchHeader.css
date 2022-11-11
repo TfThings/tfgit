@@ -89,6 +89,7 @@
 
     .searchheader{
         height: 30vh;
+        width: auto;
     }
     
     .searchheader h1{

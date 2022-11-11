@@ -3,7 +3,7 @@
     padding: 0rem;
     border: none;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    border-radius: .25rem;
+    border-radius: 8px;
     overflow: hidden;
     max-height: 300px;
 }
@@ -64,15 +64,25 @@
 }
 
 .ribbon4 {
-    position: absolute;
-    margin-top: -160px;
     padding: 8px 10px;
     background: #00B3ED;
     box-shadow: -1px 2px 3px rgba(0,0,0,.3);
     border-radius: 0px 5px 5px 0px;
     color: white;
-    
   }
+
+  .rTitle{
+    margin-top: -10px;
+    height: 60px;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .rRating{
+    position: absolute;
+    margin-top: -180px;
+  }
+
   .ribbon4:before, .ribbon4:after {
     content: "";
     position: absolute;
@@ -100,56 +110,31 @@
     
    }
 
-   .ratingCircletwoColumn{
+   .ratingCircle{
+    background-color:rgba(0, 0, 0, 0.137);
     position:absolute;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     margin-top: -180px;
     margin-left: 530px;
-    background-color: #00B3ED;
     /* box-shadow: 0 4px 0px 0px rgba(46, 46, 46, 0.25); */
     text-align:center;
+    color: yellow;
    }
 
-   .ratingCircle{
-    background-color:rgba(0, 0, 0, 0.05);
-    position:absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-top: -160px;
-    margin-left: 240px;
-    /* box-shadow: 0 4px 0px 0px rgba(46, 46, 46, 0.25); */
-    text-align:center;
-   }
-
-   .ratingCircle h1{
+   .ratingCircle h2{
     color: yellow;
     margin-top: -1px;
-    font-size: 1.2rem;
+    font-size: 1.9rem;
    }
 
    .ratingCircle span{
     color: yellow;
     position: relative;
-    left: 15px;
+    left: 22px;
     top: 2px;
-    font-size: 1.3rem;
-   }
-
-   .ratingCircletwoColumn h1{
-    color: yellow;
-    margin-top: 3px;
-    font-size: 1.3rem;
-   }
-
-   .ratingCircletwoColumn span{
-    color: yellow;
-    position: relative;
-    left: 19px;
-    top: 4px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
    }
 
 .ribbon4Two a{
@@ -193,6 +178,17 @@
 
    @media all and (max-width: 600px){
 
+
+    .card .header > img{
+      display: block;
+      width: 200px;
+      height: 200px;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      object-position: center;
+      padding: 0px;
+  }
+
     .card .title{
       font-size: .9rem;
       width: 100%;
@@ -200,27 +196,41 @@
     }
 
     .ribbon4 {
-      margin-top: -90px;
       padding: 1px 10px;
     }
 
-    .ribbon4Two {
-      margin-top: -90px;
-      padding: 1px 10px;
+    .rTitle{
+      position: relative;
+      height: 50px auto;
+      margin-top: -40px;
+      text-align: center;
+      border-radius: 0px;
+      box-shadow: -1px 2px 20px rgba(0,0,0,.3);
+      background-color: #0fbcf9;
+      font-size: 1.2rem;
+    }
+
+    .rRating{
+      margin-top: -190px;
     }
 
     .ratingCircle{
-      margin-left: 115px;
-      margin-top: -95px;
+      width: 50px;
+      height: 50px;
+      margin-left: 120px;
+      margin-top: -190px;
     }
 
-    .ratingCircletwoColumn{
-      margin-left: 110px;
-      margin-top: -95px;
-      width: 60px;
-      height: 60px;
-      background-color:rgba(0, 0, 0, 0.05);
-    }
+    .ratingCircle h2{
+      margin-top: -1px;
+      font-size: 1.7rem;
+     }
+  
+     .ratingCircle span{
+      left: 15px;
+      top: 2px;
+      font-size: 1.5rem;
+     }
   }
 
   @keyframes spin{

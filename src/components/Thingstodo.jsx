@@ -28,6 +28,7 @@ const Thingstodo = () => {
             <meta name='og:url' content="https://www.thingsflorida.com"/>
             <meta name='og:image' content="https://www.thingsflorida.com/bannerimages/fortMyersBeachBanner.jpg"/>
             <meta name='og:desc' content="Find The Best Things To Do in all of Florida with the best hand picked collection for you. Find The Best Things in Fort Myers, Naples, Cape Coral, Estero and More."/>
+            <meta name='og:description' content="Find The Best Things To Do in all of Florida with the best hand picked collection for you. Find The Best Things in Fort Myers, Naples, Cape Coral, Estero and More."/>
         </Helmet>
         <SearchHeader/>
         <div className='contents'>
