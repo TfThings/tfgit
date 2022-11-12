@@ -8,7 +8,7 @@ import NaplesAll from '../StoredJsons/NaplesAll.json'
 import EsteroAll from '../StoredJsons/EsteroAll.json'
 import FortMyersBus from '../StoredJsons/FortMyersBus.json'
 import {Thingstodo, PlaceDetails, CityDetails, Services, ServiceDetails, ContactUs, Activities} from "./index"
-
+import SiteMapGen from './SiteMapGen';
 const Router = () => {
 
     var [cityToShowString, setCity] = useState('')
@@ -224,6 +224,7 @@ const Router = () => {
             <Route index element={<Thingstodo/>}/>
             <Route path=":id/:id" element={<PlaceDetails place={currentPlaceObject} cityCollection={cityToShow}/>}/>
         </Route>
+        {/* <Route path="/sitemapGen" element={<SiteMapGen/>}/> */}
     </Routes>
     </>
   )

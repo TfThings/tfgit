@@ -10,40 +10,46 @@ const SiteMapGen = () => {
 
     var ss = ""
 
-    var ob = {}
+    const GetLinks = ({subCollection}) => {
+        var cityName = subCollection[0].city_name
 
-    const GetLinks = (collection) => {
-        var cityName = collection.Attractions[0].city_name
-
-        collection.Attractions.map((place, i) => {
-            const datString ="-c:"+cityName+"-s:"+"Attractions"+"-i:"+i
-            const urlS = "https://www.thingsflorida.com/things/"+cityName+"/"+place.name+place.address+"="+datString
+        return(
+        subCollection.map((place, i) => {
+          if(place && place.location_id != "34230" && place.photo && place.description != "")
+          {
+            const datString ="-c:"+cityName+"-s:"+subCollection[0].collection_type+"-i:"+i
+            const urlS = "https://www.thingsflorida.com/things/"+cityName+"/"+place.name+"?"+datString
             const f = urlS.split(' ').join('%20');
-            ss = ss + 
-            "<url>" +
-            "<loc>" + f + "</loc>" +
-            "<lastmod>2022-10-23T23:12:38+00:00</lastmod>" +
-            "<changefreq>monthly</changefreq>" +
-            "<priority>0.7</priority>" + 
-            "</url>"
+            ss = f
+            return(
+              <>
+              <div>
+              <p>{"<url>"}</p>
+              <p>{"<loc>" + ss + "</loc>"}</p>
+              <p>{"<lastmod>" + "2022-11-11T15:12:38+00:00" + "</lastmod>"}</p>
+              <p>{"<changefreq>" + "monthly" + "</changefreq>"}</p>
+              <p>{"<priority>" + "0.7" + "</priority>"}</p>
+              <p>{"</url>"}</p>
+              </div>
+              </>
+            )
+          }
         })
-
-        // collection.Restaurants.map((place, i) => {
-        //     const datString ="-c:"+cityName+"-s:"+"Restaurants"+"-i:"+i
-        //     const urlS = "https://www.thingsflorida.com/things/"+cityName+"/"+place.name+place.address+"="+datString
-        //     const f = urlS.split(' ').join('%20');
-        //     ss = ss + " <url> <loc>" + f + "</loc> <lastmod>2022-10-23T23:12:38+00:00</lastmod> <changefreq>monthly</changefreq> <priority>0.7</priority> </url> "
-        // })
-        
+        )
     }
 
   return (
     <>
-    {GetLinks(FortMyersAll)}
-    {GetLinks(CapeCoralAll)}
-    {GetLinks(NaplesAll)}
-    {GetLinks(EsteroAll)}
-    {console.log(FortMyersAll)}
+    <div>
+      <GetLinks subCollection={FortMyersAll.Attractions}/>
+      <GetLinks subCollection={FortMyersAll.Restaurants}/>
+      <GetLinks subCollection={CapeCoralAll.Attractions}/>
+      <GetLinks subCollection={CapeCoralAll.Restaurants}/>
+      <GetLinks subCollection={NaplesAll.Attractions}/>
+      <GetLinks subCollection={NaplesAll.Restaurants}/>
+      <GetLinks subCollection={EsteroAll.Attractions}/>
+      <GetLinks subCollection={EsteroAll.Restaurants}/>
+    </div>
     </>
   )
 }

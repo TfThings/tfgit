@@ -16,7 +16,6 @@ const Manager = () => {
         <Navbar/>
         <Router/>
         <Footer/>
-        {/* <SiteMapGen/> */}
         </>
     )
 }
