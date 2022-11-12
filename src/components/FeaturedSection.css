@@ -1,10 +1,12 @@
 .boxlist{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0px;
+    flex-flow: row;
+    gap: 5px;
+    /* justify-content: space-around; */
+    padding: 5px;
     margin: 0;
     list-style: none;
+    overflow-x: scroll;
 }
 
 /* .boxlist .box{
