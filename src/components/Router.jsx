@@ -33,25 +33,25 @@ const Router = () => {
         var newSt = ""
         var lastChar = ""
 
-        newSt = location.search
+        newSt = decodeURI(location.search)
 
         if(!newSt)
         {
             st.split("").map((char) => {
 
-                if(foundDat)
-                {
-                    newSt = newSt + char
-                }
-    
                 if(char == "=")
                 {
                     foundDat = true
                 }
+
+                if(foundDat)
+                {
+                    newSt = newSt + char
+                }
                 
                 lastChar = char
     
-                // console.log("GETTING IT " + char)
+                // console.log("GETTING IT " + newSt)
             })
         }
 
@@ -65,9 +65,9 @@ const Router = () => {
 
         if(newSt != "")
         {
-        newSt.split("").map(char => {
+            newSt.split("").map(char => {
             
-            if(lc == ":")
+            if(lc == "=")
             {
                 t = true
             }
@@ -103,6 +103,8 @@ const Router = () => {
         cityToShowString = decodeURI(cS)
 
         placeIndex = ii
+
+        // console.log("READ IT " + cityToShowString + " " + placeIndex)
     }
 
     const SetCityCollection = () => {
