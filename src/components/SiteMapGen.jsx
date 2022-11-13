@@ -19,7 +19,7 @@ const SiteMapGen = () => {
         subCollection.map((place, i) => {
           if(place && place.location_id != "34230" && place.photo && place.description != "")
           {
-            const datString ="-c="+cityName+"-s="+subCollection[0].collection_type+"-i="+i
+            const datString ="-"+cityName+"-"+subCollection[0].collection_type+"-"+i
             const urlS = cityName == "Services" ? suf+place.name+"?"+datString : suf+cityName+"/"+place.name+"?"+datString
             const f = urlS.split(' ').join('%20');
             ss = f
@@ -28,7 +28,7 @@ const SiteMapGen = () => {
               <div>
               <p>{"<url>"}</p>
               <p>{"<loc>" + ss + "</loc>"}</p>
-              <p>{"<lastmod>" + "2022-11-11T15:12:38+00:00" + "</lastmod>"}</p>
+              <p>{"<lastmod>" + "2022-11-12T20:12:38+00:00" + "</lastmod>"}</p>
               <p>{"<changefreq>" + "monthly" + "</changefreq>"}</p>
               <p>{"<priority>" + priority + "</priority>"}</p>
               <p>{"</url>"}</p>

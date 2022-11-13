@@ -5,7 +5,7 @@ import './FeatureCard.css'
 
 const FeaturedCard = ({place, cityName, index, subCollection}) => {
     
-    const datString ="-c="+cityName+"-s="+subCollection+"-i="+index
+    const datString ="-"+cityName+"-"+subCollection+"-"+index
   
     return (
     <div className='featurecard'>

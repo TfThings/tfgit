@@ -39,7 +39,7 @@ const Router = () => {
         {
             st.split("").map((char) => {
 
-                if(char == "=")
+                if(char == "-")
                 {
                     foundDat = true
                 }
@@ -50,8 +50,6 @@ const Router = () => {
                 }
                 
                 lastChar = char
-    
-                // console.log("GETTING IT " + newSt)
             })
         }
 
@@ -67,7 +65,7 @@ const Router = () => {
         {
             newSt.split("").map(char => {
             
-            if(lc == "=")
+            if(lc == "-")
             {
                 t = true
             }

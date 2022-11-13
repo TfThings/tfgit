@@ -30,7 +30,7 @@ const CardArray = ({cityCollection, twoColumn, rests, headerString, link}) => {
                     }) }
                 </ul>
                
-               {link ? <Link to={"/thingsin/="+cityCollection.Attractions[1].address_obj.city}> <button className='more'>
+               {link ? <Link to={"/thingsin/-"+cityCollection.Attractions[1].address_obj.city}> <button className='more'>
                 VIEW ALL {rests ? "RESTAURANTS" : "THINGS"} IN {cityName}
                 </button></Link> :
                  <button className='more' onClick={() => {showMoreClick()}}>
