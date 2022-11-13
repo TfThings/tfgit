@@ -12,14 +12,6 @@
     font-size: 2.5rem;
 }
 
-.thingContainer{
-   
-}
-
-.container{
-    /* background-color: white; */
-}
-
 .image{
     width: auto;
     height: auto;
@@ -47,14 +39,6 @@
     margin: 0 auto;
 }
 
-.aboutContainer .header h1{
-    font-size: 2.5rem;
-    /* text-decoration: underline; */
-    margin-left: 10px;
-    margin-top: 5px;
-    width: 700px;
-}
-
 .icon{
     width: 70px;
     height: 70px;
@@ -75,7 +59,7 @@
     
 }
 
-.icon h1{
+.icon h2{
     padding-top: 40px;
 }
 
@@ -100,7 +84,7 @@
 .details .row{
     margin-top: 60px;
     position: relative;
-    right: 110px;
+    right: 0px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -121,12 +105,12 @@
 
 .aboutContainer .desc{
     text-align: left;
-    margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.aboutContainer .desc h1{
+.aboutContainer .desc h2{
     font-size: 2rem;
+    margin-left: 20px;
 }
 
 .aboutContainer .improve{
@@ -140,23 +124,21 @@
     padding:8px;
     color: white;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
 }
 
 .box span{
-    display: flex;
-    align-items: center;
     gap: 10px;
-    padding-left: 5px;
-    /* text-align: left; */
+    margin-left: 5px;
 }
 
 .box.phone{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
-.box.phone h1{
-    top: 0;
-    left: 13px;
+.box.phone h2{
+    margin: auto;
 }
 
 .box.website{
@@ -167,34 +149,31 @@
     padding-left: 0px;
 }
 
-.box.website h1{
-    top: 0px;
-    left: 40px;
+.box.website h2{
+    margin: auto;
 }
 
-.box.address h1{
-    top: -30px;
-    left: 30px;
+.box.address h2{
     width: 200px;
+    margin-left: 15px;
     font-size:.9rem;
 }
 
 .box.address span{
     font-size: 1.6rem;
-    position: relative;
-    right: 4px;
-    top: 2px;
-    
 }
 
-.box h1{
+.box h2{
     color: white; 
 }
 
 .pdd{
     background-color: rgba(198, 198, 198, 0.37);
     border-radius: 8px;
+    margin: auto;
     padding: 10px;
+    font-size: 1rem;
+    width: 95%;
 }
 
 .desc{
@@ -282,13 +261,9 @@
         top: 15px;
     }
 
-    .icon h1{
+    .icon h2{
         padding-top: 35px;
         font-size: .9rem;
-    }
-
-    .aboutContainer .header h1{
-        width: 300px;
     }
 
     .aboutContainer .icons{   
@@ -308,7 +283,8 @@
     }
 
     .aboutContainer .desc h2{
-        font-size: .9rem;
+        font-size: 2rem;
         max-width: 320px;
+        margin-left: 10px;
     }
 }

@@ -219,9 +219,10 @@ const Router = () => {
         <Route path="/activities" element={<Activities/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/services/:id' element={<ServiceDetails place={currentPlaceObject}/>}/>
-        <Route path='/thingsin/:id' element={<CityDetails cityCollection={cityToShow}/>}/>
+        {/* <Route path='/thingsin/:id' element={<CityDetails cityCollection={cityToShow}/>}/> */}
         <Route path="/things">
             <Route index element={<Thingstodo/>}/>
+            <Route path=':id' element={<CityDetails cityCollection={cityToShow}/>}/>
             <Route path=":id/:id" element={<PlaceDetails place={currentPlaceObject} cityCollection={cityToShow}/>}/>
         </Route>
         {/* <Route path="/sitemapGen" element={<SiteMapGen/>}/> */}

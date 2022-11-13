@@ -18,7 +18,6 @@ const ActivityHolder = ({subCollection}) => {
 
 const GoToExternalSite = () => {
     window.location.href = 'https://www.fullthrottlexotics.com/contact'
-    console.log("YES")
 }
 
 const Activities = () => {

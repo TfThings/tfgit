@@ -38,7 +38,7 @@
     font-size: 1.5rem;
 }
 
-.bx.phone h1{
+.bx.phone h2{
     top: 0;
     left: 13px;
 }
@@ -51,12 +51,12 @@
     padding-left: 0px;
 }
 
-.bx.website h1{
+.bx.website h2{
     top: 0px;
     left: 40px;
 }
 
-.bx.address h1{
+.bx.address h2{
     top: -30px;
     left: 30px;
     width: 200px;
@@ -71,7 +71,7 @@
     
 }
 
-.bx h1{
+.bx h2{
     color: white; 
 }
 

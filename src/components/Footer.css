@@ -145,21 +145,19 @@
 .bottom{
     display: flex;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: white;
 }
 
 .bottom span{
     color: #2a7de3;
     font-size: 1.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .bottom h2{
     display: flex;
     align-items:center;
+    gap: 5px;
     font-size: 1rem;
     color: gray;
 }

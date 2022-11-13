@@ -41,9 +41,9 @@ const InfoArray = ({place}) => {
 
   return (
     <div className='row'>
-        <button onClick={() => makeCall(place.phone)} className='box phone blue'><span><HiPhoneOutgoing/><h1>{place.phone}</h1></span></button>
-        <a href={place.website} target="_blank" rel="noreferrer noopener" className='box website red'><span><BsBoxArrowUpRight/><h1>Visit Website</h1></span></a>
-        <button onClick={() => openMobileMap(place)} className='box address orange'><span><FaMapMarkerAlt/></span><h1>{place.address}</h1></button>
+        <button onClick={() => makeCall(place.phone)} className='box phone blue'><span><HiPhoneOutgoing/></span><h2>{place.phone}</h2></button>
+        <a href={place.website} target="_blank" rel="noreferrer noopener" className='box website red'><span><BsBoxArrowUpRight/></span><h2>Visit Website</h2></a>
+        <button onClick={() => openMobileMap(place)} className='box address orange'><span><FaMapMarkerAlt/></span><h2>{place.address}</h2></button>
     </div>
   )
 }

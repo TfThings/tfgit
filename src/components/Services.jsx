@@ -55,6 +55,7 @@ const Services = () => {
             <meta name='og:url' content={soeLoc}/>
             <meta name='og:image' content={process.env.PUBLIC_URL + "/bannerImages/fortmyers-banner.jpg"}/>
             <meta name='og:desc' content={soeDesc}/>
+            <meta name='og:description' content={soeDesc}/>
         </Helmet>
         <div className='pHeader'><h1>Services</h1><img src={process.env.PUBLIC_URL + "/bannerImages/fortmyers-banner.jpg"} alt="kfrjk"/></div>
         <h2 className='st'>Lee County Services</h2>

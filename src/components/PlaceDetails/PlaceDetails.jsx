@@ -46,6 +46,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
             <meta name='og:url' content={soeLoc}/>
             <meta name='og:image' content={place.photo.images.large.url}/>
             <meta name='og:desc' content={place.description}/>
+            <meta name='og:description' content={place.description}/>
     </Helmet>
         {selfUpdate()}
         <div className='thing'>
@@ -57,28 +58,18 @@ const PlaceDetails = ({place, cityCollection, index}) => {
                         <div className='aboutContainer'>
                             <div className='ribbon4'><h1>{place.name}</h1></div>
                             <div className='icons'>
-                                <div className='icon rating yellow'><span>{place.rating ? place.rating : "N/A"}</span><h1>Rating</h1></div>
-                                <div className='icon review orange'><span>{place.num_reviews ? place.num_reviews : "N/A"}</span><h1>Review Amount</h1></div>
-                                <div className='icon blue'><span>#{place.ranking_position ? place.ranking_position : "N/A"}</span><h1>Ranking</h1></div>
-                                <div className='icon green'><span>YES</span><h1>is open</h1></div>
+                                <div className='icon rating yellow'><span>{place.rating ? place.rating : "N/A"}</span><h2>Rating</h2></div>
+                                <div className='icon review orange'><span>{place.num_reviews ? place.num_reviews : "N/A"}</span><h2>Review Amount</h2></div>
+                                <div className='icon blue'><span>#{place.ranking_position ? place.ranking_position : "N/A"}</span><h2>Ranking</h2></div>
+                                <div className='icon green'><span>YES</span><h2>is open</h2></div>
                             </div>
                             <div className='details'>
                                 <InfoArray place={place}/>
-                                {/* <div className='catrow'>
-                                    <div><h1>{place.subcategory[0].name}</h1></div>
-                                    <div><h1>{isRest ? "" : place.subtype[0].name}</h1></div>
-                                </div> */}
                             </div>
                             <div className='desc'>
-                                <h1>About</h1>
-                                <h2 className='pdd'>{place.description}</h2>
+                                <h2>About</h2>
+                                <p className='pdd'>{place.description}</p>
                             </div>
-                            {/* <div className='hours'>
-                                <h1>Hours</h1>
-                            </div> */}
-                            {/* <div className='improve'>
-                                <h1>IMPROVE LISTING</h1>
-                            </div> */}
                         </div>
                     </div>    
             </section>

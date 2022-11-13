@@ -33,6 +33,7 @@ const CityDetails = ({cityCollection}) => {
             <meta name='og:url' content={soeLoc}/>
             <meta name='og:image' content={soeImage}/>
             <meta name='og:desc' content={soeDesc}/>
+            <meta name='og:description' content={soeDesc}/>
         </Helmet>
         <div className='pageHeader'><h1>{cityName}</h1><img src={`${cityCollection.Attractions[0].banner_Image}`} alt="kfrjk"/></div>
         <div className='contents'>
