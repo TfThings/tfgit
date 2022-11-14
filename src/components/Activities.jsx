@@ -1,6 +1,7 @@
 import React from 'react'
 import './Activities.css'
 import assets from '../assets'
+import BackButton from './BackButton'
 
 const ActivityHolder = ({subCollection}) => {
     return(
@@ -30,6 +31,7 @@ const Activities = () => {
                 <ActivityHolder/>
             </ul>
         </div>
+        <BackButton/>
     </div>
   )
 }
