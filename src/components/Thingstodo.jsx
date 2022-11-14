@@ -23,7 +23,7 @@ const Thingstodo = () => {
             <link rel="canonical" hreflang="en" href="https://www.thingsflorida.com" />
             <link rel="alternate" hreflang="en" href="https://www.thingsflorida.com"/>
             <meta name="keywords" content="Florida, Top Things, To Do, Fort Myers, Naples, Cape Coral, Estero, Fort Myers Beach"/>
-            <meta name='og:title' content="Find the Best Things to do in Florida Near You"/>
+            <meta name='og:title' content="Find the Best Top 15 Things to do in Florida Near You"/>
             <meta name='og:type' content="website"/>
             <meta name='og:url' content="https://www.thingsflorida.com"/>
             <meta name='og:image' content="https://www.thingsflorida.com/bannerimages/fortMyersBeachBanner.jpg"/>

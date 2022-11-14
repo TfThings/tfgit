@@ -59,42 +59,46 @@ const Router = () => {
 
         var lc = ''
         var t = false
-        var sI = 0
 
         if(newSt != "")
         {
+            var sI = 0
+
             newSt.split("").map(char => {
             
-            if(lc == "-")
+            if(sI < 3)
             {
-                t = true
-            }
-
-            if(char == "-" && t)
-            {
-                t = false
-                sI ++
-            }
-
-            if(t)
-            {
-                if(sI == 0)
+                if(lc == "-")
                 {
-                    cS = cS + char
+                    t = true
                 }
 
-                if(sI == 1)
+                if(char == "-" && t)
                 {
-                    sS = sS + char
+                    t = false
+                    sI ++
                 }
 
-                if(sI == 2)
+                if(t)
                 {
-                    ii = ii + char
-                }
-            }
+                    if(sI == 0)
+                    {
+                        cS = cS + char
+                    }
 
-            lc = char
+                    if(sI == 1)
+                    {
+                        sS = sS + char
+                    }
+
+                    if(sI == 2)
+                    {
+                        ii = ii + char
+                    }
+                }
+
+                lc = char
+        }
         })
     }
 

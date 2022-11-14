@@ -11,7 +11,7 @@ const Card = ({place, subCollection, index, cityName, twoColumn, spin}) => {
     // if(!place.photo) {return}
     // if(place.description == "") {return}
 
-    const datString ="-"+cityName+"-"+subCollection+"-"+index
+    const datString ="-"+cityName+"-"+subCollection+"-"+index+"-"
 
     return(
         <div className={spin ? "card spin" : "card"}>
