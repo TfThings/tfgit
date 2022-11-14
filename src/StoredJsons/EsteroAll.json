@@ -2,6 +2,7 @@
     "Attractions":[
         { 
             "collection_type": "Attractions",
+            "collectionParentName": "Estero",
             "city_name": "Estero",
             "banner_Image": "/bannerimages/EsteroBanner.jpg",
     
@@ -5238,6 +5239,7 @@
     "Restaurants":[
         { 
             "collection_type": "Restaurants",
+            "collectionParentName": "Estero",
             "city_name": "Estero",
     
             "FeaturedIndex0": 1,

@@ -2,6 +2,7 @@
     "Attractions":[
         { 
             "collection_type": "Attractions",
+            "collectionParentName": "FortMyersBeach",
             "city_name": "Fort Myers Beach",
             "banner_Image": "/bannerimages/fortMyersBeachBanner.jpg",
     
@@ -5503,6 +5504,7 @@
     "Restaurants":[
         { 
             "collection_type": "Restaurants",
+            "collectionParentName": "FortMyersBeach",
             "city_name": "Fort Myers Beach",
 
             "FeaturedIndex0": 1,

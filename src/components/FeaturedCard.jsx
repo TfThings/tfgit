@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import assets from '../assets'
 import './FeatureCard.css'
 
-const FeaturedCard = ({place, cityName, index, subCollection}) => {
+const FeaturedCard = ({place, cityName, index, subCollection, collectionPName}) => {
     
-    const datString ="-"+cityName+"-"+subCollection+"-"+index+"-"
+    const datString ="-"+collectionPName+"-"+subCollection+"-"+index+"-"
   
     return (
     <div className='featurecard'>

@@ -24,13 +24,13 @@ const CardArray = ({cityCollection, twoColumn, rests, headerString, link}) => {
                         if(place && place.location_id != "34230" && place.photo && place.description != "")
                         {
                        return(
-                       <Card twoColumn={twoColumn} place={place} subCollection={rests ? "Restaurants" : "Attractions"} cityName={cityName} key={i} index= {i} spin={ri == 1 ? true : false }/>
+                       <Card twoColumn={twoColumn} place={place} subCollection={rests ? "Restaurants" : "Attractions"} cityName={cityName} collectionPName={cityCollection.Attractions[0].collectionParentName} key={i} index= {i} spin={ri == 1 ? true : false }/>
                     )
                        }
                     }) }
                 </ul>
                
-               {link ? <Link to={"/things/-"+cityCollection.Attractions[1].address_obj.city}> <button className='more'>
+               {link ? <Link to={"/things/-"+cityCollection.Attractions[0].collectionParentName}> <button className='more'>
                 VIEW ALL {rests ? "RESTAURANTS" : "THINGS"} IN {cityName}
                 </button></Link> :
                  <button className='more' onClick={() => {showMoreClick()}}>

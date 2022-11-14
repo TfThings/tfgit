@@ -2,6 +2,7 @@
     "Roofing":[
         { 
             "collection_type": "Roofing",
+            "collectionParentName": "Roofing",
             "city_name": "Fort Myers",
             "banner_Image": "/bannerimages/roofing-banner00.jpg",
     
@@ -438,6 +439,7 @@
     "Fencing":[
         { 
             "collection_type": "Fencing",
+            "collectionParentName": "Fencing",
             "city_name": "Fort Myers",
             "banner_Image": "/bannerimages/fencing-banner00.jpg",
     
@@ -923,6 +925,7 @@
     "Poolcage":[
         { 
             "collection_type": "Pool Cages",
+            "collectionParentName": "PoolCages",
             "city_name": "Fort Myers",
             "banner_Image": "/bannerimages/poolcage-banner00.jpg",
     
@@ -1349,6 +1352,7 @@
     "PoolCleaning":[
         { 
             "collection_type": "Pool Cleaning",
+            "collectionParentName": "PoolCleaning",
             "city_name": "Fort Myers",
             "banner_Image": "/bannerimages/pool-cleaning-banner00.jpg",
     
@@ -1650,6 +1654,7 @@
     "Pavers":[
         { 
             "collection_type": "Pavers",
+            "collectionParentName": "Pavers",
             "city_name": "Fort Myers",
             "banner_Image": "/bannerimages/PoolPaver.png",
     

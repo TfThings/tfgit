@@ -102,7 +102,7 @@ const Router = () => {
         })
     }
 
-        cityToShowString = decodeURI(cS)
+        cityToShowString = cS
 
         placeIndex = ii
 
@@ -125,19 +125,19 @@ const Router = () => {
             return
         }
         
-        if(cityToShowString == 'Fort Myers')
+        if(cityToShowString == 'FortMyers' || cityToShowString == 'Fort Myers')
         {
             cityToShow = FortMyersAll
             return
         }
 
-        if(cityToShowString == 'Fort Myers Beach')
+        if(cityToShowString == 'FortMyersBeach')
         {
             cityToShow = FortMyersBeachAll
             return
         }
 
-        if(cityToShowString == 'Cape Coral')
+        if(cityToShowString == 'CapeCoral' || cityToShowString == 'Cape Coral')
         {
             cityToShow = CapeCoralAll
             return
@@ -197,12 +197,12 @@ const Router = () => {
             
         }
 
-        if(sS == "Pool Cages")
+        if(sS == "PoolCages" || sS == "Pool Cages")
         {
             return cityToShow.Poolcage[placeIndex]
         }
 
-        if(sS == "Pool Cleaning")
+        if(sS == "PoolCleaning" || sS == "Pool Cleaning")
         {
             return cityToShow.PoolCleaning[placeIndex]
         }

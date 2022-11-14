@@ -2,6 +2,7 @@
     "Attractions":[
         { 
             "collection_type": "Attractions",
+            "collectionParentName": "Naples",
             "city_name": "Naples",
             "banner_Image": "/bannerimages/naplesBanner.jpg",
     
@@ -19075,6 +19076,7 @@
     "Restaurants":[
         { 
             "collection_type": "Restaurants",
+            "collectionParentName": "Naples",
             "city_name": "Naples",
     
             "FeaturedIndex0": 1,

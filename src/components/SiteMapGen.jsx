@@ -15,11 +15,12 @@ const SiteMapGen = () => {
 
       var suf = cityName == "Services" ? "https://www.thingsflorida.com/Services/" : "https://www.thingsflorida.com/things/"
 
+      var subCollectionName = cityName == "Services" ? subCollection[0].collectionParentName : subCollection[0].collection_type
         return(
         subCollection.map((place, i) => {
           if(place && place.location_id != "34230" && place.photo && place.description != "")
           {
-            const datString ="-"+cityName+"-"+subCollection[0].collection_type+"-"+i+"-"
+            const datString ="-"+cityName+"-"+subCollectionName+"-"+i+"-"
             const urlS = cityName == "Services" ? suf+place.name+"?"+datString : suf+cityName+"/"+place.name+"?"+datString
             const f = urlS.split(' ').join('%20');
             ss = f
@@ -28,7 +29,7 @@ const SiteMapGen = () => {
               <div>
               <p>{"<url>"}</p>
               <p>{"<loc>" + ss + "</loc>"}</p>
-              <p>{"<lastmod>" + "2022-11-13T12:12:38+00:00" + "</lastmod>"}</p>
+              <p>{"<lastmod>" + "2022-11-13T17:12:38+00:00" + "</lastmod>"}</p>
               <p>{"<changefreq>" + "monthly" + "</changefreq>"}</p>
               <p>{"<priority>" + priority + "</priority>"}</p>
               <p>{"</url>"}</p>
@@ -48,14 +49,14 @@ const SiteMapGen = () => {
       <GetLinks subCollection={FortMyersBus.Poolcage} cityName="Services" priority="0.8"/>
       <GetLinks subCollection={FortMyersBus.PoolCleaning} cityName="Services" priority="0.8"/>
       <GetLinks subCollection={FortMyersBus.Pavers} cityName="Services" priority="0.8"/>
-      <GetLinks subCollection={FortMyersAll.Attractions} cityName={FortMyersAll.Attractions[0].city_name} priority="0.7"/>
-      <GetLinks subCollection={FortMyersAll.Restaurants} cityName={FortMyersAll.Restaurants[0].city_name} priority="0.7"/>
-      <GetLinks subCollection={CapeCoralAll.Attractions} cityName={CapeCoralAll.Attractions[0].city_name} priority="0.7"/>
-      <GetLinks subCollection={CapeCoralAll.Restaurants} cityName={CapeCoralAll.Restaurants[0].city_name} priority="0.7"/>
-      <GetLinks subCollection={NaplesAll.Attractions} cityName={NaplesAll.Attractions[0].city_name} priority="0.7"/>
-      <GetLinks subCollection={NaplesAll.Restaurants} cityName={NaplesAll.Restaurants[0].city_name} priority="0.7"/>
-      <GetLinks subCollection={EsteroAll.Attractions} cityName={EsteroAll.Attractions[0].city_name} priority="0.7"/>
-      <GetLinks subCollection={EsteroAll.Restaurants} cityName={EsteroAll.Restaurants[0].city_name} priority="0.7"/>
+      <GetLinks subCollection={FortMyersAll.Attractions} cityName={FortMyersAll.Attractions[0].collectionParentName} priority="0.7"/>
+      <GetLinks subCollection={FortMyersAll.Restaurants} cityName={FortMyersAll.Restaurants[0].collectionParentName} priority="0.7"/>
+      <GetLinks subCollection={CapeCoralAll.Attractions} cityName={CapeCoralAll.Attractions[0].collectionParentName} priority="0.7"/>
+      <GetLinks subCollection={CapeCoralAll.Restaurants} cityName={CapeCoralAll.Restaurants[0].collectionParentName} priority="0.7"/>
+      <GetLinks subCollection={NaplesAll.Attractions} cityName={NaplesAll.Attractions[0].collectionParentName} priority="0.7"/>
+      <GetLinks subCollection={NaplesAll.Restaurants} cityName={NaplesAll.Restaurants[0].collectionParentName} priority="0.7"/>
+      <GetLinks subCollection={EsteroAll.Attractions} cityName={EsteroAll.Attractions[0].collectionParentName} priority="0.7"/>
+      <GetLinks subCollection={EsteroAll.Restaurants} cityName={EsteroAll.Restaurants[0].collectionParentName} priority="0.7"/>
     </div>
     </>
   )

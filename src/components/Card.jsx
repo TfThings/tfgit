@@ -4,14 +4,14 @@ import assets from '../assets'
 import {Link} from "react-router-dom";
 import './Card.css'
 
-const Card = ({place, subCollection, index, cityName, twoColumn, spin}) => {
+const Card = ({place, subCollection, index, cityName, collectionPName, spin}) => {
     
     // if(!place){return}
     // if(place.location_id == "34230"){return}
     // if(!place.photo) {return}
     // if(place.description == "") {return}
 
-    const datString ="-"+cityName+"-"+subCollection+"-"+index+"-"
+    const datString ="-"+collectionPName+"-"+subCollection+"-"+index+"-"
 
     return(
         <div className={spin ? "card spin" : "card"}>

@@ -2,6 +2,7 @@
     "Activities":[
         {
             "collection_type": "Activities",
+            "collectionParentName": "FortMyers",
             "city_name": "Lee County",
             "banner_Image": "/bannerimages/fortMyersBeachBanner.jpg",
 

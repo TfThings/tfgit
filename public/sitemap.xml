@@ -3,50 +3,50 @@
 <url>
 <loc>https://www.thingsflorida.com/</loc>
 <lastmod>2022-10-23T23:12:38+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://www.thingsflorida.com/things/-FortMyers</loc>
+<lastmod>2022-11-11T23:12:38+00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://www.thingsflorida.com/things/-Fort%20Myers</loc>
+<loc>https://www.thingsflorida.com/things/-CapeCoral</loc>
 <lastmod>2022-11-11T23:12:38+00:00</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://www.thingsflorida.com/things/-Cape%20Coral</loc>
-<lastmod>2022-11-11T23:12:38+00:00</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
 <loc>https://www.thingsflorida.com/things/-Naples</loc>
 <lastmod>2022-11-11T23:12:38+00:00</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
 <loc>https://www.thingsflorida.com/things/-Estero</loc>
 <lastmod>2022-11-11T23:12:38+00:00</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
 <loc>https://www.thingsflorida.com/services/</loc>
 <lastmod>2022-11-11T23:12:38+00:00</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.8</priority>
+<priority>0.9</priority>
 </url>
 
 <url>
 
 <loc>https://www.thingsflorida.com/Services/Storm%20Team%20Construction%20INC.?-Services-Roofing-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -58,7 +58,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Total%20Home%20Roofing?-Services-Roofing-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -70,7 +70,7 @@
 
 <loc>https://www.thingsflorida.com/Services/MHI%20Roofing%20Florida?-Services-Roofing-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -82,7 +82,7 @@
 
 <loc>https://www.thingsflorida.com/Services/MooreCorp%20Roofing%20INC.?-Services-Roofing-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -94,7 +94,7 @@
 
 <loc>https://www.thingsflorida.com/Services/ROOFING%20NATION%20LLC?-Services-Roofing-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -106,7 +106,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Rams%20Roofing%20LLC?-Services-Roofing-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -118,7 +118,7 @@
 
 <loc>https://www.thingsflorida.com/Services/AFFORDABLE%20ROOFING?-Services-Roofing-7-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -130,7 +130,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Florida%20Fence%20Pro's%20LLC?-Services-Fencing-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -140,9 +140,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/Superior%20Fence%20%20Rail?-Services-Fencing-2-</loc>
+<loc>https://www.thingsflorida.com/Services/Superior%20Fence%20&%20Rail?-Services-Fencing-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -154,7 +154,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Zavala%20Fences%20Inc?-Services-Fencing-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -164,9 +164,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/All%20American%20Fence%20%20Gate?-Services-Fencing-4-</loc>
+<loc>https://www.thingsflorida.com/Services/All%20American%20Fence%20&%20Gate?-Services-Fencing-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -178,7 +178,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Smith%20Fence%20Company%20of%20Fort%20Myers?-Services-Fencing-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -190,7 +190,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Tropical%20Fence?-Services-Fencing-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -202,7 +202,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Revolution%20Fence%20Company?-Services-Fencing-7-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -214,7 +214,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Sunstate%20Fence?-Services-Fencing-8-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -224,21 +224,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/Ron's%20Custom%20Screen%20Inc?-Services-Pool%20Cages-1-</loc>
+<loc>https://www.thingsflorida.com/Services/Ron's%20Custom%20Screen%20Inc?-Services-PoolCages-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
-
-<changefreq>monthly</changefreq>
-
-<priority>0.8</priority>
-
-</url>
-
-<url>
-
-<loc>https://www.thingsflorida.com/Services/Cape%20Coral%20Screen%20%20Vinyl%20a%20division%20of%20Florida’s%20Best%20Aluminum?-Services-Pool%20Cages-2-</loc>
-
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -248,21 +236,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/Premier%20Pool%20Enclosures?-Services-Pool%20Cages-3-</loc>
+<loc>https://www.thingsflorida.com/Services/Cape%20Coral%20Screen%20&%20Vinyl%20a%20division%20of%20Florida’s%20Best%20Aluminum?-Services-PoolCages-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
-
-<changefreq>monthly</changefreq>
-
-<priority>0.8</priority>
-
-</url>
-
-<url>
-
-<loc>https://www.thingsflorida.com/Services/Arrow%20Screen%20Repair%20-%20Pool%20Enclosure%20or%20Lanai%20Screen%20Repair%20%20Rescreening?-Services-Pool%20Cages-4-</loc>
-
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -272,21 +248,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/R.%20Townsend%20Rescreens%20,%20Inc.?-Services-Pool%20Cages-5-</loc>
+<loc>https://www.thingsflorida.com/Services/Premier%20Pool%20Enclosures?-Services-PoolCages-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
-
-<changefreq>monthly</changefreq>
-
-<priority>0.8</priority>
-
-</url>
-
-<url>
-
-<loc>https://www.thingsflorida.com/Services/Re-Screening%20Pro?-Services-Pool%20Cages-6-</loc>
-
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -296,21 +260,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/ABC%20Screen%20Masters%20Inc?-Services-Pool%20Cages-7-</loc>
+<loc>https://www.thingsflorida.com/Services/Arrow%20Screen%20Repair%20-%20Pool%20Enclosure%20or%20Lanai%20Screen%20Repair%20&%20Rescreening?-Services-PoolCages-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
-
-<changefreq>monthly</changefreq>
-
-<priority>0.8</priority>
-
-</url>
-
-<url>
-
-<loc>https://www.thingsflorida.com/Services/Gulfstream%20Pool%20Care?-Services-Pool%20Cleaning-1-</loc>
-
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -320,21 +272,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/Swordfish%20Pool%20Service?-Services-Pool%20Cleaning-2-</loc>
+<loc>https://www.thingsflorida.com/Services/R.%20Townsend%20Rescreens%20,%20Inc.?-Services-PoolCages-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
-
-<changefreq>monthly</changefreq>
-
-<priority>0.8</priority>
-
-</url>
-
-<url>
-
-<loc>https://www.thingsflorida.com/Services/MyPoolExperts?-Services-Pool%20Cleaning-3-</loc>
-
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -344,9 +284,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/Pool%20Doctor%20Service%20%20Supplies%20Inc.?-Services-Pool%20Cleaning-4-</loc>
+<loc>https://www.thingsflorida.com/Services/Re-Screening%20Pro?-Services-PoolCages-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -356,9 +296,69 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/Laguna%20Blue%20Pool%20Maintenance?-Services-Pool%20Cleaning-5-</loc>
+<loc>https://www.thingsflorida.com/Services/ABC%20Screen%20Masters%20Inc?-Services-PoolCages-7-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>
+
+<url>
+
+<loc>https://www.thingsflorida.com/Services/Gulfstream%20Pool%20Care?-Services-PoolCleaning-1-</loc>
+
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>
+
+<url>
+
+<loc>https://www.thingsflorida.com/Services/Swordfish%20Pool%20Service?-Services-PoolCleaning-2-</loc>
+
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>
+
+<url>
+
+<loc>https://www.thingsflorida.com/Services/MyPoolExperts?-Services-PoolCleaning-3-</loc>
+
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>
+
+<url>
+
+<loc>https://www.thingsflorida.com/Services/Pool%20Doctor%20Service%20&%20Supplies%20Inc.?-Services-PoolCleaning-4-</loc>
+
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.8</priority>
+
+</url>
+
+<url>
+
+<loc>https://www.thingsflorida.com/Services/Laguna%20Blue%20Pool%20Maintenance?-Services-PoolCleaning-5-</loc>
+
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -370,7 +370,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Next%20Level%20Paver%20Company%20LLC?-Services-Pavers-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -382,7 +382,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Master%20Z%20Pavers%20Inc?-Services-Pavers-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -394,7 +394,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Bastos%20Pavers%20Inc?-Services-Pavers-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -404,9 +404,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/Services/Kingsway%20Paver%20Sealing%20%20Pressure%20Cleaning?-Services-Pavers-4-</loc>
+<loc>https://www.thingsflorida.com/Services/Kingsway%20Paver%20Sealing%20&%20Pressure%20Cleaning?-Services-Pavers-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -418,7 +418,7 @@
 
 <loc>https://www.thingsflorida.com/Services/Platinum%20Pavers%20of%20SWFL?-Services-Pavers-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -428,9 +428,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Edison%20and%20Ford%20Winter%20Estates?-Fort%20Myers-Attractions-1-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Edison%20and%20Ford%20Winter%20Estates?-FortMyers-Attractions-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -440,9 +440,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Six%20Mile%20Cypress%20Slough%20Preserve?-Fort%20Myers-Attractions-2-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Six%20Mile%20Cypress%20Slough%20Preserve?-FortMyers-Attractions-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -452,9 +452,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Fort%20Myers%20River%20District?-Fort%20Myers-Attractions-3-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Fort%20Myers%20River%20District?-FortMyers-Attractions-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -464,9 +464,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/McGregor%20Boulevard?-Fort%20Myers-Attractions-4-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/McGregor%20Boulevard?-FortMyers-Attractions-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -476,9 +476,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/IMAG%20History%20%20Science%20Center?-Fort%20Myers-Attractions-5-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/IMAG%20History%20&%20Science%20Center?-FortMyers-Attractions-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -488,9 +488,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Fleamasters%20Fleamarket?-Fort%20Myers-Attractions-6-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Fleamasters%20Fleamarket?-FortMyers-Attractions-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -500,9 +500,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Florida%20Repertory%20Theatre?-Fort%20Myers-Attractions-7-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Florida%20Repertory%20Theatre?-FortMyers-Attractions-7-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -512,9 +512,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Edison%20Park?-Fort%20Myers-Attractions-8-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Edison%20Park?-FortMyers-Attractions-8-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -524,9 +524,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Butterfly%20Estates?-Fort%20Myers-Attractions-9-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Butterfly%20Estates?-FortMyers-Attractions-9-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -536,9 +536,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/List%20Distillery?-Fort%20Myers-Attractions-10-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/List%20Distillery?-FortMyers-Attractions-10-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -548,9 +548,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Centennial%20Park?-Fort%20Myers-Attractions-11-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Centennial%20Park?-FortMyers-Attractions-11-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -560,9 +560,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Edison%20Mall?-Fort%20Myers-Attractions-12-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Edison%20Mall?-FortMyers-Attractions-12-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -572,9 +572,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Calusa%20Nature%20Center%20and%20Planetarium?-Fort%20Myers-Attractions-13-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Calusa%20Nature%20Center%20and%20Planetarium?-FortMyers-Attractions-13-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -584,9 +584,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/North%20Shore%20Park?-Fort%20Myers-Attractions-14-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/North%20Shore%20Park?-FortMyers-Attractions-14-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -596,9 +596,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Sidney%20%20Berne%20Davis%20Art%20Center?-Fort%20Myers-Attractions-15-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Sidney%20&%20Berne%20Davis%20Art%20Center?-FortMyers-Attractions-15-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -608,9 +608,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Southern%20Fresh%20Farms?-Fort%20Myers-Attractions-16-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Southern%20Fresh%20Farms?-FortMyers-Attractions-16-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -620,9 +620,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Florida%20Native%20Butterfly%20Society?-Fort%20Myers-Attractions-17-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Florida%20Native%20Butterfly%20Society?-FortMyers-Attractions-17-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -632,9 +632,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Coastal%20Dayz%20Brewery?-Fort%20Myers-Attractions-18-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Coastal%20Dayz%20Brewery?-FortMyers-Attractions-18-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -644,9 +644,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Burroughs%20Home%20%20Gardens?-Fort%20Myers-Attractions-19-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Burroughs%20Home%20&%20Gardens?-FortMyers-Attractions-19-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -656,9 +656,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Millennial%20Brewing%20%20Co?-Fort%20Myers-Attractions-20-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Millennial%20Brewing%20%20Co?-FortMyers-Attractions-20-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -668,9 +668,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Alliance%20for%20the%20Arts?-Fort%20Myers-Attractions-22-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Alliance%20for%20the%20Arts?-FortMyers-Attractions-22-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -680,9 +680,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Another%20Time?-Fort%20Myers-Attractions-25-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Another%20Time?-FortMyers-Attractions-25-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -692,9 +692,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Caloosa%20Sound%20Convention%20Center%20%20Amphitheater?-Fort%20Myers-Attractions-26-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Caloosa%20Sound%20Convention%20Center%20&%20Amphitheater?-FortMyers-Attractions-26-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -704,9 +704,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Fort%20Myers%20Skatium?-Fort%20Myers-Attractions-32-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Fort%20Myers%20Skatium?-FortMyers-Attractions-32-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -716,9 +716,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/The%20Forum?-Fort%20Myers-Attractions-34-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/The%20Forum?-FortMyers-Attractions-34-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -728,9 +728,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Murder%20Mystery%20Dinner%20Train?-Fort%20Myers-Attractions-48-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Murder%20Mystery%20Dinner%20Train?-FortMyers-Attractions-48-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -740,9 +740,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Extreme%20Rage%20Paintball%20Park%20of%20Fort%20Myers?-Fort%20Myers-Attractions-55-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Extreme%20Rage%20Paintball%20Park%20of%20Fort%20Myers?-FortMyers-Attractions-55-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -752,9 +752,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Fowler%20Firearms%20and%20Gun%20Range?-Fort%20Myers-Attractions-63-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Fowler%20Firearms%20and%20Gun%20Range?-FortMyers-Attractions-63-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -764,9 +764,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Top%20Golf?-Fort%20Myers-Attractions-64-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Top%20Golf?-FortMyers-Attractions-64-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -776,9 +776,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Cornog%20Plaza?-Fort%20Myers-Attractions-65-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Cornog%20Plaza?-FortMyers-Attractions-65-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -788,9 +788,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Fort%20Myers:%20An%20Alternative%20History%20Mural?-Fort%20Myers-Attractions-67-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Fort%20Myers:%20An%20Alternative%20History%20Mural?-FortMyers-Attractions-67-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -800,9 +800,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Fort%20Myers%20Historical%20Marker?-Fort%20Myers-Attractions-69-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Fort%20Myers%20Historical%20Marker?-FortMyers-Attractions-69-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -812,9 +812,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Florida%20Panther%20Installation?-Fort%20Myers-Attractions-70-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Florida%20Panther%20Installation?-FortMyers-Attractions-70-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -824,9 +824,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Buckingham%20%20Page%20Army%20Air%20Fields%20Monument?-Fort%20Myers-Attractions-71-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Buckingham%20&%20Page%20Army%20Air%20Fields%20Monument?-FortMyers-Attractions-71-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -836,9 +836,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Tarpon%20Street%20Pier?-Fort%20Myers-Attractions-73-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Tarpon%20Street%20Pier?-FortMyers-Attractions-73-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -848,9 +848,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/The%20Laboratory%20Theater?-Fort%20Myers-Attractions-77-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/The%20Laboratory%20Theater?-FortMyers-Attractions-77-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -860,9 +860,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Florida%20Boxing%20Hall%20Of%20Fame%20Museum?-Fort%20Myers-Attractions-96-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Florida%20Boxing%20Hall%20Of%20Fame%20Museum?-FortMyers-Attractions-96-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -872,9 +872,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Lakes%20Regional%20Park?-Fort%20Myers-Attractions-100-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Lakes%20Regional%20Park?-FortMyers-Attractions-100-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -884,9 +884,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/JetBlue%20Park?-Fort%20Myers-Attractions-101-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/JetBlue%20Park?-FortMyers-Attractions-101-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -896,9 +896,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/CenturyLink%20Sports%20Complex%20-%20Hammond%20Stadium?-Fort%20Myers-Attractions-102-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/CenturyLink%20Sports%20Complex%20-%20Hammond%20Stadium?-FortMyers-Attractions-102-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -908,9 +908,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Railroad%20Museum%20of%20South%20Florida?-Fort%20Myers-Attractions-103-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Railroad%20Museum%20of%20South%20Florida?-FortMyers-Attractions-103-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -920,9 +920,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Gannon's%20Antiques%20%20Art?-Fort%20Myers-Attractions-104-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Gannon's%20Antiques%20&%20Art?-FortMyers-Attractions-104-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -932,9 +932,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Gulf%20Coast%20Town%20Center?-Fort%20Myers-Attractions-105-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Gulf%20Coast%20Town%20Center?-FortMyers-Attractions-105-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -944,9 +944,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/John%20Yarbrough%20Linear%20Park?-Fort%20Myers-Attractions-107-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/John%20Yarbrough%20Linear%20Park?-FortMyers-Attractions-107-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -956,9 +956,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Barbara%20B%20Mann%20Performing%20Arts%20Hall?-Fort%20Myers-Attractions-108-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Barbara%20B%20Mann%20Performing%20Arts%20Hall?-FortMyers-Attractions-108-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -968,9 +968,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Suncoast%20Credit%20Union%20Arena?-Fort%20Myers-Attractions-109-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Suncoast%20Credit%20Union%20Arena?-FortMyers-Attractions-109-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -980,9 +980,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Alico%20Arena?-Fort%20Myers-Attractions-110-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Alico%20Arena?-FortMyers-Attractions-110-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -992,9 +992,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Wa-Ke%20Hatchee%20Recreation%20Center?-Fort%20Myers-Attractions-111-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Wa-Ke%20Hatchee%20Recreation%20Center?-FortMyers-Attractions-111-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1004,9 +1004,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Florida%20Gulf%20Coast%20University%20Art%20Galleries?-Fort%20Myers-Attractions-119-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Florida%20Gulf%20Coast%20University%20Art%20Galleries?-FortMyers-Attractions-119-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1016,9 +1016,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/PopStroke?-Fort%20Myers-Attractions-141-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/PopStroke?-FortMyers-Attractions-141-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1028,9 +1028,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/HeadPinz?-Fort%20Myers-Attractions-144-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/HeadPinz?-FortMyers-Attractions-144-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1040,9 +1040,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Regal%20Gulf%20Coast?-Fort%20Myers-Attractions-147-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Regal%20Gulf%20Coast?-FortMyers-Attractions-147-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1052,9 +1052,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Art4wear.%20Art%20And%20Fashion?-Fort%20Myers-Attractions-148-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Art4wear.%20Art%20And%20Fashion?-FortMyers-Attractions-148-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1064,9 +1064,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/University%20Village%20Shops%20%20Dining?-Fort%20Myers-Attractions-152-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/University%20Village%20Shops%20&%20Dining?-FortMyers-Attractions-152-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1076,9 +1076,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Looking%20Glass%20Fort%20Myers?-Fort%20Myers-Attractions-153-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Looking%20Glass%20Fort%20Myers?-FortMyers-Attractions-153-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1088,9 +1088,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Fort%20Myers%20Mighty%20Mussels?-Fort%20Myers-Attractions-154-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Fort%20Myers%20Mighty%20Mussels?-FortMyers-Attractions-154-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1100,9 +1100,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Dave%20%20Buster's?-Fort%20Myers-Attractions-157-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Dave%20&%20Buster's?-FortMyers-Attractions-157-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1112,9 +1112,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Castle%20Golf?-Fort%20Myers-Attractions-158-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Castle%20Golf?-FortMyers-Attractions-158-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1124,9 +1124,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Sky%20Zone%20Trampoline%20Park?-Fort%20Myers-Attractions-159-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Sky%20Zone%20Trampoline%20Park?-FortMyers-Attractions-159-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1136,9 +1136,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Spinz?-Fort%20Myers-Attractions-160-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Spinz?-FortMyers-Attractions-160-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1148,9 +1148,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Sky%20Zone%20Trampoline%20Park%20at%20The%20Forum?-Fort%20Myers-Attractions-161-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Sky%20Zone%20Trampoline%20Park%20at%20The%20Forum?-FortMyers-Attractions-161-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1160,9 +1160,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/GameTime?-Fort%20Myers-Attractions-162-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/GameTime?-FortMyers-Attractions-162-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1172,9 +1172,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Revolution%20Cable%20Park?-Fort%20Myers-Attractions-163-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Revolution%20Cable%20Park?-FortMyers-Attractions-163-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1184,9 +1184,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Wisteria%20Tea%20Room%20%20Cafe?-Fort%20Myers-Restaurants-1-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Wisteria%20Tea%20Room%20&%20Cafe?-FortMyers-Restaurants-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1196,9 +1196,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/KJ's%20Steakhouse?-Fort%20Myers-Restaurants-2-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/KJ's%20Steakhouse?-FortMyers-Restaurants-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1208,9 +1208,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Mina's%20Bistro?-Fort%20Myers-Restaurants-3-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Mina's%20Bistro?-FortMyers-Restaurants-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1220,9 +1220,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Downtown%20House%20of%20Pizza?-Fort%20Myers-Restaurants-4-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Downtown%20House%20of%20Pizza?-FortMyers-Restaurants-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1232,9 +1232,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Oasis%20Restaurant?-Fort%20Myers-Restaurants-5-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Oasis%20Restaurant?-FortMyers-Restaurants-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1244,9 +1244,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/The%20Veranda?-Fort%20Myers-Restaurants-6-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/The%20Veranda?-FortMyers-Restaurants-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1256,9 +1256,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/McGregor%20Cafe?-Fort%20Myers-Restaurants-7-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/McGregor%20Cafe?-FortMyers-Restaurants-7-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1268,9 +1268,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Farmers%20Market%20Restaurant?-Fort%20Myers-Restaurants-8-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Farmers%20Market%20Restaurant?-FortMyers-Restaurants-8-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1280,9 +1280,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Izzy's%20Fish%20and%20Oyster?-Fort%20Myers-Restaurants-10-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Izzy's%20Fish%20and%20Oyster?-FortMyers-Restaurants-10-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1292,9 +1292,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Capone's%20Coal%20Fired%20Pizza?-Fort%20Myers-Restaurants-11-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Capone's%20Coal%20Fired%20Pizza?-FortMyers-Restaurants-11-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1304,9 +1304,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Ford's%20Garage?-Fort%20Myers-Restaurants-12-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Ford's%20Garage?-FortMyers-Restaurants-12-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1316,9 +1316,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Cabos%20Cantina%20Taco%20%20Tequila%20Bar?-Fort%20Myers-Restaurants-13-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Cabos%20Cantina%20Taco%20&%20Tequila%20Bar?-FortMyers-Restaurants-13-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1328,9 +1328,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Kings%20Kitchen%20and%20Bar?-Fort%20Myers-Restaurants-16-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Kings%20Kitchen%20and%20Bar?-FortMyers-Restaurants-16-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1340,9 +1340,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Sasse's?-Fort%20Myers-Restaurants-17-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Sasse's?-FortMyers-Restaurants-17-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1352,9 +1352,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/The%20Lodge?-Fort%20Myers-Restaurants-18-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/The%20Lodge?-FortMyers-Restaurants-18-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1364,9 +1364,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Texas%20Roadhouse?-Fort%20Myers-Restaurants-19-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Texas%20Roadhouse?-FortMyers-Restaurants-19-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1376,9 +1376,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Cristof’s%20on%20McGregor?-Fort%20Myers-Restaurants-20-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Cristof’s%20on%20McGregor?-FortMyers-Restaurants-20-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1388,9 +1388,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/La%20Trattoria%20Cafe%20Napoli?-Fort%20Myers-Restaurants-21-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/La%20Trattoria%20Cafe%20Napoli?-FortMyers-Restaurants-21-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1400,9 +1400,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/India’s%20Grill?-Fort%20Myers-Restaurants-23-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/India’s%20Grill?-FortMyers-Restaurants-23-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1412,9 +1412,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Famous%20Dave's%20Bar-B-Que?-Fort%20Myers-Restaurants-24-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Famous%20Dave's%20Bar-B-Que?-FortMyers-Restaurants-24-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1424,9 +1424,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Pinchers?-Fort%20Myers-Restaurants-25-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Pinchers?-FortMyers-Restaurants-25-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1436,9 +1436,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Kebab%20Village?-Fort%20Myers-Restaurants-26-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Kebab%20Village?-FortMyers-Restaurants-26-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1448,9 +1448,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/The%20Firestone%20Grill%20Room,%20Martini%20Bar%20%20Skybar?-Fort%20Myers-Restaurants-27-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/The%20Firestone%20Grill%20Room,%20Martini%20Bar%20&%20Skybar?-FortMyers-Restaurants-27-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1460,9 +1460,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Miller's%20Ale%20House%20-%20Ft%20Myers?-Fort%20Myers-Restaurants-28-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Miller's%20Ale%20House%20-%20Ft%20Myers?-FortMyers-Restaurants-28-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1472,9 +1472,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/The%20Standard?-Fort%20Myers-Restaurants-29-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/The%20Standard?-FortMyers-Restaurants-29-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1484,9 +1484,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Nauti%20Parrot%20Tiki%20Hut?-Fort%20Myers-Restaurants-32-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Nauti%20Parrot%20Tiki%20Hut?-FortMyers-Restaurants-32-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1496,9 +1496,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Whiskey%20Creek%20Station?-Fort%20Myers-Restaurants-33-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Whiskey%20Creek%20Station?-FortMyers-Restaurants-33-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1508,9 +1508,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Bullig%20Coffee%20and%20Bites?-Fort%20Myers-Restaurants-34-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Bullig%20Coffee%20and%20Bites?-FortMyers-Restaurants-34-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1520,9 +1520,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Iguana%20Mia%20of%20Fort%20Myers?-Fort%20Myers-Restaurants-35-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Iguana%20Mia%20of%20Fort%20Myers?-FortMyers-Restaurants-35-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1532,9 +1532,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/BurgerQuE?-Fort%20Myers-Restaurants-36-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/BurgerQuE?-FortMyers-Restaurants-36-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1544,9 +1544,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Schnitzel%20Express%20Florida?-Fort%20Myers-Restaurants-37-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Schnitzel%20Express%20Florida?-FortMyers-Restaurants-37-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1556,9 +1556,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Bangkok%20Thai%20Restaurant?-Fort%20Myers-Restaurants-38-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Bangkok%20Thai%20Restaurant?-FortMyers-Restaurants-38-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1568,9 +1568,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/First%20Watch?-Fort%20Myers-Restaurants-41-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/First%20Watch?-FortMyers-Restaurants-41-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1580,9 +1580,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/The%20Mix%20Italian%20Grill?-Fort%20Myers-Restaurants-42-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/The%20Mix%20Italian%20Grill?-FortMyers-Restaurants-42-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1592,9 +1592,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/European%20American%20Bakery%20Cafe?-Fort%20Myers-Restaurants-45-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/European%20American%20Bakery%20Cafe?-FortMyers-Restaurants-45-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1604,9 +1604,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Anchor%20In%20Bar%20and%20Grill?-Fort%20Myers-Restaurants-49-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Anchor%20In%20Bar%20and%20Grill?-FortMyers-Restaurants-49-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1616,9 +1616,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/McGregor%20Pizza%20%20Deli%20Co?-Fort%20Myers-Restaurants-50-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/McGregor%20Pizza%20&%20Deli%20Co?-FortMyers-Restaurants-50-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1628,9 +1628,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/City%20Tavern?-Fort%20Myers-Restaurants-51-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/City%20Tavern?-FortMyers-Restaurants-51-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1640,9 +1640,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/10%20Twenty%20Five%20Downtown%20Fort%20Myers?-Fort%20Myers-Restaurants-52-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/10%20Twenty%20Five%20Downtown%20Fort%20Myers?-FortMyers-Restaurants-52-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1652,9 +1652,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Joe's%20Crab%20Shack?-Fort%20Myers-Restaurants-53-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Joe's%20Crab%20Shack?-FortMyers-Restaurants-53-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1664,9 +1664,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Twisted%20Vine%20Bistro?-Fort%20Myers-Restaurants-56-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Twisted%20Vine%20Bistro?-FortMyers-Restaurants-56-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1676,9 +1676,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Lan%20Xang%20Fort%20Myers?-Fort%20Myers-Restaurants-62-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Lan%20Xang%20Fort%20Myers?-FortMyers-Restaurants-62-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1688,9 +1688,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Siam%20Thai%20and%20Sushi?-Fort%20Myers-Restaurants-63-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Siam%20Thai%20and%20Sushi?-FortMyers-Restaurants-63-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1700,9 +1700,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Monarca's%20Authentic%20Mexican%20Cuisine%20Bar%20%20Grill?-Fort%20Myers-Restaurants-66-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Monarca's%20Authentic%20Mexican%20Cuisine%20Bar%20&%20Grill?-FortMyers-Restaurants-66-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1712,9 +1712,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Chef%20Brooke's%20Natural%20Cafe?-Fort%20Myers-Restaurants-67-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Chef%20Brooke's%20Natural%20Cafe?-FortMyers-Restaurants-67-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1724,9 +1724,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Habaneros%20Mexican%20Grill?-Fort%20Myers-Restaurants-69-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Habaneros%20Mexican%20Grill?-FortMyers-Restaurants-69-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1736,9 +1736,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Sabor%20A%20Mexico?-Fort%20Myers-Restaurants-71-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Sabor%20A%20Mexico?-FortMyers-Restaurants-71-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1748,9 +1748,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Living%20Vine%20Organic%20Cafe?-Fort%20Myers-Restaurants-73-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Living%20Vine%20Organic%20Cafe?-FortMyers-Restaurants-73-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1760,9 +1760,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Fowler%20Street%20Grill?-Fort%20Myers-Restaurants-74-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Fowler%20Street%20Grill?-FortMyers-Restaurants-74-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1772,9 +1772,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/De%20Adriatico?-Fort%20Myers-Restaurants-77-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/De%20Adriatico?-FortMyers-Restaurants-77-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1784,9 +1784,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Catch%2022%20Live%20Music%20%20Sports%20Bar?-Fort%20Myers-Restaurants-78-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Catch%2022%20Live%20Music%20&%20Sports%20Bar?-FortMyers-Restaurants-78-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1796,9 +1796,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Ella%20Mae’s%20Diner?-Fort%20Myers-Restaurants-81-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Ella%20Mae’s%20Diner?-FortMyers-Restaurants-81-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1808,9 +1808,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Perkins%20Restaurant%20%20Bakery?-Fort%20Myers-Restaurants-82-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Perkins%20Restaurant%20&%20Bakery?-FortMyers-Restaurants-82-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1820,9 +1820,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Herons%20Glen%20Golf%20%20Country%20Club?-Fort%20Myers-Restaurants-84-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Herons%20Glen%20Golf%20&%20Country%20Club?-FortMyers-Restaurants-84-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1832,9 +1832,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Smallcakes%20Cupcakery%20and%20Creamery-Fort%20Myers?-Fort%20Myers-Restaurants-87-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Smallcakes%20Cupcakery%20and%20Creamery-Fort%20Myers?-FortMyers-Restaurants-87-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1844,9 +1844,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Cafe%20Brazil%20Restaurant?-Fort%20Myers-Restaurants-89-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Cafe%20Brazil%20Restaurant?-FortMyers-Restaurants-89-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1856,9 +1856,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Skyline%20Chili?-Fort%20Myers-Restaurants-90-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Skyline%20Chili?-FortMyers-Restaurants-90-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1868,9 +1868,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Wicked%20Good%20Deli?-Fort%20Myers-Restaurants-92-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Wicked%20Good%20Deli?-FortMyers-Restaurants-92-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1880,9 +1880,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Ceviches%20By%20Divino%20Fort%20Myers%20-%20Peruvian%20Tapas%20%20Gastrobar?-Fort%20Myers-Restaurants-93-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Ceviches%20By%20Divino%20Fort%20Myers%20-%20Peruvian%20Tapas%20&%20Gastrobar?-FortMyers-Restaurants-93-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1892,9 +1892,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Red%20Lobster?-Fort%20Myers-Restaurants-94-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Red%20Lobster?-FortMyers-Restaurants-94-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1904,9 +1904,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/H%20J%20German%20Corner?-Fort%20Myers-Restaurants-97-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/H%20J%20German%20Corner?-FortMyers-Restaurants-97-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1916,9 +1916,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Crazy%20Dingo%20Brewing%20Company?-Fort%20Myers-Restaurants-98-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Crazy%20Dingo%20Brewing%20Company?-FortMyers-Restaurants-98-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1928,9 +1928,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Cactus%20Jacks%20Waterfront%20Bar%20%20Grill?-Fort%20Myers-Restaurants-99-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Cactus%20Jacks%20Waterfront%20Bar%20&%20Grill?-FortMyers-Restaurants-99-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1940,9 +1940,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Oxbow%20Bar%20%20Grill?-Fort%20Myers-Restaurants-100-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Oxbow%20Bar%20&%20Grill?-FortMyers-Restaurants-100-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1952,9 +1952,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Tony's%20NY%20Pizza?-Fort%20Myers-Restaurants-105-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Tony's%20NY%20Pizza?-FortMyers-Restaurants-105-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1964,9 +1964,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Beacon%20Social%20Drinkery?-Fort%20Myers-Restaurants-106-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Beacon%20Social%20Drinkery?-FortMyers-Restaurants-106-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1976,9 +1976,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Edison%20Lunch%20Box?-Fort%20Myers-Restaurants-110-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Edison%20Lunch%20Box?-FortMyers-Restaurants-110-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -1988,9 +1988,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Bob%20Evans?-Fort%20Myers-Restaurants-111-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Bob%20Evans?-FortMyers-Restaurants-111-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2000,9 +2000,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Maverick%20Grille?-Fort%20Myers-Restaurants-112-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Maverick%20Grille?-FortMyers-Restaurants-112-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2012,9 +2012,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Fort%20Myers/Chicago%20Boys%20Bar%20%20Grill?-Fort%20Myers-Restaurants-120-</loc>
+<loc>https://www.thingsflorida.com/things/FortMyers/Chicago%20Boys%20Bar%20&%20Grill?-FortMyers-Restaurants-120-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2024,9 +2024,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Wicked%20Dolphin%20Distillery?-Cape%20Coral-Attractions-1-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Wicked%20Dolphin%20Distillery?-CapeCoral-Attractions-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2036,9 +2036,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Cape%20Coral%20Farmers%20Market?-Cape%20Coral-Attractions-2-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Cape%20Coral%20Farmers%20Market?-CapeCoral-Attractions-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2048,9 +2048,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Four%20Mile%20Cove%20Ecological%20Preserve?-Cape%20Coral-Attractions-3-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Four%20Mile%20Cove%20Ecological%20Preserve?-CapeCoral-Attractions-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2060,9 +2060,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Lovegrove%20Gallery%20%20Gardens?-Cape%20Coral-Attractions-4-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Lovegrove%20Gallery%20&%20Gardens?-CapeCoral-Attractions-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2072,9 +2072,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Wigert's%20Bonsai?-Cape%20Coral-Attractions-5-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Wigert's%20Bonsai?-CapeCoral-Attractions-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2084,9 +2084,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Rotary%20Park%20Environmental%20Center?-Cape%20Coral-Attractions-6-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Rotary%20Park%20Environmental%20Center?-CapeCoral-Attractions-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2096,9 +2096,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Fellowship%20Park?-Cape%20Coral-Attractions-8-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Fellowship%20Park?-CapeCoral-Attractions-8-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2108,9 +2108,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Sun%20Splash%20Family%20Waterpark?-Cape%20Coral-Attractions-9-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Sun%20Splash%20Family%20Waterpark?-CapeCoral-Attractions-9-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2120,9 +2120,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Veterans%20Memorial%20Park?-Cape%20Coral-Attractions-11-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Veterans%20Memorial%20Park?-CapeCoral-Attractions-11-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2132,9 +2132,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Matlacha%20Community%20Park?-Cape%20Coral-Attractions-12-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Matlacha%20Community%20Park?-CapeCoral-Attractions-12-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2144,9 +2144,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Cape%20Coral%20Historical%20Museum?-Cape%20Coral-Attractions-13-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Cape%20Coral%20Historical%20Museum?-CapeCoral-Attractions-13-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2156,9 +2156,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Classic%20Auto%20Restoration%20Specialist?-Cape%20Coral-Attractions-14-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Classic%20Auto%20Restoration%20Specialist?-CapeCoral-Attractions-14-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2168,9 +2168,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Cultural%20Park%20Theatre?-Cape%20Coral-Attractions-15-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Cultural%20Park%20Theatre?-CapeCoral-Attractions-15-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2180,9 +2180,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Prairie%20Pines%20Preserve?-Cape%20Coral-Attractions-20-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Prairie%20Pines%20Preserve?-CapeCoral-Attractions-20-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2192,9 +2192,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/CrossFit%20ENG?-Cape%20Coral-Attractions-22-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/CrossFit%20ENG?-CapeCoral-Attractions-22-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2204,9 +2204,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Matlacha%20Bat%20House%20Park?-Cape%20Coral-Attractions-23-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Matlacha%20Bat%20House%20Park?-CapeCoral-Attractions-23-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2216,9 +2216,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Fishing%20Charters,%20Inc.?-Cape%20Coral-Attractions-28-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Fishing%20Charters,%20Inc.?-CapeCoral-Attractions-28-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2228,9 +2228,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Cape%20Coral%20Sport%20Complex?-Cape%20Coral-Attractions-29-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Cape%20Coral%20Sport%20Complex?-CapeCoral-Attractions-29-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2240,9 +2240,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Cape%20Coral%20Yoga%20%20Pilates?-Cape%20Coral-Attractions-30-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Cape%20Coral%20Yoga%20&%20Pilates?-CapeCoral-Attractions-30-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2252,9 +2252,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/MassageLuXe%20Cape%20Coral?-Cape%20Coral-Attractions-32-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/MassageLuXe%20Cape%20Coral?-CapeCoral-Attractions-32-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2264,9 +2264,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Big%20Storm%20Brewing%20Company?-Cape%20Coral-Attractions-33-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Big%20Storm%20Brewing%20Company?-CapeCoral-Attractions-33-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2276,9 +2276,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Studio%208%20Dance?-Cape%20Coral-Attractions-34-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Studio%208%20Dance?-CapeCoral-Attractions-34-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2288,9 +2288,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Tropical%20Breeze%20Fun%20Park?-Cape%20Coral-Attractions-39-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Tropical%20Breeze%20Fun%20Park?-CapeCoral-Attractions-39-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2300,9 +2300,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Florida%20Biplane%20Rides?-Cape%20Coral-Attractions-50-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Florida%20Biplane%20Rides?-CapeCoral-Attractions-50-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2312,9 +2312,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Botanical%20Brewing%20Company?-Cape%20Coral-Attractions-55-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Botanical%20Brewing%20Company?-CapeCoral-Attractions-55-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2324,9 +2324,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Shoot%20Center?-Cape%20Coral-Attractions-73-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Shoot%20Center?-CapeCoral-Attractions-73-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2336,9 +2336,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Bowland%20Cape%20Coral?-Cape%20Coral-Attractions-74-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Bowland%20Cape%20Coral?-CapeCoral-Attractions-74-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2348,9 +2348,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Gulf%20Coast%20Kayak?-Cape%20Coral-Attractions-75-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Gulf%20Coast%20Kayak?-CapeCoral-Attractions-75-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2360,9 +2360,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/AMC%20Merchants%20Crossing%2016?-Cape%20Coral-Attractions-77-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/AMC%20Merchants%20Crossing%2016?-CapeCoral-Attractions-77-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2372,9 +2372,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Art%20By%20San%20Paintings%20and%20Murals?-Cape%20Coral-Attractions-82-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Art%20By%20San%20Paintings%20and%20Murals?-CapeCoral-Attractions-82-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2384,9 +2384,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Judy's%20Antiques%20and%20Estate%20Jewelry?-Cape%20Coral-Attractions-83-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Judy's%20Antiques%20and%20Estate%20Jewelry?-CapeCoral-Attractions-83-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2396,9 +2396,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Gator%20Mike’s?-Cape%20Coral-Attractions-85-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Gator%20Mike’s?-CapeCoral-Attractions-85-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2408,9 +2408,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Yacht%20Club%20Public%20Beach?-Cape%20Coral-Attractions-86-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Yacht%20Club%20Public%20Beach?-CapeCoral-Attractions-86-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2420,9 +2420,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/HeadPinz?-Cape%20Coral-Attractions-87-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/HeadPinz?-CapeCoral-Attractions-87-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2432,9 +2432,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Masala%20Mantra%20Indian%20Bistro?-Cape%20Coral-Restaurants-1-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Masala%20Mantra%20Indian%20Bistro?-CapeCoral-Restaurants-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2444,9 +2444,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Two%20Meatballs%20In%20The%20Kitchen%20-%20Cape%20Coral?-Cape%20Coral-Restaurants-2-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Two%20Meatballs%20In%20The%20Kitchen%20-%20Cape%20Coral?-CapeCoral-Restaurants-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2456,9 +2456,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Gusto%20Cucina%20Italiana?-Cape%20Coral-Restaurants-3-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Gusto%20Cucina%20Italiana?-CapeCoral-Restaurants-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2468,9 +2468,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Fish%20Tale%20Grill%20by%20Merrick%20Seafood?-Cape%20Coral-Restaurants-4-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Fish%20Tale%20Grill%20by%20Merrick%20Seafood?-CapeCoral-Restaurants-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2480,9 +2480,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Lehne%20Burger%20Cape%20Coral?-Cape%20Coral-Restaurants-6-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Lehne%20Burger%20Cape%20Coral?-CapeCoral-Restaurants-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2492,9 +2492,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Blue%20Dog%20Bar%20%20Grill?-Cape%20Coral-Restaurants-7-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Blue%20Dog%20Bar%20&%20Grill?-CapeCoral-Restaurants-7-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2504,9 +2504,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Trattoria%20Ciao?-Cape%20Coral-Restaurants-9-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Trattoria%20Ciao?-CapeCoral-Restaurants-9-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2516,9 +2516,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Twisted%20Lobster?-Cape%20Coral-Restaurants-10-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Twisted%20Lobster?-CapeCoral-Restaurants-10-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2528,9 +2528,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/New%20England%20Moorings?-Cape%20Coral-Restaurants-11-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/New%20England%20Moorings?-CapeCoral-Restaurants-11-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2540,9 +2540,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/The%20Dek%20Bar?-Cape%20Coral-Restaurants-13-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/The%20Dek%20Bar?-CapeCoral-Restaurants-13-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2552,9 +2552,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Slate's?-Cape%20Coral-Restaurants-14-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Slate's?-CapeCoral-Restaurants-14-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2564,9 +2564,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/KEG%20%20COW?-Cape%20Coral-Restaurants-15-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/KEG%20&%20COW?-CapeCoral-Restaurants-15-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2576,9 +2576,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Blanc?-Cape%20Coral-Restaurants-16-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Blanc?-CapeCoral-Restaurants-16-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2588,9 +2588,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Perfect%20Cup?-Cape%20Coral-Restaurants-17-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Perfect%20Cup?-CapeCoral-Restaurants-17-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2600,9 +2600,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Ceno%20Grille?-Cape%20Coral-Restaurants-18-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Ceno%20Grille?-CapeCoral-Restaurants-18-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2612,9 +2612,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Misto%20Bar%20and%20Grill?-Cape%20Coral-Restaurants-22-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Misto%20Bar%20and%20Grill?-CapeCoral-Restaurants-22-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2624,9 +2624,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Bianca's%20Ristorante?-Cape%20Coral-Restaurants-23-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Bianca's%20Ristorante?-CapeCoral-Restaurants-23-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2636,9 +2636,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Prawnbroker%20Restaurant%20and%20Fish%20Market?-Cape%20Coral-Restaurants-24-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Prawnbroker%20Restaurant%20and%20Fish%20Market?-CapeCoral-Restaurants-24-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2648,9 +2648,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Island%20Pho%20%20Grill?-Cape%20Coral-Restaurants-25-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Island%20Pho%20&%20Grill?-CapeCoral-Restaurants-25-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2660,9 +2660,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Sakura%20Japanese%20Steak%20House%20%20Sushi%20Bar?-Cape%20Coral-Restaurants-26-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Sakura%20Japanese%20Steak%20House%20&%20Sushi%20Bar?-CapeCoral-Restaurants-26-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2672,9 +2672,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Old%20Fish%20House%20Marina?-Cape%20Coral-Restaurants-27-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Old%20Fish%20House%20Marina?-CapeCoral-Restaurants-27-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2684,9 +2684,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Chicago%20Pizza?-Cape%20Coral-Restaurants-28-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Chicago%20Pizza?-CapeCoral-Restaurants-28-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2696,9 +2696,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Mexico%20Lindo%20Restaurant?-Cape%20Coral-Restaurants-29-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Mexico%20Lindo%20Restaurant?-CapeCoral-Restaurants-29-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2708,9 +2708,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Point%2057%20Kitchen%20%20Cocktails?-Cape%20Coral-Restaurants-30-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Point%2057%20Kitchen%20&%20Cocktails?-CapeCoral-Restaurants-30-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2720,9 +2720,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Maria's%20Pizzeria%20%20Restaurant?-Cape%20Coral-Restaurants-31-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Maria's%20Pizzeria%20&%20Restaurant?-CapeCoral-Restaurants-31-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2732,9 +2732,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Miceli's%20Restaurant?-Cape%20Coral-Restaurants-32-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Miceli's%20Restaurant?-CapeCoral-Restaurants-32-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2744,9 +2744,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Nomiki's%20Plakka%20Greek%20Restaurant?-Cape%20Coral-Restaurants-35-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Nomiki's%20Plakka%20Greek%20Restaurant?-CapeCoral-Restaurants-35-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2756,9 +2756,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Ford's%20Garage?-Cape%20Coral-Restaurants-37-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Ford's%20Garage?-CapeCoral-Restaurants-37-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2768,9 +2768,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Cafe%20YOU?-Cape%20Coral-Restaurants-40-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Cafe%20YOU?-CapeCoral-Restaurants-40-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2780,9 +2780,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Colleonis%20Ristorante%20Italiano?-Cape%20Coral-Restaurants-42-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Colleonis%20Ristorante%20Italiano?-CapeCoral-Restaurants-42-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2792,9 +2792,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/10%20Twenty%20Five?-Cape%20Coral-Restaurants-43-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/10%20Twenty%20Five?-CapeCoral-Restaurants-43-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2804,9 +2804,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Bert's%20Bar%20%20Seafood%20Grill?-Cape%20Coral-Restaurants-47-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Bert's%20Bar%20&%20Seafood%20Grill?-CapeCoral-Restaurants-47-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2816,9 +2816,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/CRaVE?-Cape%20Coral-Restaurants-48-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/CRaVE?-CapeCoral-Restaurants-48-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2828,9 +2828,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/First%20Watch?-Cape%20Coral-Restaurants-49-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/First%20Watch?-CapeCoral-Restaurants-49-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2840,9 +2840,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Monarca's%20Authentic%20Mexican%20Cuisine%20Bar%20%20Grill?-Cape%20Coral-Restaurants-51-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Monarca's%20Authentic%20Mexican%20Cuisine%20Bar%20&%20Grill?-CapeCoral-Restaurants-51-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2852,9 +2852,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Paradise%20Pizza%20of%20Cape%20Coral?-Cape%20Coral-Restaurants-54-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Paradise%20Pizza%20of%20Cape%20Coral?-CapeCoral-Restaurants-54-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2864,9 +2864,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Duffy's%20Sports%20Grill?-Cape%20Coral-Restaurants-55-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Duffy's%20Sports%20Grill?-CapeCoral-Restaurants-55-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2876,9 +2876,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/The%20Melting%20Pot?-Cape%20Coral-Restaurants-56-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/The%20Melting%20Pot?-CapeCoral-Restaurants-56-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2888,9 +2888,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/The%20O%20Bar?-Cape%20Coral-Restaurants-57-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/The%20O%20Bar?-CapeCoral-Restaurants-57-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2900,9 +2900,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Monkey%20Bar%20Steak%20%20Seafood?-Cape%20Coral-Restaurants-58-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Monkey%20Bar%20Steak%20&%20Seafood?-CapeCoral-Restaurants-58-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2912,9 +2912,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Iguana%20Mia%20of%20Cape%20Coral?-Cape%20Coral-Restaurants-59-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Iguana%20Mia%20of%20Cape%20Coral?-CapeCoral-Restaurants-59-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2924,9 +2924,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Hart%20%20Soul%20Cafe%20(%20Cape%20Coral%20)?-Cape%20Coral-Restaurants-60-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Hart%20&%20Soul%20Cafe%20(%20Cape%20Coral%20)?-CapeCoral-Restaurants-60-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2936,9 +2936,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/FINS%20Seafood%20%20Dive%20Bar?-Cape%20Coral-Restaurants-62-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/FINS%20Seafood%20&%20Dive%20Bar?-CapeCoral-Restaurants-62-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2948,9 +2948,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Citrola's%20Italian%20Grill%20%20Pizzeria?-Cape%20Coral-Restaurants-65-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Citrola's%20Italian%20Grill%20&%20Pizzeria?-CapeCoral-Restaurants-65-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2960,9 +2960,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Leone%20Italian%20Food%20Specialty?-Cape%20Coral-Restaurants-66-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Leone%20Italian%20Food%20Specialty?-CapeCoral-Restaurants-66-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2972,9 +2972,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Hooked%20Island%20Grill?-Cape%20Coral-Restaurants-67-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Hooked%20Island%20Grill?-CapeCoral-Restaurants-67-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2984,9 +2984,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Paradise%20Deli%20%20Grill?-Cape%20Coral-Restaurants-68-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Paradise%20Deli%20&%20Grill?-CapeCoral-Restaurants-68-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -2996,9 +2996,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Aji%20Limon%20Peruvian%20Restaurant?-Cape%20Coral-Restaurants-69-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Aji%20Limon%20Peruvian%20Restaurant?-CapeCoral-Restaurants-69-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3008,9 +3008,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Ristorante%20Fabio%20Italian%20Restaurant?-Cape%20Coral-Restaurants-70-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Ristorante%20Fabio%20Italian%20Restaurant?-CapeCoral-Restaurants-70-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3020,9 +3020,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Metro%20Diner?-Cape%20Coral-Restaurants-71-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Metro%20Diner?-CapeCoral-Restaurants-71-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3032,9 +3032,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Keke's%20Breakfast%20Cafe?-Cape%20Coral-Restaurants-72-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Keke's%20Breakfast%20Cafe?-CapeCoral-Restaurants-72-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3044,9 +3044,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/First%20Round%20Draft%20Sports%20Bar%20%20Grille?-Cape%20Coral-Restaurants-74-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/First%20Round%20Draft%20Sports%20Bar%20&%20Grille?-CapeCoral-Restaurants-74-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3056,9 +3056,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Back%20Streets%20Sports%20Bar?-Cape%20Coral-Restaurants-75-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Back%20Streets%20Sports%20Bar?-CapeCoral-Restaurants-75-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3068,9 +3068,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Outback%20Steakhouse?-Cape%20Coral-Restaurants-76-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Outback%20Steakhouse?-CapeCoral-Restaurants-76-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3080,9 +3080,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Caffe%20Toscano?-Cape%20Coral-Restaurants-77-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Caffe%20Toscano?-CapeCoral-Restaurants-77-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3092,9 +3092,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/BIG8%20BBQ?-Cape%20Coral-Restaurants-78-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/BIG8%20BBQ?-CapeCoral-Restaurants-78-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3104,9 +3104,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Moretti%20Cucina%20Italians?-Cape%20Coral-Restaurants-79-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Moretti%20Cucina%20Italians?-CapeCoral-Restaurants-79-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3116,9 +3116,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/South%20Cape%20Diner?-Cape%20Coral-Restaurants-80-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/South%20Cape%20Diner?-CapeCoral-Restaurants-80-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3128,9 +3128,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Thai%20Nawa%20Cuisine?-Cape%20Coral-Restaurants-82-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Thai%20Nawa%20Cuisine?-CapeCoral-Restaurants-82-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3140,9 +3140,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Denny's?-Cape%20Coral-Restaurants-84-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Denny's?-CapeCoral-Restaurants-84-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3152,9 +3152,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Azucar%20Restaurant%20and%20Bakery?-Cape%20Coral-Restaurants-86-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Azucar%20Restaurant%20and%20Bakery?-CapeCoral-Restaurants-86-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3164,9 +3164,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/The%20Omelet%20Shop?-Cape%20Coral-Restaurants-87-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/The%20Omelet%20Shop?-CapeCoral-Restaurants-87-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3176,9 +3176,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Rusty's%20Raw%20Bar%20and%20Grill%20-%20Cape%20Coral?-Cape%20Coral-Restaurants-88-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Rusty's%20Raw%20Bar%20and%20Grill%20-%20Cape%20Coral?-CapeCoral-Restaurants-88-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3188,9 +3188,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Carrabba's%20Italian%20Grill?-Cape%20Coral-Restaurants-89-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Carrabba's%20Italian%20Grill?-CapeCoral-Restaurants-89-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3200,9 +3200,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Olive%20Garden%20Italian%20Restaurant?-Cape%20Coral-Restaurants-96-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Olive%20Garden%20Italian%20Restaurant?-CapeCoral-Restaurants-96-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3212,9 +3212,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Bob%20Evans?-Cape%20Coral-Restaurants-100-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Bob%20Evans?-CapeCoral-Restaurants-100-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3224,9 +3224,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Stillwater%20Grille?-Cape%20Coral-Restaurants-104-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Stillwater%20Grille?-CapeCoral-Restaurants-104-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3236,9 +3236,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Lelulo's%20Pizzeria?-Cape%20Coral-Restaurants-105-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Lelulo's%20Pizzeria?-CapeCoral-Restaurants-105-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3248,9 +3248,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Perk%20%20Brew?-Cape%20Coral-Restaurants-106-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Perk%20&%20Brew?-CapeCoral-Restaurants-106-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3260,9 +3260,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/The%20Go%20Go%20Diner?-Cape%20Coral-Restaurants-107-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/The%20Go%20Go%20Diner?-CapeCoral-Restaurants-107-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3272,9 +3272,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Everybody's%20Brunch%20Place?-Cape%20Coral-Restaurants-108-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Everybody's%20Brunch%20Place?-CapeCoral-Restaurants-108-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3284,9 +3284,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Luciano's%20Pizza?-Cape%20Coral-Restaurants-112-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Luciano's%20Pizza?-CapeCoral-Restaurants-112-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3296,9 +3296,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Chen's%20China%20Bistro?-Cape%20Coral-Restaurants-114-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Chen's%20China%20Bistro?-CapeCoral-Restaurants-114-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3308,9 +3308,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Wingnuts?-Cape%20Coral-Restaurants-115-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Wingnuts?-CapeCoral-Restaurants-115-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3320,9 +3320,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Grandma%20Penny's%20Pizza?-Cape%20Coral-Restaurants-116-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Grandma%20Penny's%20Pizza?-CapeCoral-Restaurants-116-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3332,9 +3332,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Nestor's%20Restaurant?-Cape%20Coral-Restaurants-117-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Nestor's%20Restaurant?-CapeCoral-Restaurants-117-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3344,9 +3344,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Habaneros%20Mexican%20Grill?-Cape%20Coral-Restaurants-118-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Habaneros%20Mexican%20Grill?-CapeCoral-Restaurants-118-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3356,9 +3356,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Sonny's%20BBQ?-Cape%20Coral-Restaurants-119-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Sonny's%20BBQ?-CapeCoral-Restaurants-119-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3368,9 +3368,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Crisp%20Creperie?-Cape%20Coral-Restaurants-120-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Crisp%20Creperie?-CapeCoral-Restaurants-120-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3380,9 +3380,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Cape%20Coral/Gulyas%20Factory?-Cape%20Coral-Restaurants-121-</loc>
+<loc>https://www.thingsflorida.com/things/CapeCoral/Gulyas%20Factory?-CapeCoral-Restaurants-121-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3394,7 +3394,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Naples%20Botanical%20Garden?-Naples-Attractions-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3406,7 +3406,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Naples%20Pier?-Naples-Attractions-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3418,7 +3418,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Lowdermilk%20Beach?-Naples-Attractions-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3430,7 +3430,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Revs%20Institute?-Naples-Attractions-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3442,7 +3442,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Naples%20Zoo%20at%20Caribbean%20Gardens?-Naples-Attractions-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3454,7 +3454,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Clam%20Pass%20Park?-Naples-Attractions-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3466,7 +3466,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Third%20Street%20South?-Naples-Attractions-8-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3478,7 +3478,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Conservancy%20of%20Southwest%20Florida?-Naples-Attractions-9-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3490,7 +3490,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Tin%20City?-Naples-Attractions-10-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3502,7 +3502,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Naples%20Depot%20Museum?-Naples-Attractions-12-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3514,7 +3514,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Freedom%20Park?-Naples-Attractions-13-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3526,7 +3526,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Village%20Shops%20on%20Venetian%20Bay?-Naples-Attractions-14-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3536,9 +3536,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/The%20Holocaust%20Museum%20%20Cohen%20Education%20Center?-Naples-Attractions-15-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/The%20Holocaust%20Museum%20&%20Cohen%20Education%20Center?-Naples-Attractions-15-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3550,7 +3550,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Gordon%20River%20Greenway?-Naples-Attractions-17-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3562,7 +3562,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Collier%20Museum%20at%20Government%20Center?-Naples-Attractions-19-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3574,7 +3574,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Naples%20Museum%20Of%20Military%20History?-Naples-Attractions-20-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3586,7 +3586,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Naples%20Preserve?-Naples-Attractions-21-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3598,7 +3598,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Naples%20Players%20at%20the%20Sugden%20Community%20Theatre%20?-Naples-Attractions-22-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3610,7 +3610,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Third%20Street%20South%20Farmers%20Market?-Naples-Attractions-23-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3622,7 +3622,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/KAJ%20Gallery?-Naples-Attractions-24-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3634,7 +3634,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Coastland%20Center?-Naples-Attractions-26-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3646,7 +3646,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Ankrolab%20Brewing%20Company?-Naples-Attractions-30-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3658,7 +3658,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Arthur%20L.%20Allen%20Tennis%20Center?-Naples-Attractions-31-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3670,7 +3670,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Naples%20Art?-Naples-Attractions-32-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3682,7 +3682,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Naples%20Regional%20Library?-Naples-Attractions-33-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3694,7 +3694,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/East%20Naples%20Community%20Park?-Naples-Attractions-34-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3706,7 +3706,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Naples%20Train%20Museum?-Naples-Attractions-38-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3718,7 +3718,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Opera%20Naples?-Naples-Attractions-39-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3730,7 +3730,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Tin%20City%20Waterfront%20Shops?-Naples-Attractions-48-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3742,7 +3742,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Naples%20Backyard%20History's%20Heritage%20Trail%20Museum?-Naples-Attractions-49-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3754,7 +3754,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Lux%20VIP%20Transportation?-Naples-Attractions-80-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3766,7 +3766,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Art%20On%20Fifth%20Ave%20Naples?-Naples-Attractions-82-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3778,7 +3778,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Beautiful%20Health?-Naples-Attractions-86-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3790,7 +3790,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Coco%20Art%20Gallery%20Naples?-Naples-Attractions-87-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3802,7 +3802,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Prime%20Limo%20Naples?-Naples-Attractions-93-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3814,7 +3814,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Patty's%20Apparel?-Naples-Attractions-109-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3826,7 +3826,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Art2d%20Gallery?-Naples-Attractions-110-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3836,9 +3836,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Quidley%20%20Company?-Naples-Attractions-114-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Quidley%20&%20Company?-Naples-Attractions-114-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3850,7 +3850,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Marine%20Arts%20Gallery?-Naples-Attractions-115-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3862,7 +3862,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Gardner%20Colby%20Gallery?-Naples-Attractions-116-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3874,7 +3874,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/East%20West%20Fine%20Art?-Naples-Attractions-118-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3886,7 +3886,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Marianne%20Friedland%20Gallery?-Naples-Attractions-120-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3898,7 +3898,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Mediterrano?-Naples-Restaurants-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3910,7 +3910,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Van%20Van%20Cuban%20Cafe?-Naples-Restaurants-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3922,7 +3922,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Lamoraga?-Naples-Restaurants-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3934,7 +3934,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Bha!%20Bha!%20Persian%20Bistro?-Naples-Restaurants-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3946,7 +3946,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Caffe%20dell'Amore?-Naples-Restaurants-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3958,7 +3958,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/T-Michaels%20Steak%20and%20Lobster?-Naples-Restaurants-7-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3970,7 +3970,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Rumba%20Cuban%20Cafe?-Naples-Restaurants-8-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3982,7 +3982,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Brooks%20Burgers?-Naples-Restaurants-9-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -3992,9 +3992,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Noodles%20Italian%20Cafe%20%20Sushi%20Bar?-Naples-Restaurants-10-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Noodles%20Italian%20Cafe%20&%20Sushi%20Bar?-Naples-Restaurants-10-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4006,7 +4006,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Fuse%20Global%20Cuisine?-Naples-Restaurants-11-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4018,7 +4018,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/EJ's%20Bayfront%20Cafe?-Naples-Restaurants-13-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4028,21 +4028,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/The%20European%20Bakery%20%20Cafe?-Naples-Restaurants-14-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/The%20European%20Bakery%20&%20Cafe?-Naples-Restaurants-14-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
-
-<changefreq>monthly</changefreq>
-
-<priority>0.7</priority>
-
-</url>
-
-<url>
-
-<loc>https://www.thingsflorida.com/things/Naples/Captain%20%20Krewe?-Naples-Restaurants-16-</loc>
-
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4052,9 +4040,21 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Truluck's%20Ocean's%20Finest%20Seafood%20%20Crab?-Naples-Restaurants-17-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Captain%20&%20Krewe?-Naples-Restaurants-16-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
+
+<changefreq>monthly</changefreq>
+
+<priority>0.7</priority>
+
+</url>
+
+<url>
+
+<loc>https://www.thingsflorida.com/things/Naples/Truluck's%20Ocean's%20Finest%20Seafood%20&%20Crab?-Naples-Restaurants-17-</loc>
+
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4066,7 +4066,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/La%20Trattoria?-Naples-Restaurants-18-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4078,7 +4078,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/First%20Watch?-Naples-Restaurants-20-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4090,7 +4090,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Ocean%20Prime?-Naples-Restaurants-23-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4102,7 +4102,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Osteria%20Tulia?-Naples-Restaurants-24-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4114,7 +4114,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/USS%20Nemo%20Restaurant?-Naples-Restaurants-25-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4124,9 +4124,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Hobnob%20Kitchen%20%20Bar?-Naples-Restaurants-26-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Hobnob%20Kitchen%20&%20Bar?-Naples-Restaurants-26-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4138,7 +4138,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Skillets?-Naples-Restaurants-27-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4150,7 +4150,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Bistro%20821?-Naples-Restaurants-28-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4162,7 +4162,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/MR.%20BIG%20FISH?-Naples-Restaurants-29-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4174,7 +4174,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Jimmy%20P's%20Charred%20-%20Naples?-Naples-Restaurants-30-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4184,9 +4184,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Cosmos%20Ristorante%20%20Pizzeria?-Naples-Restaurants-31-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Cosmos%20Ristorante%20&%20Pizzeria?-Naples-Restaurants-31-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4198,7 +4198,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Shula's%20Steak%20House?-Naples-Restaurants-32-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4210,7 +4210,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20French?-Naples-Restaurants-33-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4222,7 +4222,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/BiCE?-Naples-Restaurants-36-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4234,7 +4234,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Caffe%20Milano?-Naples-Restaurants-37-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4246,7 +4246,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Jane's%20Cafe?-Naples-Restaurants-38-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4258,7 +4258,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Alberto's%20on%20Fifth%20Fine%20Italian%20Restaurant?-Naples-Restaurants-39-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4270,7 +4270,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Bleu%20Provence?-Naples-Restaurants-40-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4280,9 +4280,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Tommy%20Bahama%20Restaurant%20%20Bar?-Naples-Restaurants-41-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Tommy%20Bahama%20Restaurant%20&%20Bar?-Naples-Restaurants-41-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4294,7 +4294,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/M%20Waterfront%20Grille?-Naples-Restaurants-42-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4306,7 +4306,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Molto%20Trattoria?-Naples-Restaurants-44-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4318,7 +4318,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Pazzo!%20Cucina%20Italiana?-Naples-Restaurants-45-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4330,7 +4330,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Swan%20River%20Seafood%20Restaurant?-Naples-Restaurants-46-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4342,7 +4342,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Chops%20City%20Grill?-Naples-Restaurants-47-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4354,7 +4354,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Campiello?-Naples-Restaurants-48-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4366,7 +4366,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Three60%20Market?-Naples-Restaurants-49-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4378,7 +4378,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Brambles%20English%20Tea%20Room?-Naples-Restaurants-50-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4390,7 +4390,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Sails%20Restaurant?-Naples-Restaurants-51-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4402,7 +4402,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Claw%20Bar?-Naples-Restaurants-52-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4412,9 +4412,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Michelbob's%20Championship%20Ribs%20%20Steaks?-Naples-Restaurants-53-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Michelbob's%20Championship%20Ribs%20&%20Steaks?-Naples-Restaurants-53-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4424,9 +4424,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Alice%20Sweetwaters%20Bar%20%20Grille?-Naples-Restaurants-54-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Alice%20Sweetwaters%20Bar%20&%20Grille?-Naples-Restaurants-54-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4438,7 +4438,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Bellini%20Italian%20Restaurant%20And%20Bar?-Naples-Restaurants-57-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4450,7 +4450,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Vergina%20Restaurant?-Naples-Restaurants-58-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4462,7 +4462,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Continental?-Naples-Restaurants-59-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4474,7 +4474,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Cafe%20Normandie%20Naples?-Naples-Restaurants-60-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4486,7 +4486,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Dock%20at%20Crayton%20Cove?-Naples-Restaurants-62-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4498,7 +4498,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Outback%20Steakhouse?-Naples-Restaurants-66-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4510,7 +4510,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/La%20Pescheria?-Naples-Restaurants-67-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4522,7 +4522,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Pinchers?-Naples-Restaurants-68-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4534,7 +4534,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Yabba%20Island%20Grill?-Naples-Restaurants-70-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4546,7 +4546,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Village%20Pub?-Naples-Restaurants-71-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4558,7 +4558,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Alexander's%20Restaurant?-Naples-Restaurants-72-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4570,7 +4570,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Aqua?-Naples-Restaurants-74-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4582,7 +4582,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Dorona?-Naples-Restaurants-75-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4594,7 +4594,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Barbatella?-Naples-Restaurants-77-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4606,7 +4606,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Le%20Indya%20Naples%20-%20Authentic%20Indian%20Cuisine?-Naples-Restaurants-78-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4618,7 +4618,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Bar%20Tulia%20-%205th%20Avenue?-Naples-Restaurants-79-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4630,7 +4630,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Chez%20Boet-French%20Home%20Cooking?-Naples-Restaurants-81-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4642,7 +4642,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Mino?-Naples-Restaurants-82-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4654,7 +4654,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Spanky's%20Speakeasy?-Naples-Restaurants-83-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4666,7 +4666,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Cibao%20Grille?-Naples-Restaurants-84-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4678,7 +4678,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Carrabba's%20Italian%20Grill?-Naples-Restaurants-87-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4688,9 +4688,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Ridgway%20Bar%20%20Grill?-Naples-Restaurants-88-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Ridgway%20Bar%20&%20Grill?-Naples-Restaurants-88-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4702,7 +4702,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Riverwalk%20at%20Tin%20CityR?-Naples-Restaurants-93-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4714,7 +4714,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Bevy?-Naples-Restaurants-95-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4724,9 +4724,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Naples/Industry%20Beer%20%20Barbeque?-Naples-Restaurants-96-</loc>
+<loc>https://www.thingsflorida.com/things/Naples/Industry%20Beer%20&%20Barbeque?-Naples-Restaurants-96-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4738,7 +4738,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Tropic%20Chill%20Deli?-Naples-Restaurants-97-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4750,7 +4750,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/I%20Love%20Curry?-Naples-Restaurants-98-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4762,7 +4762,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/MiraMare%20Ristorante?-Naples-Restaurants-99-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4774,7 +4774,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Hogfish%20Harry's?-Naples-Restaurants-100-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4786,7 +4786,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Real%20Macaw?-Naples-Restaurants-102-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4798,7 +4798,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Aurelio's%20Pizza?-Naples-Restaurants-104-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4810,7 +4810,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Olive%20Garden%20Italian%20Restaurant?-Naples-Restaurants-105-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4822,7 +4822,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Rosati's%20Pizza?-Naples-Restaurants-107-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4834,7 +4834,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Boathouse%20on%20Naples%20Bay?-Naples-Restaurants-108-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4846,7 +4846,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/South%20Street%20City%20Oven%20Bar%20and%20Music?-Naples-Restaurants-111-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4858,7 +4858,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Turco%20Taco?-Naples-Restaurants-112-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4870,7 +4870,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Fish%20Restaurant?-Naples-Restaurants-113-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4882,7 +4882,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/Wharf%20Tavern?-Naples-Restaurants-118-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4894,7 +4894,7 @@
 
 <loc>https://www.thingsflorida.com/things/Naples/The%20Parrot%20Bar%20and%20Grill?-Naples-Restaurants-123-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4904,9 +4904,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Estero/Miromar%20Outlets%20between%20Naples%20%20Fort%20Myers?-Estero-Attractions-1-</loc>
+<loc>https://www.thingsflorida.com/things/Estero/Miromar%20Outlets%20between%20Naples%20&%20Fort%20Myers?-Estero-Attractions-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4918,7 +4918,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Koreshan%20State%20Park?-Estero-Attractions-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4930,7 +4930,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Happehatchee%20Center?-Estero-Attractions-5-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4942,7 +4942,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/COCO%20Art%20Gallery?-Estero-Attractions-11-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4954,7 +4954,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Sunshine%20Limo?-Estero-Attractions-17-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4966,7 +4966,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Estero%20Farmers%20Market%20At%20Miromar%20Outlets?-Estero-Attractions-18-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4978,7 +4978,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Our%20Yoga%20Place?-Estero-Attractions-19-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -4990,7 +4990,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Gulfshore%20Opera?-Estero-Attractions-37-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5002,7 +5002,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Angelina's%20Ristorante?-Estero-Restaurants-1-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5014,7 +5014,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Divieto%20Ristorante?-Estero-Restaurants-2-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5024,9 +5024,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Estero/Naples%20Flatbread%20Kitchen%20%20Bar?-Estero-Restaurants-3-</loc>
+<loc>https://www.thingsflorida.com/things/Estero/Naples%20Flatbread%20Kitchen%20&%20Bar?-Estero-Restaurants-3-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5038,7 +5038,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Tarpon%20Bay?-Estero-Restaurants-4-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5050,7 +5050,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Ruth's%20Chris%20Steak%20House?-Estero-Restaurants-6-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5062,7 +5062,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Ford's%20Garage?-Estero-Restaurants-7-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5074,7 +5074,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/First%20Watch?-Estero-Restaurants-8-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5086,7 +5086,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/South%20Fork%20Grille?-Estero-Restaurants-9-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5098,7 +5098,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Chops%20City%20Grill%20Bonita?-Estero-Restaurants-10-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5108,9 +5108,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Estero/Tommy%20Bahama%20Marlin%20Bar%20%20Store?-Estero-Restaurants-11-</loc>
+<loc>https://www.thingsflorida.com/things/Estero/Tommy%20Bahama%20Marlin%20Bar%20&%20Store?-Estero-Restaurants-11-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5122,7 +5122,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/California%20Pizza%20Kitchen?-Estero-Restaurants-13-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5132,9 +5132,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Estero/Corkscrew%20Poolside%20Bar%20%20Grill?-Estero-Restaurants-14-</loc>
+<loc>https://www.thingsflorida.com/things/Estero/Corkscrew%20Poolside%20Bar%20&%20Grill?-Estero-Restaurants-14-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5146,7 +5146,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Ted's%20Montana%20Grill?-Estero-Restaurants-17-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5158,7 +5158,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Duffy's%20Sports%20Grill?-Estero-Restaurants-20-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5170,7 +5170,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Marsala%20Pizza%20of%20Estero?-Estero-Restaurants-23-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5182,7 +5182,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Olive%20Garden%20Italian%20Restaurant?-Estero-Restaurants-25-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5194,7 +5194,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/ANY%20Pizzeria?-Estero-Restaurants-26-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5206,7 +5206,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Mamma%20Anna%20Trattoria?-Estero-Restaurants-28-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5218,7 +5218,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Cancun%20Bar%20and%20Grill?-Estero-Restaurants-30-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5230,7 +5230,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Tanglewood%20Restaurant?-Estero-Restaurants-31-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5240,9 +5240,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Estero/Perkins%20Restaurant%20%20Bakery?-Estero-Restaurants-32-</loc>
+<loc>https://www.thingsflorida.com/things/Estero/Perkins%20Restaurant%20&%20Bakery?-Estero-Restaurants-32-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5254,7 +5254,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/The%20Saloon?-Estero-Restaurants-33-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5266,7 +5266,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Zino%20Ristorante?-Estero-Restaurants-37-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5276,9 +5276,9 @@
 
 <url>
 
-<loc>https://www.thingsflorida.com/things/Estero/The%20Llama's%20House%20Bar%20%20Grill?-Estero-Restaurants-39-</loc>
+<loc>https://www.thingsflorida.com/things/Estero/The%20Llama's%20House%20Bar%20&%20Grill?-Estero-Restaurants-39-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5290,7 +5290,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Lehne%20Burger%20Estero?-Estero-Restaurants-43-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5302,7 +5302,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Mellow%20Mushroom?-Estero-Restaurants-47-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5314,7 +5314,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Ristorante%20Farfalla?-Estero-Restaurants-48-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5326,7 +5326,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/La%20Bamba?-Estero-Restaurants-49-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5338,7 +5338,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Zino%20Pizzeria?-Estero-Restaurants-50-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5350,7 +5350,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/The%20Rookery%20at%20The%20Brooks?-Estero-Restaurants-53-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5362,7 +5362,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/Next%20Stop%20Brunch?-Estero-Restaurants-56-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5374,7 +5374,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/The%20Grape%20Base?-Estero-Restaurants-80-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5386,7 +5386,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/The%20Bistro%20at%20Miromar%20Design%20Center?-Estero-Restaurants-87-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5398,7 +5398,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/fibrre?-Estero-Restaurants-92-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 
@@ -5410,7 +5410,7 @@
 
 <loc>https://www.thingsflorida.com/things/Estero/El%20Gaucho%20Inca%20Estero?-Estero-Restaurants-93-</loc>
 
-<lastmod>2022-11-13T12:12:38+00:00</lastmod>
+<lastmod>2022-11-13T17:12:38+00:00</lastmod>
 
 <changefreq>monthly</changefreq>
 

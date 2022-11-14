@@ -2,6 +2,7 @@
     "Attractions":[
     { 
         "collection_type": "Attractions",
+        "collectionParentName": "CapeCoral",
         "city_name": "Cape Coral",
         "banner_Image": "/bannerimages/capeCoralBanner.jpg",
 
@@ -12559,6 +12560,7 @@
     "Restaurants":[
     { 
         "collection_type": "Restaurants",
+        "collectionParentName": "CapeCoral",
         "city_name": "Cape Coral",
 
         "FeaturedIndex0": 1,

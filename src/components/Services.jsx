@@ -30,7 +30,7 @@ const Services = () => {
                         if(place.contact_website && menuOpen == index)
                         {
                         return(
-                            <ServiceCard place={place} index={i + 1} subString={subCollection[0].collection_type} key={i}/>
+                            <ServiceCard place={place} index={i + 1} subString={subCollection[0].collectionParentName} key={i}/>
                         )
                         }
                     })}
