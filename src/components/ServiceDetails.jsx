@@ -9,7 +9,7 @@ import BackButton from './BackButton'
 const ServiceDetails = ({place}) => {
 
   const soeTitle = place.name + " Lee County | View Services, Reviews, Number and More"
-  const soeDesc = "Get Services, Hours, Reviews and More about " + place.name + ". Hand Picked For You " + place.name + " is part of the list of best services in Lee County, View more Best Lee County Services Here."
+  const soeDesc = "Get Services, Reviews and More about " + place.name + ". Hand Picked list of all Best Services in Lee County for you, View more Best Lee County Services Here."
   const soeLoc = "https://www.thingsflorida.com" + window.location.pathname
   const soeKeys = place.name + ", " + "LeeCounty, " + "Services, Roofing, Top Services, Best Services, reviews, hours"
 
@@ -34,6 +34,7 @@ const ServiceDetails = ({place}) => {
             <meta name='og:url' content={soeLoc}/>
             <meta name='og:image' content={place.photo.images.large.url}/>
             <meta name='og:desc' content={place.description}/>
+            <meta name='og:description' content={place.description}/>
         </Helmet>
         <div className='ime'>
           <img src={place.photo.images.large.url} alt="PhotoGoesHere"/>
