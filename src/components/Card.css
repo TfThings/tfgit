@@ -3,9 +3,10 @@
     padding: 0rem;
     border: none;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    border-radius: 8px;
+    border-radius: 7px;
     overflow: hidden;
-    max-height: 300px;
+    height: 250px;
+    /* max-height: 300px; */
 }
 
 .spin{
@@ -202,12 +203,13 @@
     .rTitle{
       position: relative;
       height: 50px auto;
-      margin-top: -40px;
+      margin-top: -15px;
       text-align: center;
       border-radius: 0px;
       box-shadow: -1px 2px 20px rgba(0,0,0,.3);
       background-color: #0fbcf9;
       font-size: 1.2rem;
+      
     }
 
     .rRating{
