@@ -35,7 +35,7 @@ const CityDetails = ({cityCollection}) => {
             <meta name='og:desc' content={soeDesc}/>
             <meta name='og:description' content={soeDesc}/>
         </Helmet>
-        <div className='pageHeader'><h1>{cityName}</h1><img src={`${cityCollection.Attractions[0].banner_Image}`} alt="kfrjk"/></div>
+        <div className='pageHeader'><h1>{cityName}</h1><img src={`${cityCollection.Attractions[0].banner_Image}`} alt="CityDetailImage"/></div>
         <div className='contents'>
             <ServicesButton/>
             <FeaturedSection collection={cityCollection} subString="Things" subCollection={cityCollection.Attractions}/>

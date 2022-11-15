@@ -10,6 +10,7 @@ import {Helmet, HelmetData} from 'react-helmet-async'
 import ServicesButton from './ServicesButton'
 import ActivitiesButton from './ActivitiesButton'
 import ShowcaseCard from './ShowcaseCard'
+import CityButton from './CityButton'
 
 
 const helmetData = new HelmetData({})
@@ -35,15 +36,20 @@ const Thingstodo = () => {
             {/* <ShowcaseCard/> */}
             <ServicesButton/>
             <ActivitiesButton/>
-            <CardArray cityCollection={FortMyersAll} twoColumn={false} headerString="Top Things in" link={true}/>
+            <CityButton cityCollection={FortMyersAll}/>
+            <CityButton cityCollection={CapeCoralAll}/>
+            <CityButton cityCollection={NaplesAll}/>
+            <CityButton cityCollection={EsteroAll}/>
+            {/* <CardArray cityCollection={FortMyersAll} twoColumn={false} headerString="Top Things in" link={true}/>
             <CardArray cityCollection={FortMyersAll} rests={true} twoColumn={false} headerString="Top Restaurants in" link={true}/>
-            {/* <CardArray cityCollection={FortMyersBeachAll} twoColumn={false} headerString="Top Things in" link={true}/> */}
             <CardArray cityCollection={CapeCoralAll} twoColumn={false} headerString="Top Things in" link={true}/>
             <CardArray cityCollection={CapeCoralAll} rests={true} twoColumn={false} headerString="Top Restaurants in" link={true}/>
             <CardArray cityCollection={NaplesAll} twoColumn={false} headerString="Top Things in" link={true}/>
             <CardArray cityCollection={NaplesAll} rests={true} twoColumn={false} headerString="Top Restaurants in" link={true}/>
             <CardArray cityCollection={EsteroAll} twoColumn={false} headerString="Top Things in" link={true}/>  
-            <CardArray cityCollection={EsteroAll} rests={true} twoColumn={false} headerString="Top Restaurants in" link={true}/>       
+            <CardArray cityCollection={EsteroAll} rests={true} twoColumn={false} headerString="Top Restaurants in" link={true}/>  */}
+
+            {/* <CardArray cityCollection={FortMyersBeachAll} twoColumn={false} headerString="Top Things in" link={true}/> */}      
         </div>
     </div>
   )
