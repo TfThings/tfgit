@@ -45,8 +45,8 @@ const PlaceDetails = ({place, cityCollection, index}) => {
             <meta name='og:type' content="website"/>
             <meta name='og:url' content={soeLoc}/>
             <meta name='og:image' content={place.photo.images.large.url}/>
-            <meta name='og:desc' content={place.description}/>
-            <meta name='og:description' content={place.description}/>
+            <meta name='og:desc' content={soeDesc}/>
+            <meta name='og:description' content={soeDesc}/>
     </Helmet>
         {selfUpdate()}
         <div className='thing'>
