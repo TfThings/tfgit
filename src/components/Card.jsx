@@ -21,7 +21,7 @@ const Card = ({place, subCollection, index, cityName, collectionPName, spin}) =>
                 <meta name="description" content={place.description}/>
             </Helmet> */}
             <div className='header'>
-                <img src={place.photo.images.medium ? place.photo.images.medium.url : place.photo.images.large.url} alt="kfwfw"/>
+                <img loading='lazy' src={place.photo.images.medium ? place.photo.images.medium.url : place.photo.images.large.url} alt="Card Image Here"/>
                 <div className='ribbon4 rRating'>#{place.ranking_position}/{place.ranking_denominator}</div>
                 <div className='ratingCircle'><span><FaStar/></span><h2>{place.rating}</h2></div>
             </div>
