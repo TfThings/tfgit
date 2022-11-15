@@ -36,11 +36,11 @@ const Home = () => {
         <div>
             <h1 className='hometitle'>Find Things In Your City</h1>
             <ul className='boxmenu'>
-                <BoxContent cityName="Near You" thumbnail={assets.tfback1}/>
+                {/* <BoxContent cityName="Near You" thumbnail={assets.tfback1}/>
                 <BoxContent cityName="Fort Myers" thumbnail={assets.fortMyers1}/>
                 <BoxContent cityName="Cape Coral" thumbnail={assets.capeCoral1}/>
                 <BoxContent cityName="Naples" thumbnail={assets.naplesLogo1}/>
-                <BoxContent cityName="Port Charlotte" thumbnail={assets.portChar1}/>
+                <BoxContent cityName="Port Charlotte" thumbnail={assets.portChar1}/> */}
             </ul>
         </div>
     </div>
@@ -49,9 +49,9 @@ const Home = () => {
             <h1>Find Things In Your Part</h1>
             <div className='countyMap'>
             <figure>
-            <img src={assets.maptopbord} alt="floridacount" className="maptop"/>
+            {/* <img src={assets.maptopbord} alt="floridacount" className="maptop"/>
             <img src={assets.mapmidbord} alt="floridacout" className="mapmid"/>
-            <img src={assets.mapbotbord} alt="floridacnt" className="mapbot"/>
+            <img src={assets.mapbotbord} alt="floridacnt" className="mapbot"/> */}
             </figure>
             </div>
         </div>

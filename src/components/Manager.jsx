@@ -3,7 +3,6 @@ import {Navbar, Footer} from "./index"
 import {useEffect} from 'react';
 import ReactGA from 'react-ga4'
 import Router from './Router'
-import SiteMapGen from './SiteMapGen'
 ReactGA.initialize('G-ZMDTVMWFRY')
 const Manager = () => {
 

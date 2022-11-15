@@ -9,7 +9,7 @@
 
 .home::before{
     content: '';
-    background: url('../assets/tfback0.png') no-repeat center center/cover;
+    /* background: url('../assets/tfback0.png') no-repeat center center/cover; */
     height: 100%;
     width: 100%;
     position: absolute;
@@ -164,7 +164,7 @@
 .countyWrap{
     padding: 45px 80px 40px 40px;
     min-height: fit-content;
-    background: url('../assets/waves3.png') no-repeat center center/cover;
+    /* background: url('../assets/waves3.png') no-repeat center center/cover; */
     background-color: #4485e0;
 }
 
