@@ -34,13 +34,22 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2.5rem;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .cbc .cbtc .cbt{
-    
+    color: white;
+    font-size: 5rem;
+}
+
+.cbc .cbtc .cbbt{
+    color: #0fbcf9;
+    font-size: 5rem;
+    transform: rotate(-7deg);
+    position: relative;
+    bottom: 10px;
 }
 
 .cbbb{
@@ -55,4 +64,24 @@
     margin-top: 3px;
     padding: 1px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
+
+@media all and (max-width: 600px){
+    .cbc .cbtc .cbt{
+        color: white;
+        font-size: 3.3rem;
+        position: relative;
+        top: 10px;
+    }
+    
+    .cbc .cbtc .cbbt{
+        color: #0fbcf9;
+        font-size: 3.5rem;
+        transform: rotate(-7deg);
+        position: relative;
+        bottom: 10px;
+    }
 }

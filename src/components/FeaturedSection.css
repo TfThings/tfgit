@@ -1,3 +1,5 @@
+
+
 .boxlist{
     display: flex;
     flex-flow: row;
@@ -9,35 +11,21 @@
     overflow-x: scroll;
 }
 
-/* .boxlist .box{
-    background: rgb(254, 254, 254) no-repeat center center/cover;
-    padding: 0px;
-    width: 300px;
-    height: 500px;
-    margin-top: 10px;
-    line-height: 0px;
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-    text-align:center;
-    border-radius: 20px;
-    
-} */
-
-/* .featured{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding-top: 20px;
-} */
-
 .headerfeatured{
-    font-size: 2.5rem;
+    background-color:#ff5f5700;
+    color: black;
+    border-radius: 7px;
+    padding: 5px;
+    width: 98%;
+    margin: auto;
+    font-size: 1.9rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
 
 @media all and (max-width: 600px){
 
-    .headerfeatured{
-        margin-left: 20px;
-    }
 }

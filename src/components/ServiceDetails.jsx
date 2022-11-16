@@ -8,8 +8,9 @@ import BackButton from './BackButton'
 
 const ServiceDetails = ({place}) => {
 
-  const soeTitle = place.name + " Lee County | View Services, Reviews, Number and More"
-  const soeDesc = "Get Services, Reviews and More about " + place.name + ". Hand Picked list of all Best Services in Lee County for you, View more Best Lee County Services Here."
+  const soeTitle = place.name + " Lee County | Best Services, Reviews, Number and More"
+  const soeDesc = place.name + " | Office Address " + place.address + " | Phone Number " + place.phone + " | Learn More and see other Qualified Services in Lee County all hand picked for you."
+  // const soeDesc = place.name + "Lee County Get Services, Numbers, Reviews, and More. "  + place.address + "Hand Picked list of all Best Services in Lee County for you, View more Best Lee County Services Here."
   const soeLoc = "https://www.thingsflorida.com" + window.location.pathname
   const soeKeys = place.name + ", " + "LeeCounty, " + "Services, Roofing, Top Services, Best Services, reviews, hours"
 
@@ -33,8 +34,8 @@ const ServiceDetails = ({place}) => {
             <meta name='og:type' content="website"/>
             <meta name='og:url' content={soeLoc}/>
             <meta name='og:image' content={place.photo.images.large.url}/>
-            <meta name='og:desc' content={place.description}/>
-            <meta name='og:description' content={place.description}/>
+            <meta name='og:desc' content={soeDesc}/>
+            <meta name='og:description' content={soeDesc}/>
         </Helmet>
         <div className='ime'>
           <img src={place.photo.images.large.url} alt="PhotoGoesHere"/>

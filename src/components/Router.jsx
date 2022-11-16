@@ -102,7 +102,7 @@ const Router = () => {
         })
     }
 
-        cityToShowString = cS
+        cityToShowString = decodeURI(cS)
 
         placeIndex = ii
 
