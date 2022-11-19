@@ -3,6 +3,7 @@ import {collection, getDocs, orderBy, query} from 'firebase/firestore'
 import { useEffect, useState, useRef } from 'react'
 import {db} from './Firebase'
 import PostInput from './PostInput'
+import PostHolder from './PostHolder'
 import './Social.css'
 
 const Social = () => {
@@ -17,19 +18,9 @@ const Social = () => {
     async function GetPosts(){
         const postsCol = query(collection(db, 'posts'), orderBy('createdAt', 'desc'))
         const postsSnapshot = await getDocs(postsCol)
-        const postList = postsSnapshot.docs.map(doc => doc.data())
+        const postList = postsSnapshot.docs.map(doc => doc)
         setPosts(postList)
         console.log(postList)
-    }
-
-    const PostHolder = (props) => {
-        const {title, id, createdAt} = props.post
-        return(
-            <li className='phc'>
-                <p className='pht'>{title}</p>
-                {/* <p>{createdAt}</p> */}
-            </li>
-        )
     }
 
   return (

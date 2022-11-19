@@ -30,22 +30,3 @@
     padding: 0px;
 }
 
-.phc{
-    background-color: white;
-    border-radius: 5px;
-    border-width: 2px;
-    border-color: #303030;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-}
-
-.phc .pht{
-    background-color: rgba(183, 183, 183, 0.278);
-    width: 100%;
-    height: 50%;
-    font-size: 1.2rem;
-
-}

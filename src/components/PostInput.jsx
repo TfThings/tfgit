@@ -19,7 +19,8 @@ const PostInput = () => {
 
             addDoc(ps, {
                 id: uuid(),
-                title: pText,
+                text: pText,
+                likes:0,
                 createdAt: serverTimestamp()
             }).then((docRef) => {
                 alert("DATA SUBMITTED")
@@ -27,31 +28,10 @@ const PostInput = () => {
                 console.error("ERROR SUBMITTING POST")
             })
 
-        // db.collection("posts").add({
-        //     id: id,
-        //     title: pText
-        // }).then((docRef) => {
-        //     alert("DATA SUBMITTED")
-        // }).catch((error) => {
-        //     console.error("ERROR SUBMITTING POST")
-        // })
-
         setid('')
         setPText('')
 
         e.target.reset()
-    }
-
-    const s = (e) => {
-
-        e.preventDefault()
-
-        console.log("FORM SUBMITTED " + id + " " + pText)
-
-        setid('')
-        setPText('')
-        e.target.reset()
-        
     }
 
   return (
