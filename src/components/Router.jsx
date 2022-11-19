@@ -9,6 +9,8 @@ import EsteroAll from '../StoredJsons/EsteroAll.json'
 import FortMyersBus from '../StoredJsons/FortMyersBus.json'
 import {Thingstodo, PlaceDetails, CityDetails, Services, ServiceDetails, ContactUs, Activities} from "./index"
 import SiteMapGen from './SiteMapGen';
+import Social from './Social';
+import CreatePost from './CreatePost';
 const Router = () => {
 
     var [cityToShowString, setCity] = useState('')
@@ -219,6 +221,8 @@ const Router = () => {
     {SetPlaceObject()}
     <Routes>
         <Route path="/" element={<Thingstodo/>}/>
+        <Route path="/social" element={<Social/>}/>
+        <Route path="/create" element={<CreatePost/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
         <Route path="/activities" element={<Activities/>}/>
         <Route path='/services' element={<Services/>}/>

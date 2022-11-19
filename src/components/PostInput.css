@@ -1,0 +1,52 @@
+.pic{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-top: 10px;
+
+}
+
+.pic .picf{
+    background-color: white;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+.picf .ptt{
+    background-color: #05c46b;
+    border-radius: 10px;
+    padding: 5px;
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+
+.picf .pti{
+    background-color:white;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    border-width: 2px;
+    text-indent: 8%;
+}
+
+.picf .pbs{
+    background-color: #4bcffa;
+    width: 70%;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    color: white;
+}

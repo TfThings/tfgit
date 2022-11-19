@@ -1,5 +1,6 @@
 import {Manager} from "./components";
 import React from "react";
+
 // import { getPlacesData } from "./api";
 
 const App = () => {
