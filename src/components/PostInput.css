@@ -29,7 +29,7 @@
     padding: 5px;
 }
 
-.picf .ptt{
+.crh .ptt{
     background-color: #05c46b;
     border-radius: 10px;
     padding: 5px;
@@ -38,6 +38,8 @@
     text-align: center;
     font-size: 1.5rem;
     color: white;
+    margin: auto;
+    margin-top: 10px;
     
 }
 

@@ -58,9 +58,9 @@ const PostHolder = (props) => {
         </div>
         <div className='pch'>
                 {comments.length > 0 ? (
-                    <div>
+                    <div className='pcc'>
                         {comments.map((comment) => (
-                            <p key={comment.id}>{comment.data().comment}</p>
+                            <p className='pci' key={comment.id}>{comment.data().comment}</p>
                         ))}
                     </div>
                 ): <h2>no comments yet</h2>}

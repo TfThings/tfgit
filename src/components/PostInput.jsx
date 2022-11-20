@@ -68,11 +68,11 @@ const PostInput = () => {
 
   return (
     <div className='crh'>
+        <h2 className='ptt'>Create Post</h2>
         <div className='pic'>
         {imageFile ? (<img src={imageFile} alt='userImage'/>) : (<p>No Image</p>)}
         </div>
         <form className='picf' onSubmit={(event) => {submitPost(event)}}>
-            <label className='ptt'>Create Post</label>
             <input className='pti' type='text' name='title' placeholder='Leave a message here then press send...' onChange={(e) => setPText(e.target.value)} required/>
             <input type='file' accept='image/*' onChange={(e) => addImageToPost(e)} />
             <button className='pbs' type="submit">Post</button>

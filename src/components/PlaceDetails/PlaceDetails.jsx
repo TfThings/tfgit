@@ -11,6 +11,7 @@ import {Helmet, HelmetData} from 'react-helmet-async'
 import ServicesButton from '../ServicesButton'
 import BackButton from '../BackButton'
 import ActivitiesButton from '../ActivitiesButton'
+import ReviewsContainer from '../ReviewsContainer'
 const PlaceDetails = ({place, cityCollection, index}) => {
 
     useEffect(() => {
@@ -74,6 +75,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
                     </div>    
             </section>
         </div>
+        <ReviewsContainer/>
         <EmailSect isImprovement={true} place={place}/>
         <ServicesButton/>
         <ActivitiesButton/>

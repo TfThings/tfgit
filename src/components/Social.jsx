@@ -15,7 +15,7 @@ const Social = () => {
             query(
                 collection(db, 'posts'), orderBy('createdAt', 'desc')), (snapshot) => setPosts(snapshot.docs)
         )
-        console.log(posts + " Posts Changed")
+        // console.log(posts + " Posts Changed")
     },[db])
 
     async function GetPosts(){
