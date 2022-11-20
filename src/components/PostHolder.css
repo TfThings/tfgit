@@ -1,13 +1,30 @@
 .phc{
     background-color: white;
     border-radius: 5px;
-    border-width: 2px;
-    border-color: #303030;
+    border-width: 5px;
+    border-color: #06d574ab;
     width: 100%;
     height: 100%;
     text-align: center;
     margin: 10px;
     padding: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.phc .pihc{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+}
+
+.phc .pihc img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+    padding: 0px;
 }
 
 .phc .pht{
@@ -22,20 +39,40 @@
     background-color: transparent;
     display: flex;
     flex-flow: row;
-    width: 20%;
+    width: 95%;
     margin: auto;
     padding: 0px;
-
+    gap: 77%;
+    margin-top: 20px;
+    border-bottom-width: 2px;
 }
 
-.slc .lc{
-    font-size: 1.5rem;
-    margin: auto;
+.slc .lbc{
+    display: flex;
+    flex-flow: row;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
 }
 
-.slc .lbh{
+.lbc .lc{
     font-size: 1.5rem;
-    margin: auto;
+    
+}
+
+.lbc .lbh{
+    font-size: 1.5rem;
+   
+}
+
+.slc .pcb{
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
 }
 
 .notLiked{

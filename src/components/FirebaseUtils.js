@@ -1,5 +1,5 @@
 import React from "react"
-import { collection, addDoc, setDoc, doc, getDoc, updateDoc } from "firebase/firestore"
+import { collection, addDoc, setDoc, doc, getDoc, updateDoc, query, getDocs, orderBy } from "firebase/firestore"
 import { db } from "./Firebase"
 
 export const HandleEdit = async (post, newlikes) => {
@@ -12,4 +12,14 @@ export const HandleEdit = async (post, newlikes) => {
         await updateDoc(doc(db, 'posts', post.id),{
             likes:newlikes
         })
+}
+
+export const GetComments = async (post) => {
+    const commentCol = query(collection(db, 'posts', post.id, 'comments'), orderBy('createdAt', 'desc'))
+    const commentSnapshot = await getDocs(commentCol)
+    const commentList = commentSnapshot.docs
+    console.log("GET COMMENTS " + commentList.length)
+    return commentList
+    // setComments(commentList)
+    // console.log(postList)
 }

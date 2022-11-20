@@ -1,6 +1,6 @@
 import React from 'react'
-import {collection, getDocs, orderBy, query} from 'firebase/firestore'
-import { useEffect, useState, useRef } from 'react'
+import {collection, getDocs, orderBy, query, onSnapshot} from 'firebase/firestore'
+import { useEffect, useState} from 'react'
 import {db} from './Firebase'
 import PostInput from './PostInput'
 import PostHolder from './PostHolder'
@@ -11,7 +11,10 @@ const Social = () => {
       const [posts, setPosts] = useState()
 
       useEffect(() => {
-        GetPosts()
+        onSnapshot(
+            query(
+                collection(db, 'posts'), orderBy('createdAt', 'desc')), (snapshot) => setPosts(snapshot.docs)
+        )
         console.log(posts + " Posts Changed")
     },[db])
 
