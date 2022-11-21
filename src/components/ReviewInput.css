@@ -1,0 +1,49 @@
+.ric{
+    background-color: transparent;
+    width: 100%;
+    border-width: 4px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.ric h2{
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.ric .risa{
+    width: 100%;
+    margin: auto;
+}
+
+.ric .rif{
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.rif .rfi{
+    width: 90%;
+    height: 40px;
+    border-width: 2px;
+    border-radius: 10px;
+    
+}
+
+/* box-shadow: 0 2px 5px 0 rgba(0,0,0,.2); */
+
+.rif .rfb{
+    background-color: #0fbcf9;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    
+}

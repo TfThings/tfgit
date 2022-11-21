@@ -75,7 +75,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
                     </div>    
             </section>
         </div>
-        <ReviewsContainer/>
+        <ReviewsContainer placeName={place.name}/>
         <EmailSect isImprovement={true} place={place}/>
         <ServicesButton/>
         <ActivitiesButton/>

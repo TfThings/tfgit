@@ -14,8 +14,8 @@ const CommentInputHolder = ({post}) => {
 
         await addDoc(collection(db, 'posts', post.id, 'comments'),{
             comment: commentToSend,
-            createdAt: serverTimestamp(),
-            likes: 0
+            likes: 0,
+            createdAt: serverTimestamp()
         })
 
         console.log("COMMENT Sent! " + post.id)

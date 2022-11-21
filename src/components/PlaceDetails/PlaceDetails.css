@@ -154,9 +154,10 @@
 }
 
 .box.address h2{
-    width: 200px;
-    margin-left: 15px;
+    width: 100%;
+    height: fit-content;
     font-size:.9rem;
+    padding: 0px;
 }
 
 .box.address span{

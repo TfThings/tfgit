@@ -1,0 +1,53 @@
+.sah{
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+    
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.stl{
+    width: 220px;
+    height: 40px;
+}
+
+.srl{
+    width: 170px;
+    height: 30px;
+    margin:auto;
+    
+}
+
+.saa{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: 13px;
+    background-color: #ffd32a;
+    color: white;
+    text-align: center;
+    font-size: 2.3rem;
+    border-radius: 40px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.sah .sas{
+    margin: auto;
+    font-size: 1.8rem;
+    
+}
+
+.srl .sas{
+    font-size: 1.5rem;
+}
+
+.sred{
+    background-color: #0fbcf9;
+}
+
+.strans{
+    background-color: transparent;
+}
