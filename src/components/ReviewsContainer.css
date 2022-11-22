@@ -36,7 +36,13 @@
 }
 
 .rsc .rcrc{
+    text-align: center;
+}
 
+.rsc .rcrc h2{
+    width: 95%;
+    font-size: 1.3rem;
+    margin: auto;    
 }
 
 .rcrc .rhl{
@@ -46,7 +52,13 @@
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
+    overflow-x: hidden;
     
+}
+
+.rcrc h2{
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
 .rcrc .rhrc{

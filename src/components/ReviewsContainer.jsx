@@ -55,6 +55,8 @@ const ReviewsContainer = ({placeName}) => {
        )
     }
 
+    // if(!isNaN(reviews)){setReviews(null)}
+
   return (
     <div className='rc'>
         <div className='rcmc'>
@@ -62,7 +64,7 @@ const ReviewsContainer = ({placeName}) => {
                 <div><StarArray newAvg={avgReview}/></div>
                 <h2 className='rct'>Reviews From Locals</h2>
                 <div className='rcrc'>
-                    {reviews ? <ReviewsHolder/> : <h2>no comments yet</h2>}
+                    {isNaN(reviews) ? <ReviewsHolder/> : <h2>No Reviews Yet... Be the First One!</h2>}
                 </div>
             </div>
             <div className='rci'>

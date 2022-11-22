@@ -50,7 +50,7 @@ const ReviewInput = ({placeName}) => {
         <StarArray exportRating={setRating}/>
         </div>
         <form className='rif' onSubmit={(event) => {SubmitReview(event)}}>
-            <input className='rfi' type='text' placeholder='Leave a review here then press send...' onChange={(e) => setRComment(e.target.value)} required/>
+            <textarea className='rfi' type='text' placeholder='Leave a review here then press send...' onChange={(e) => setRComment(e.target.value)} required/>
             <button className='rfb' type="submit">Post Review</button>
         </form>
     </div>

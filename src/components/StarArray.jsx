@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {FaStar} from 'react-icons/fa'
+import {FaStar, FaRegStarHalf} from 'react-icons/fa' 
 import './StarArray.css'
 
 const StarArray = ({sRating, exportRating, newAvg}) => {
@@ -9,9 +9,6 @@ const StarArray = ({sRating, exportRating, newAvg}) => {
     if(newAvg != null){rating = newAvg}
 
     const HandleRating = (nRating) =>{
-
-        console.log("HANDLED " + nRating)
-
         setRating(nRating)
         exportRating(nRating)
     }

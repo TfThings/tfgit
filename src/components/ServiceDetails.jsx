@@ -5,6 +5,7 @@ import StarReview from './StarReview'
 import EmailSect from './EmailSect'
 import {Helmet, HelmetData} from 'react-helmet-async'
 import BackButton from './BackButton'
+import ReviewsContainer from './ReviewsContainer'
 
 const ServiceDetails = ({place}) => {
 
@@ -69,6 +70,7 @@ const ServiceDetails = ({place}) => {
             </a></button>
           </div>
         </div>
+        <ReviewsContainer placeName={place.name}/>
         <EmailSect isImprovement={true} place={place}/>
         <BackButton/>
       </div>

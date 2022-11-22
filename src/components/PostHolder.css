@@ -1,14 +1,17 @@
+.lpc{
+    border-radius: 0px;
+}
+
 .phc{
     background-color: white;
-    border-radius: 5px;
-    border-width: 5px;
-    border-color: #06d574ab;
+    border-radius: 15px;
     width: 100%;
     height: 100%;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
 }
 
 .phc .pihc{
@@ -17,7 +20,7 @@
     margin: auto;
 }
 
-.phc .pihc img{
+.phc img{
     display: block;
     width: 100%;
     height: 100%;
@@ -27,33 +30,71 @@
     padding: 0px;
 }
 
-.phc .pht{
-    background-color: rgba(183, 183, 183, 0.278);
+.phc .ptch{
+    /* position: absolute;
+    transform: translate(0%, -100%); */
+    /* background-color: #ff3f34; */
+    
     width: 100%;
-    height: 50%;
-    font-size: 1.2rem;
+    margin: auto;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.1);
+    
+}
 
+.ptch .pht{
+    background-color: rgba(183, 183, 183, 0.44);
+    width: 100%;
+    height: 50px;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: auto;
+    bottom: 100px;
+
+}
+
+.ptch .rhd{
+    
 }
 
 .phc .slc{
     background-color: transparent;
-    display: flex;
+    /* display: flex;
     flex-flow: row;
+    gap: 29%;
+    align-items: center; */
     width: 95%;
     margin: auto;
-    padding: 0px;
-    gap: 77%;
-    margin-top: 20px;
-    border-bottom-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 66px;
+    /* border-bottom-width: 2px; */
 }
 
 .slc .lbc{
+    position: absolute;
+    margin-top: 0%;
     display: flex;
     flex-flow: row;
     gap: 5px;
-    width: 100%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
     align-items: center;
+}
+
+.slc .psmd{
+    font: .9rem;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.psmd .mdi{
+    font-size: 1.5rem;
 }
 
 .lbc .lc{
@@ -62,18 +103,54 @@
 }
 
 .lbc .lbh{
-    font-size: 1.5rem;
-   
+    font-size: 1.8rem;   
 }
 
 .slc .pcb{
     font-size: 1.5rem;
     display: flex;
     flex-flow: row;
-    height: 100%;
-    width: 100%;
+    height: 50px;
+    width: 50px;
     align-items: center;
+    gap: 2px;
+    position: absolute;
+    left: 320px;
 }
+
+.pcb span{
+    color: rgba(128, 128, 128, 0.544);
+}
+
+.pdhc{
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    bottom: 5px;
+    border-radius: 7px;
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.3);
+}
+
+.pdhc .pdh{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.pdh .pdt{
+
+}
+
+.pdh .pdb{
+    width: 100%;
+    margin: auto;
+    font-size: .8rem;
+    padding: 1px;
+}
+
+
 
 .pch{
 
@@ -102,7 +179,7 @@
 }
 
 .notLiked{
-    color: #303030;
+    color: rgba(128, 128, 128, 0.544);
 }
 
 .red{
