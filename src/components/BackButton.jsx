@@ -2,12 +2,14 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import './BackButton.css'
 import {BiArrowBack} from 'react-icons/bi'
+import { GetUserVisits } from './GlobVars'
 const BackButton = () => {
 
 const navigate = useNavigate()
 
 const CheckBack = () => {
-  if(navigate(-1))
+  
+  if(GetUserVisits() >= 3)
   {
     navigate(-1)
   }else{

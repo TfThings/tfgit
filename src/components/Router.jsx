@@ -11,6 +11,8 @@ import {Thingstodo, PlaceDetails, CityDetails, Services, ServiceDetails, Contact
 import SiteMapGen from './SiteMapGen';
 import Social from './Social';
 import CreatePost from './CreatePost';
+import ProfilePage from './ProfilePage';
+import { UserPageVisit } from './GlobVars';
 const Router = () => {
 
     var [cityToShowString, setCity] = useState('')
@@ -22,7 +24,7 @@ const Router = () => {
     const location = useLocation()
 
     useEffect(() => {
-        
+        UserPageVisit()
     },[location])
 
     var cS = ''
@@ -222,7 +224,8 @@ const Router = () => {
     <Routes>
         <Route path="/" element={<Thingstodo/>}/>
         <Route path="/social" element={<Social/>}/>
-        <Route path="/create" element={<CreatePost/>}/>
+        {/* <Route path="/create" element={<CreatePost/>}/> */}
+        <Route path="/profile" element={<ProfilePage/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
         <Route path="/activities" element={<Activities/>}/>
         <Route path='/services' element={<Services/>}/>

@@ -4,7 +4,7 @@ import FeaturedSection from './FeaturedSection'
 import CardArray from './CardArray'
 import ServicesButton from './ServicesButton'
 import {Helmet, HelmetData} from 'react-helmet-async'
-
+import BackButton from './BackButton'
 const helmetData = new HelmetData({})
 
 const CityDetails = ({cityCollection}) => {
@@ -43,6 +43,7 @@ const CityDetails = ({cityCollection}) => {
             <FeaturedSection collection={cityCollection} subString="Restaurants" subCollection={cityCollection.Restaurants}/>
             <CardArray cityCollection={cityCollection} twoColumn={true} rests={true} headerString="Top Restaurants in"/>
         </div>
+        <BackButton/>
     </div>
   )
 
