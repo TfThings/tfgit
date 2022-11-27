@@ -15,7 +15,8 @@ const StarArray = ({sRating, exportRating, newAvg}) => {
 
   return (
     <div>
-    {newAvg != null ? <h3 className='saa'>{newAvg}</h3> : <></>}
+        {newAvg != null ? <span className='lrrc'><h3 className='lrar'>{newAvg}</h3><FaStar className='lrbs'/></span> : <></>}
+    {/* {newAvg != null ? <h3 className='saa'>{newAvg}</h3> : <></>} */}
         <div className={newAvg == null ? exportRating == null ? 'sah srl sred' : 'sah srl strans' : 'sah stl sred'}>
             {[...Array(5)].map((star ,i) => {
                 {return exportRating ? 
