@@ -25,6 +25,7 @@ const Router = () => {
 
     useEffect(() => {
         UserPageVisit()
+        window.scrollTo(0, 0)
     },[location])
 
     var cS = ''

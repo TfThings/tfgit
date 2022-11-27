@@ -15,10 +15,14 @@ const MobileNavBar = () => {
   return (
     <div className='mnbc'>
         <div className='mnbl'>
-           <HiHome className='hib' onClick={() => {GoToLink('/')}}/>
+           {/* <HiHome className='hib' onClick={() => {GoToLink('/')}}/>
            <MdDesignServices className='hib' onClick={() => {GoToLink('/services')}}/>
            <GiPalmTree className='hib' onClick={() => {GoToLink('/')}}/>
-           <MdFastfood className='hib re' onClick={() => {GoToLink('/')}}/>
+           <MdFastfood className='hib re' onClick={() => {GoToLink('/')}}/> */}
+            <span className='hibc' onClick={() => {GoToLink('/')}}><HiHome className='hib'/><h3>Home</h3></span>
+            <span className='hibc' onClick={() => {GoToLink('/services')}}><MdDesignServices className='hib'/><h3>Services</h3></span>
+            <span className='hibc' onClick={() => {GoToLink('/activities')}}><GiPalmTree className='hib'/><h3>Activities</h3></span>
+            <span className='hibc re' onClick={() => {GoToLink('/')}}><MdFastfood className='hib'/><h3>Food</h3></span>
         </div>
     </div>
   )

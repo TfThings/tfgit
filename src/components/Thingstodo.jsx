@@ -19,7 +19,7 @@ const Thingstodo = () => {
     return (
     <div className='thingsmain'>
         <Helmet helmetData={helmetData} prioritizeSeoTags>
-            <title>Find the Best Things to do in Florida Near You</title>
+            <title>Find All The Best Things To Do Near You in Florida</title>
             <meta name="description" content="Find The Best Things To Do in all of Florida with the best hand picked collection for you. Find The Best Things in Fort Myers, Naples, Cape Coral, Estero and More."/>
             <link rel="canonical" hreflang="en" href="https://www.thingsflorida.com" />
             <link rel="alternate" hreflang="en" href="https://www.thingsflorida.com"/>

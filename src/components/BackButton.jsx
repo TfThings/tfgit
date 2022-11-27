@@ -8,7 +8,8 @@ const BackButton = () => {
 const navigate = useNavigate()
 
 const CheckBack = () => {
-  
+
+  window.scrollTo(0, 0)
   if(GetUserVisits() >= 3)
   {
     navigate(-1)
