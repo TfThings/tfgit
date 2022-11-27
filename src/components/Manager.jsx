@@ -3,6 +3,7 @@ import {Navbar, Footer} from "./index"
 import {useEffect} from 'react';
 import ReactGA from 'react-ga4'
 import Router from './Router'
+import MobileNavBar from './MobileNavBar'
 ReactGA.initialize('G-ZMDTVMWFRY')
 const Manager = () => {
 
@@ -15,6 +16,7 @@ const Manager = () => {
         <Navbar/>
         <Router/>
         <Footer/>
+        <MobileNavBar/>
         </>
     )
 }
