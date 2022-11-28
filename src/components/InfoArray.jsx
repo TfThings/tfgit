@@ -6,6 +6,7 @@ import call from 'react-native-phone-call'
 import ReactGA from "react-ga4";
 import './InfoArray.css'
 import { Platform } from 'react-native-web'
+import {isMobile} from 'react-device-detect'
 const InfoArray = ({place}) => {
 
     const makeCall = (phoneNumber) => {
@@ -23,22 +24,30 @@ const InfoArray = ({place}) => {
         var lat = JSON.parse(spot.latitude)
         var long = JSON.parse(spot.longitude)
 
-        if (Platform.OS === 'web'){
+        console.log("platform is: ", window?.navigator?.userAgent)
+
+        if (/iPhone|iPad/i.test(navigator.userAgent)){
+            const scheme = 'maps:0,0?q='
+            const latLng = `${lat},${long}`;
+            const label = 'Custom Label';
+            const url = `${scheme}${label}@${latLng}`
+            window.openURL(url);
+            return
+        }
+
+        if (!isMobile){
         window.open("https://maps.google.com?q="+spot.name+'/'+lat+","+long)
             return
         }
 
-        if (Platform.OS === 'ios' || Platform.OS === 'android')
+        if(isMobile)
         {
-        const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
-        const latLng = `${lat},${long}`;
-        const label = 'Custom Label';
-        const url = Platform.select({
-        ios: `${scheme}${label}@${latLng}`,
-        android: `${scheme}${latLng}(${label})`
-        })
-        window.openURL(url);
-    }
+            const scheme = 'geo:0,0?q='
+            const latLng = `${lat},${long}`;
+            const label = 'Custom Label';
+            const url =`${scheme}${latLng}(${label})`
+            window.openURL(url);
+        }
     }
 
     const CallGaEvent = () =>{
