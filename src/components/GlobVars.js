@@ -1,4 +1,3 @@
-
 var userPages = 0
 
 export const GetUserVisits = () =>{

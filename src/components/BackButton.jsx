@@ -7,7 +7,7 @@ const BackButton = () => {
 
 const navigate = useNavigate()
 
-const CheckBack = () => {
+const PageBack = () => {
 
   window.scrollTo(0, 0)
   if(GetUserVisits() >= 3)
@@ -20,7 +20,7 @@ const CheckBack = () => {
 
   return (
     <div className='bbh'>
-        <button onClick={() => CheckBack()} className='bbis'><span><BiArrowBack/></span><h2>Back</h2></button>
+        <button onClick={() => PageBack()} className='bbis'><span><BiArrowBack/></span><h2>Back</h2></button>
     </div>
   )
 }

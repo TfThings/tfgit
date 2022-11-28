@@ -2,10 +2,10 @@ import React from 'react'
 import {BsBoxArrowUpRight} from 'react-icons/bs'
 import {FaMapMarkerAlt} from 'react-icons/fa'
 import {HiPhoneOutgoing} from 'react-icons/hi'
-import openMap, {createOpenLink} from 'react-native-open-maps'
 import call from 'react-native-phone-call'
 import ReactGA from "react-ga4";
 import './InfoArray.css'
+import { Platform } from 'react-native-web'
 const InfoArray = ({place}) => {
 
     const makeCall = (phoneNumber) => {
@@ -22,10 +22,23 @@ const InfoArray = ({place}) => {
         const dest = spot.latitude + "," + spot.longitude
         var lat = JSON.parse(spot.latitude)
         var long = JSON.parse(spot.longitude)
-        console.log("OPENED MAP " + spot.latitude + " " + spot.longitude + " " + dest + " " + dest.longitude + " " + lat)
-        var loc = {latitude: lat, longitude: long}
-        openMap(loc)
-        // createOpenLink(loc)
+
+        if (Platform.OS === 'web'){
+        window.open("https://maps.google.com?q="+spot.name+'/'+lat+","+long)
+            return
+        }
+
+        if (Platform.OS === 'ios' || Platform.OS === 'android')
+        {
+        const scheme = Platform.select({ ios: 'maps:0,0?q=', android: 'geo:0,0?q=' });
+        const latLng = `${lat},${long}`;
+        const label = 'Custom Label';
+        const url = Platform.select({
+        ios: `${scheme}${label}@${latLng}`,
+        android: `${scheme}${latLng}(${label})`
+        })
+        window.openURL(url);
+    }
     }
 
     const CallGaEvent = () =>{
