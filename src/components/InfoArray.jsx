@@ -5,8 +5,7 @@ import {HiPhoneOutgoing} from 'react-icons/hi'
 import call from 'react-native-phone-call'
 import ReactGA from "react-ga4";
 import './InfoArray.css'
-import { Platform } from 'react-native-web'
-import {isMobile} from 'react-device-detect'
+
 const InfoArray = ({place}) => {
 
     const makeCall = (phoneNumber) => {
@@ -24,30 +23,26 @@ const InfoArray = ({place}) => {
         var lat = JSON.parse(spot.latitude)
         var long = JSON.parse(spot.longitude)
 
-        console.log("platform is: ", window?.navigator?.userAgent)
-
-        if (/iPhone|iPad/i.test(navigator.userAgent)){
-            const scheme = 'maps:0,0?q='
-            const latLng = `${lat},${long}`;
-            const label = 'Custom Label';
-            const url = `${scheme}${label}@${latLng}`
-            window.openURL(url);
-            return
-        }
-
-        if (!isMobile){
+        
         window.open("https://maps.google.com?q="+spot.name+'/'+lat+","+long)
-            return
-        }
 
-        if(isMobile)
-        {
-            const scheme = 'geo:0,0?q='
-            const latLng = `${lat},${long}`;
-            const label = 'Custom Label';
-            const url =`${scheme}${latLng}(${label})`
-            window.openURL(url);
-        }
+        // if (/iPhone|iPad/i.test(navigator.userAgent)){
+        //     const scheme = 'maps:0,0?q='
+        //     const latLng = `${lat},${long}`;
+        //     const label = 'Custom Label';
+        //     const url = `${scheme}${label}@${latLng}`
+        //     window.openURL(url);
+        //     return
+        // }
+
+        // if(isMobile)
+        // {
+        //     const scheme = 'geo:0,0?q='
+        //     const latLng = `${lat},${long}`;
+        //     const label = 'Custom Label';
+        //     const url =`${scheme}${latLng}(${label})`
+        //     window.openURL(url);
+        // }
     }
 
     const CallGaEvent = () =>{
