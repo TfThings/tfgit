@@ -1,8 +1,13 @@
 import React, {useState} from 'react'
+// @ts-ignore
 import Map, {Marker, Popup} from 'react-map-gl'
+import mapboxgl from "mapbox-gl"
 import './IMap.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 const IMap = ({subCollection}) => {
+
+    // eslint-disable-next-line import/no-webpack-loader-syntax
+    mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default
 
     const [selectedPlace, setSelectedPlace] = useState(null)
 
