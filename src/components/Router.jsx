@@ -13,6 +13,7 @@ import Social from './Social';
 import CreatePost from './CreatePost';
 import ProfilePage from './ProfilePage';
 import { UserPageVisit } from './GlobVars';
+import IMap from './IMap';
 const Router = () => {
 
     var [cityToShowString, setCity] = useState('')
@@ -225,6 +226,7 @@ const Router = () => {
     <Routes>
         <Route path="/" element={<Thingstodo/>}/>
         <Route path="/social" element={<Social/>}/>
+        <Route path="/map" element={<IMap subCollection={FortMyersAll.Restaurants}/>}/>
         {/* <Route path="/create" element={<CreatePost/>}/> */}
         <Route path="/profile" element={<ProfilePage/>}/>
         <Route path="/contact" element={<ContactUs/>}/>
