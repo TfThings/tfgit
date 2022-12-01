@@ -15,12 +15,15 @@ const IMap = ({subCollection}) => {
         console.log("RE DID THIS")
         if(place && place.location_id != "34230" && place.photo && place.description != "")
         {
+            const imageUrl = place.photo.images.medium ? place.photo.images.medium.url : place.photo.images.large.url
+
             return(
                 {
                 longitude: place.longitude,
                 latitude: place.latitude,
                 name: place.name,
-                index: i       
+                index: i,
+                image: imageUrl
                 }
             )
         }else{
@@ -51,30 +54,47 @@ const IMap = ({subCollection}) => {
           }}
           mapStyle='mapbox://styles/thingsflorida/clb2zq9es001315peg4qyfgzv'
           mapboxAccessToken='pk.eyJ1IjoidGhpbmdzZmxvcmlkYSIsImEiOiJjbGIyem43Y3IwOWY0M29xaDcxYnBkaWFzIn0.LVr_HzYu2F-3s7LDqJPcHg'
-          
+          onClick={console.log("CLICKED ON THE MaP")}
           >
-            {coords.map((place) => (
-                <div key={place.index}>
-                    {/* <Marker longitude={p.longitude} latitude={p.latitude} color='red'/> */}
-                    <Marker key={place.index} longitude={place.longitude} latitude={place.latitude}  onClick={() => setSelectedPlace(place)}>
-                        
+            {/* {coords.map((place) => (
+                <div key={place.index} onClick={() => setSelectedPlace(place)}>
+                    <Marker key={place.index} longitude={place.longitude} latitude={place.latitude}  >
+                       <div className='imph'>
+                        {place.image && <img src={place.image} alt={place.name}/>}
+                       </div>
                     </Marker>
-
-                    {/* Pop up */}
-                    {/* <Popup anchor='top' latitude={place.latitude} longitude={place.longitude}>Hello{console.log("YESS " + place.name)}</Popup> */}
-                    {/* {selectedPlace.index === place.index ? (<Popup anchor='top'  latitude={place.latitude} longitude={place.longitude}>{place.name}{console.log("YESS " + place.index + " " + selectedPlace.index)}</Popup> ) : (false)} */}
                 </div>
-            ))}
-            {selectedPlace && (<Popup onClose={() => setSelectedPlace(null)} anchor='top' latitude={selectedPlace.latitude} longitude={selectedPlace.longitude}>
+            ))} */}
+            {subCollection.map((place) => {
+                if(place && place.location_id != "34230" && place.photo && place.description != "")
+                return (
+                    <div key={place.index} onClick={() => setSelectedPlace(place)}>
+                        {console.log("DID MARK " + place.name)}
+                    <Marker key={place.index} longitude={place.longitude} latitude={place.latitude}  >
+                       <div className='imph'>
+                        {place.photo && <img src={place.photo.images.medium ? place.photo.images.medium.url : place.photo.images.large.url} alt={place.name}/>}
+                       </div>
+                    </Marker>
+                </div>
+                )
+                
+            })}
+            {selectedPlace && (<Popup closeOnClick='true' onClose={() => {setSelectedPlace(null)}} anchor='top' latitude={selectedPlace.latitude} longitude={selectedPlace.longitude}>
                 <div>
                 {selectedPlace.name}
-                Place Ratings
-                Description
+                {selectedPlace.num_reviews}
                 More Stuff
                 {console.log(selectedPlace.name)}
                 </div>
                 </Popup>)}
         </Map>
+        {selectedPlace &&
+         <div className='impic'>
+                {selectedPlace.name}
+                {selectedPlace.name}
+                {selectedPlace.num_reviews}
+                {selectedPlace.description}
+        </div>}
     </div>
   )
 }
