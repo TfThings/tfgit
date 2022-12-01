@@ -1,9 +1,9 @@
 .strs{
     display:flex;
-    flex-flow:row wrap;
+    flex-flow:row;
     gap: 5px;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
     padding-left: 3px;
 }
 

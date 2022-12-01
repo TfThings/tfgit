@@ -4,6 +4,8 @@ import Map, {Marker, Popup} from 'react-map-gl'
 import mapboxgl from "mapbox-gl"
 import './IMap.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
+import StarReview from './StarReview'
+import InfoArray from './InfoArray'
 const IMap = ({subCollection}) => {
 
     // eslint-disable-next-line import/no-webpack-loader-syntax
@@ -69,7 +71,6 @@ const IMap = ({subCollection}) => {
                 if(place && place.location_id != "34230" && place.photo && place.description != "")
                 return (
                     <div key={place.index} onClick={() => setSelectedPlace(place)}>
-                        {console.log("DID MARK " + place.name)}
                     <Marker key={place.index} longitude={place.longitude} latitude={place.latitude}  >
                        <div className='imph'>
                         {place.photo && <img src={place.photo.images.medium ? place.photo.images.medium.url : place.photo.images.large.url} alt={place.name}/>}
@@ -79,7 +80,7 @@ const IMap = ({subCollection}) => {
                 )
                 
             })}
-            {selectedPlace && (<Popup closeOnClick='true' onClose={() => {setSelectedPlace(null)}} anchor='top' latitude={selectedPlace.latitude} longitude={selectedPlace.longitude}>
+            {selectedPlace && (<Popup anchor='top' latitude={selectedPlace.latitude} longitude={selectedPlace.longitude} onClose={() => {setSelectedPlace(null)}} >
                 <div>
                 {selectedPlace.name}
                 {selectedPlace.num_reviews}
@@ -90,10 +91,10 @@ const IMap = ({subCollection}) => {
         </Map>
         {selectedPlace &&
          <div className='impic'>
-                {selectedPlace.name}
-                {selectedPlace.name}
-                {selectedPlace.num_reviews}
-                {selectedPlace.description}
+                <div className='impict'><h2>{selectedPlace.name}</h2></div>
+                <div className='impicsr'><StarReview rating={selectedPlace.rating} count={selectedPlace.num_reviews}/></div>
+                <div className='impicia'><InfoArray place={selectedPlace}/></div>
+                {/* <div className='impicd'><p>{selectedPlace.description}</p></div> */}
         </div>}
     </div>
   )
