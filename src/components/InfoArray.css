@@ -1,11 +1,9 @@
 
 .rw{
-    margin-top: 60px;
-    position: relative;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 0px;
+    padding: 10px;
     margin: auto;
 }
 
@@ -14,33 +12,28 @@
 }
 
 .bx{
-    /* display: block; */
     border-radius: 10px;
     width: 300px;
     height: 50px;
+    margin: auto;
     padding:8px;
     color: white;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-    
-    /* flex-flow: row;    */
-    /* flex-basis: 100%;  */
+    display: flex;
+    align-items: center;
 }
 
 .bx span{
-    display: flex;
-    align-items: center;
     gap: 10px;
-    padding-left: 5px;
-    /* text-align: left; */
+    margin-left: 5px;
 }
 
 .bx.phone{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .bx.phone h2{
-    top: 0;
-    left: 13px;
+    margin: auto;
 }
 
 .bx.website{
@@ -52,23 +45,21 @@
 }
 
 .bx.website h2{
-    top: 0px;
-    left: 40px;
+    margin: auto;
 }
 
 .bx.address h2{
-    top: -30px;
-    left: 30px;
-    width: 200px;
+    width: 100%;
+    height: fit-content;
     font-size:.9rem;
+    padding: 0px;
+    text-align: center;
+    
 }
 
 .bx.address span{
     font-size: 1.6rem;
-    position: relative;
-    right: 4px;
-    top: 2px;
-    
+    margin: auto;
 }
 
 .bx h2{
@@ -93,4 +84,59 @@
 
 .yellow{
     background-color:#f1c40f;
+}
+
+.bxm{
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    padding:8px;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+}
+
+.bxm span{
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.bxm.phone{
+    font-size: 1.1rem;
+}
+
+.bxm.phone h2{
+    margin: auto;
+}
+
+.bxm.website{
+    font-size: 1.3rem;
+}
+
+.bxm.website span{
+    padding-left: 0px;
+}
+
+.bxm.website h2{
+    margin: auto;
+}
+
+.bxm.address h2{
+    width: 100%;
+    height: fit-content;
+    font-size:.7rem;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.bxm.address span{
+    font-size: 1.6rem;
+    margin: auto;
+}
+
+.bxm h2{
+    color: white; 
 }

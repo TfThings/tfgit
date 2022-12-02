@@ -65,7 +65,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
                                 <div className='icon green'><span>YES</span><h2>is open</h2></div>
                             </div>
                             <div className='details'>
-                                <InfoArray place={place}/>
+                                <InfoArray place={place} onMap={false}/>
                             </div>
                             <div className='desc'>
                                 <h2>About</h2>

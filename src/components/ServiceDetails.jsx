@@ -62,7 +62,7 @@ const ServiceDetails = ({place}) => {
             <h2 className='sdd'>{place.description}</h2>
           </div>
           <div className='det'>
-            <InfoArray place={place}/>
+            <InfoArray place={place} onMap={false}/>
           </div>
           <div className='bb'>
           <button><a href={place.contact_website} target="_blank" rel="noreferrer noopener">

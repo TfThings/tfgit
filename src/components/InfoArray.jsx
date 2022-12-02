@@ -6,7 +6,7 @@ import call from 'react-native-phone-call'
 import ReactGA from "react-ga4";
 import './InfoArray.css'
 
-const InfoArray = ({place}) => {
+const InfoArray = ({place, onMap}) => {
 
     const makeCall = (phoneNumber) => {
         const args = {
@@ -57,10 +57,10 @@ const InfoArray = ({place}) => {
     }
 
   return (
-    <div className='row'>
-        <button onClick={() => makeCall(place.phone)} className='box phone blue'><span><HiPhoneOutgoing/></span><h2>{place.phone}</h2></button>
-        <a href={place.website} target="_blank" rel="noreferrer noopener" className='box website red'><span><BsBoxArrowUpRight/></span><h2>Visit Website</h2></a>
-        <address onClick={() => openMobileMap(place)} className='box address orange'><span><FaMapMarkerAlt/></span><h2>{place.address}</h2></address>
+    <div className='rw'>
+        <button onClick={() => makeCall(place.phone)} className={onMap ? 'bxm phone blue' : 'bx phone blue'}><span><HiPhoneOutgoing/></span><h2>{place.phone}</h2></button>
+        <a href={place.website} target="_blank" rel="noreferrer noopener" className={onMap ? 'bxm website red' : 'bx website red'}><span><BsBoxArrowUpRight/></span><h2>Visit Website</h2></a>
+        <address onClick={() => openMobileMap(place)} className={onMap ? 'bxm address orange' : 'bx address orange'}><span><FaMapMarkerAlt/></span><h2>{place.address}</h2></address>
     </div>
   )
 }

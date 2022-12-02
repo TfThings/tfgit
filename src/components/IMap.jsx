@@ -106,20 +106,20 @@ const IMap = ({subCollection}) => {
                 )
                 
             })}
-            {selectedPlace && (<Popup anchor='top' latitude={selectedPlace.latitude} longitude={selectedPlace.longitude} >
+            {/* {selectedPlace && (<Popup anchor='top' latitude={selectedPlace.latitude} longitude={selectedPlace.longitude} >
                 <div>
                 {selectedPlace.name}
                 {selectedPlace.num_reviews}
                 More Stuff
                 {console.log(selectedPlace.name)}
                 </div>
-                </Popup>)}
+                </Popup>)} */}
         </Map>
         {selectedPlace &&
          <div className='impic'>
                 <div className='impict'><h2>{selectedPlace.name}</h2></div>
                 <div className='impicsr'><StarReview rating={selectedPlace.rating} count={selectedPlace.num_reviews}/></div>
-                <div className='impicia'><InfoArray place={selectedPlace}/></div>
+                <div className='impicia'><InfoArray place={selectedPlace} onMap={true}/></div>
                 {/* <div className='impicd'><p>{selectedPlace.description}</p></div> */}
         </div>}
     </div>
