@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 // @ts-ignore
 import Map, {Marker, Popup} from 'react-map-gl'
 import mapboxgl from "mapbox-gl"
@@ -12,6 +12,13 @@ const IMap = ({subCollection}) => {
     mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default
 
     const [selectedPlace, setSelectedPlace] = useState(null)
+
+    var tapCounter = 0
+
+    useEffect(() => {
+
+        console.log("PLACE Changes ")
+    },[selectedPlace])
 
     const coords = (subCollection).slice(0 ,100).map((place, i) => {
         console.log("RE DID THIS")
@@ -40,7 +47,26 @@ const IMap = ({subCollection}) => {
 
     // console.log(coords + " " + selectedPlace.name)
 
-    const Pin = () => (
+    const CountTaps = () => {
+
+       selectedPlace && tapCounter++
+
+       console.log("COUNTING TAPS " + tapCounter)
+        if(tapCounter >= 2)
+        {
+            selectedPlace && setSelectedPlace(null)
+
+            tapCounter = 0
+        }
+    }
+
+    const SelectPlace = (place) => {
+        tapCounter = 0
+        
+        selectedPlace != place && setSelectedPlace(place)
+    }
+
+    const PlacePopUp = () => (
         <div className='impc'>
             Place
         </div>
@@ -56,7 +82,7 @@ const IMap = ({subCollection}) => {
           }}
           mapStyle='mapbox://styles/thingsflorida/clb2zq9es001315peg4qyfgzv'
           mapboxAccessToken='pk.eyJ1IjoidGhpbmdzZmxvcmlkYSIsImEiOiJjbGIyem43Y3IwOWY0M29xaDcxYnBkaWFzIn0.LVr_HzYu2F-3s7LDqJPcHg'
-          onClick={console.log("CLICKED ON THE MaP")}
+          onClick={() => selectedPlace && CountTaps()}
           >
             {/* {coords.map((place) => (
                 <div key={place.index} onClick={() => setSelectedPlace(place)}>
@@ -70,8 +96,8 @@ const IMap = ({subCollection}) => {
             {subCollection.map((place) => {
                 if(place && place.location_id != "34230" && place.photo && place.description != "")
                 return (
-                    <div key={place.index} onClick={() => setSelectedPlace(place)}>
-                    <Marker key={place.index} longitude={place.longitude} latitude={place.latitude}  >
+                    <div key={place.index}>
+                    <Marker key={place.index} onClick={() => SelectPlace(place)} longitude={place.longitude} latitude={place.latitude}  >
                        <div className='imph'>
                         {place.photo && <img src={place.photo.images.medium ? place.photo.images.medium.url : place.photo.images.large.url} alt={place.name}/>}
                        </div>
@@ -80,7 +106,7 @@ const IMap = ({subCollection}) => {
                 )
                 
             })}
-            {selectedPlace && (<Popup anchor='top' latitude={selectedPlace.latitude} longitude={selectedPlace.longitude} onClose={() => {setSelectedPlace(null)}} >
+            {selectedPlace && (<Popup anchor='top' latitude={selectedPlace.latitude} longitude={selectedPlace.longitude} >
                 <div>
                 {selectedPlace.name}
                 {selectedPlace.num_reviews}
