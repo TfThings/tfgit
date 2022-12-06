@@ -1,49 +1,53 @@
 import React, {useState, useEffect} from 'react'
 // @ts-ignore
-import Map, {Marker, Popup} from 'react-map-gl'
+import Map, {Marker, Popup, useMap} from 'react-map-gl'
 import mapboxgl from "mapbox-gl"
 import './IMap.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import StarReview from './StarReview'
 import InfoArray from './InfoArray'
-const IMap = ({subCollection}) => {
+import {MdFastfood} from 'react-icons/md'
+import {GrAttraction} from 'react-icons/gr'
+import FortMyersAll from '../StoredJsons/FortMyersAll.json'
+import CapeCoralAll from '../StoredJsons/CapeCoralAll.json'
+import NaplesAll from '../StoredJsons/NaplesAll.json'
+import EsteroAll from '../StoredJsons/EsteroAll.json'
+const IMap = ({placePassed, viewPort}) => {
 
     // eslint-disable-next-line import/no-webpack-loader-syntax
     mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default
 
+    const [currentCollection, setCurrentCollection] = useState(FortMyersAll)
+
+    const [currentSubCollection, setCurrentSubColleciton] = useState(currentCollection.Restaurants)
     const [selectedPlace, setSelectedPlace] = useState(null)
 
     var tapCounter = 0
 
+    const  [currentSelectedIndex, setSelectedIndex] = useState(0)
+
+    const {current: main} = useMap()
+
     useEffect(() => {
 
-        console.log("PLACE Changes ")
+        // console.log("PLACE Changes ")
     },[selectedPlace])
 
-    const coords = (subCollection).slice(0 ,100).map((place, i) => {
-        console.log("RE DID THIS")
-        if(place && place.location_id != "34230" && place.photo && place.description != "")
-        {
-            const imageUrl = place.photo.images.medium ? place.photo.images.medium.url : place.photo.images.large.url
+    const SetMainCollection = (newCollection) => {
+        console.log("SET NEW COLLECTION " + newCollection.Attractions[0].collectionParentName )
+        setCurrentCollection(newCollection)
+        setCurrentSubColleciton(newCollection.Restaurants)
+        setSelectedIndex(0)
+        // main.flyTo({center: [-122, 37.8], essential: true})
+    }
 
-            return(
-                {
-                longitude: place.longitude,
-                latitude: place.latitude,
-                name: place.name,
-                index: i,
-                image: imageUrl
-                }
-            )
-        }else{
-            return(
-                {
-                    longitude: 0,
-                    latitude:  0,
-                }
-            )
-        }
-    })
+    const SetSubCollectionSearch= (newCollection) => {
+        setSelectedIndex(newCollection[0].collection_type == 'Restaurants' ? 0 : 1)
+
+        setCurrentSubColleciton(newCollection)
+
+        console.log("SWAPPED COLLECTION " + currentSelectedIndex)
+    }
 
     // console.log(coords + " " + selectedPlace.name)
 
@@ -66,6 +70,16 @@ const IMap = ({subCollection}) => {
         selectedPlace != place && setSelectedPlace(place)
     }
 
+    const CityPanel = ({cityCollection}) => (
+        <div className='imcpc' onClick={() => SetMainCollection(cityCollection)}>
+            <img className='' src={`${cityCollection.Attractions[0].banner_Image}`} alt="CityButtonPhoto"/>
+            {/* <div className='imcptd'>
+                <h2 className='imcpct'>{cityCollection.Attractions[0].city_name}</h2>
+                <h2 className='imcpbt'>Things</h2>
+            </div> */}
+        </div>
+    )
+
     const PlacePopUp = () => (
         <div className='impc'>
             Place
@@ -73,16 +87,13 @@ const IMap = ({subCollection}) => {
     )
 
   return (
-    <div className='imc'>
-        <Map 
-        initialViewState={{
-            longitude: -81.87332440207219,
-            latitude:  26.634608378325783,
-            zoom: 10
-          }}
+    <div className={placePassed ? 'imcop' : 'imc'}>
+        <Map
           mapStyle='mapbox://styles/thingsflorida/clb2zq9es001315peg4qyfgzv'
           mapboxAccessToken='pk.eyJ1IjoidGhpbmdzZmxvcmlkYSIsImEiOiJjbGIyem43Y3IwOWY0M29xaDcxYnBkaWFzIn0.LVr_HzYu2F-3s7LDqJPcHg'
+          id='main'
           onClick={() => selectedPlace && CountTaps()}
+          {...viewPort}
           >
             {/* {coords.map((place) => (
                 <div key={place.index} onClick={() => setSelectedPlace(place)}>
@@ -93,11 +104,16 @@ const IMap = ({subCollection}) => {
                     </Marker>
                 </div>
             ))} */}
-            {subCollection.map((place) => {
+            {placePassed && (<Marker longitude={placePassed.longitude} latitude={placePassed.latitude}  >
+                       <div className='imph'>
+                        {placePassed.photo && <img src={placePassed.photo.images.medium ? placePassed.photo.images.medium.url : placePassed.photo.images.large.url} alt={placePassed.name}/>}
+                       </div>
+                    </Marker>)}
+            {currentSubCollection.map((place) => {
                 if(place && place.location_id != "34230" && place.photo && place.description != "")
                 return (
                     <div key={place.index}>
-                    <Marker key={place.index} onClick={() => SelectPlace(place)} longitude={place.longitude} latitude={place.latitude}  >
+                    <Marker key={place.name} onClick={() => SelectPlace(place)} longitude={place.longitude} latitude={place.latitude}  >
                        <div className='imph'>
                         {place.photo && <img src={place.photo.images.medium ? place.photo.images.medium.url : place.photo.images.large.url} alt={place.name}/>}
                        </div>
@@ -121,6 +137,20 @@ const IMap = ({subCollection}) => {
                 <div className='impicsr'><StarReview rating={selectedPlace.rating} count={selectedPlace.num_reviews}/></div>
                 <div className='impicia'><InfoArray place={selectedPlace} onMap={true}/></div>
                 {/* <div className='impicd'><p>{selectedPlace.description}</p></div> */}
+        </div>}
+        {!placePassed && <div className='impos'>
+            <div className='impcs'>
+                <MdFastfood className={currentSelectedIndex === 0 ? 'imci sel' : 'imci'} onClick={() => SetSubCollectionSearch(currentCollection.Restaurants)}/>
+                <GrAttraction className={currentSelectedIndex === 1 ? 'imci sel' : 'imci'}  onClick={() => SetSubCollectionSearch(currentCollection.Attractions)}/>
+            </div>
+        </div>}
+        {!placePassed && <div className='imcsc'>
+            <div className='imscl'>
+                <CityPanel cityCollection={FortMyersAll}/>
+                <CityPanel cityCollection={CapeCoralAll}/>
+                <CityPanel cityCollection={NaplesAll}/>
+                <CityPanel cityCollection={EsteroAll}/>
+            </div>
         </div>}
     </div>
   )

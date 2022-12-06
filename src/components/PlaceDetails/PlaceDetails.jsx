@@ -12,15 +12,20 @@ import ServicesButton from '../ServicesButton'
 import BackButton from '../BackButton'
 import ActivitiesButton from '../ActivitiesButton'
 import ReviewsContainer from '../ReviewsContainer'
+import IMap from '../IMap'
+import { useState } from 'react'
 const PlaceDetails = ({place, cityCollection, index}) => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+        setViewport({longitude: place.longitude, latitude:  place.latitude, zoom: 15})
+      }, [window.location.pathname])
 
     const selfUpdate = () => {
         window.scrollTo(0,0)
     }
+
+    const [viewport, setViewport] = useState({})
 
     const helmetData = new HelmetData({})
 
@@ -76,6 +81,7 @@ const PlaceDetails = ({place, cityCollection, index}) => {
             </section>
         </div>
         <ReviewsContainer placeName={place.name}/>
+        <IMap placePassed={place} viewPort={viewport}/>
         <EmailSect isImprovement={true} place={place}/>
         <ServicesButton/>
         <ActivitiesButton/>
