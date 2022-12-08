@@ -5,6 +5,8 @@
         "collectionParentName": "CapeCoral",
         "city_name": "Cape Coral",
         "banner_Image": "/bannerimages/capeCoralBanner.jpg",
+        "latitude": "26.631971",
+        "longitude": "-81.973045",
 
         "FeaturedIndex0": 85,
         "FeaturedIndex1": 74,
@@ -12562,6 +12564,8 @@
         "collection_type": "Restaurants",
         "collectionParentName": "CapeCoral",
         "city_name": "Cape Coral",
+        "latitude": "26.631971",
+        "longitude": "-81.973045",
 
         "FeaturedIndex0": 1,
         "FeaturedIndex1": 2,

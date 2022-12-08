@@ -5,6 +5,8 @@
         "collectionParentName": "FortMyers",
         "city_name": "Fort Myers",
         "banner_Image": "/bannerimages/fortmyers-banner01.jpg",
+        "latitude": "26.601301",
+        "longitude": "-81.87018",
 
         "FeaturedIndex0": 152,
         "FeaturedIndex1": 157,
@@ -24135,6 +24137,9 @@
         "collection_type": "Restaurants",
         "collectionParentName": "FortMyers",
         "city_name": "Fort Myers",
+        "latitude": "26.601301",
+        "longitude": "-81.87018",
+
 
         "FeaturedIndex0": 1,
         "FeaturedIndex1": 2,

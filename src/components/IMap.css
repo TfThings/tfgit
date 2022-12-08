@@ -139,59 +139,54 @@
 
 .imcsc{
     position: absolute;
-    background-color: #ff6348;
     width: 100%;
     height: 100px;
     bottom: 0px;
+    overflow-x: scroll;
     
 }
 
 .imcsc .imscl{
+    width: 600px;
+    height: 100%;
     display: flex;
     flex-flow: row;
-    margin: 0px;
-    align-items: center;
-    /* overflow-x: scroll; */
-    background-color: aqua;
+    list-style: none;
 }
 
 .imscl .imcpc{
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
+    width: 150px;
+    height: 100%;
+    /* text-align: center; */
     /* overflow: hidden; */
 }
 
 .imscl .imcpc > img {
-    display: block;
-    width: 100%;
-    max-height: 300px;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    object-position: center;
-    padding: 0px;
-    border-radius: 0px;
+    width: 200px;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 10px;
     
     -webkit-filter: brightness(65%);
 }
 
 .imscl .imcptd{
-    position: absolute;
-    width: 100%;
-    bottom: 10px;
-    right: 100px;
     text-align: center;
+    position: absolute;
+    width: 140px;
+    bottom: 10%;
+    margin-left: 5px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .imscl .imcptd .imcpct{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .imscl .imcptd .imcpbt{
     color: #0fbcf9;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     transform: rotate(-7deg);
     position: relative;
     bottom: 10px;

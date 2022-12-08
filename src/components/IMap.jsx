@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef, useCallback} from 'react'
 // @ts-ignore
 import Map, {Marker, Popup, useMap} from 'react-map-gl'
 import mapboxgl from "mapbox-gl"
@@ -17,6 +17,9 @@ const IMap = ({placePassed, viewPort}) => {
     // eslint-disable-next-line import/no-webpack-loader-syntax
     mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default
 
+
+    const mapRef = useRef(useMap())
+
     const [currentCollection, setCurrentCollection] = useState(FortMyersAll)
 
     const [currentSubCollection, setCurrentSubColleciton] = useState(currentCollection.Restaurants)
@@ -26,7 +29,7 @@ const IMap = ({placePassed, viewPort}) => {
 
     const  [currentSelectedIndex, setSelectedIndex] = useState(0)
 
-    const {current: main} = useMap()
+    // var viewPort = viewPort ? viewPort : {longitude: FortMyersAll.Restaurants[0].longitude, latitude:  FortMyersAll.Restaurants[0].latitude, zoom: 15}
 
     useEffect(() => {
 
@@ -38,6 +41,7 @@ const IMap = ({placePassed, viewPort}) => {
         setCurrentCollection(newCollection)
         setCurrentSubColleciton(newCollection.Restaurants)
         setSelectedIndex(0)
+        mapRef.current?.flyTo({center: [newCollection.Restaurants[0].longitude, newCollection.Restaurants[0].latitude], duration: 2000})
         // main.flyTo({center: [-122, 37.8], essential: true})
     }
 
@@ -73,10 +77,10 @@ const IMap = ({placePassed, viewPort}) => {
     const CityPanel = ({cityCollection}) => (
         <div className='imcpc' onClick={() => SetMainCollection(cityCollection)}>
             <img className='' src={`${cityCollection.Attractions[0].banner_Image}`} alt="CityButtonPhoto"/>
-            {/* <div className='imcptd'>
+            <div className='imcptd'>
                 <h2 className='imcpct'>{cityCollection.Attractions[0].city_name}</h2>
                 <h2 className='imcpbt'>Things</h2>
-            </div> */}
+            </div>
         </div>
     )
 
@@ -89,9 +93,9 @@ const IMap = ({placePassed, viewPort}) => {
   return (
     <div className={placePassed ? 'imcop' : 'imc'}>
         <Map
+          ref={mapRef}
           mapStyle='mapbox://styles/thingsflorida/clb2zq9es001315peg4qyfgzv'
           mapboxAccessToken='pk.eyJ1IjoidGhpbmdzZmxvcmlkYSIsImEiOiJjbGIyem43Y3IwOWY0M29xaDcxYnBkaWFzIn0.LVr_HzYu2F-3s7LDqJPcHg'
-          id='main'
           onClick={() => selectedPlace && CountTaps()}
           {...viewPort}
           >
@@ -144,7 +148,8 @@ const IMap = ({placePassed, viewPort}) => {
                 <GrAttraction className={currentSelectedIndex === 1 ? 'imci sel' : 'imci'}  onClick={() => SetSubCollectionSearch(currentCollection.Attractions)}/>
             </div>
         </div>}
-        {!placePassed && <div className='imcsc'>
+        {!placePassed && 
+        <div className='imcsc'>
             <div className='imscl'>
                 <CityPanel cityCollection={FortMyersAll}/>
                 <CityPanel cityCollection={CapeCoralAll}/>

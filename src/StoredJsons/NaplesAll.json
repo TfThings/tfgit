@@ -5,6 +5,8 @@
             "collectionParentName": "Naples",
             "city_name": "Naples",
             "banner_Image": "/bannerimages/naplesBanner.jpg",
+            "latitude": "26.17005",
+            "longitude": "-81.79771",
     
             "FeaturedIndex0": 8,
             "FeaturedIndex1": 20,
@@ -19078,6 +19080,8 @@
             "collection_type": "Restaurants",
             "collectionParentName": "Naples",
             "city_name": "Naples",
+            "latitude": "26.17005",
+            "longitude": "-81.79771",
     
             "FeaturedIndex0": 1,
             "FeaturedIndex1": 2,
