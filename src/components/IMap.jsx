@@ -75,7 +75,7 @@ const IMap = ({placePassed, viewPort}) => {
     }
 
     const CityPanel = ({cityCollection}) => (
-        <div className='imcpc' onClick={() => SetMainCollection(cityCollection)}>
+        <div className={currentCollection == cityCollection ? 'imcpc cel' : 'imcpc'} onClick={() => SetMainCollection(cityCollection)}>
             <img className='' src={`${cityCollection.Attractions[0].banner_Image}`} alt="CityButtonPhoto"/>
             <div className='imcptd'>
                 <h2 className='imcpct'>{cityCollection.Attractions[0].city_name}</h2>
@@ -99,15 +99,6 @@ const IMap = ({placePassed, viewPort}) => {
           onClick={() => selectedPlace && CountTaps()}
           {...viewPort}
           >
-            {/* {coords.map((place) => (
-                <div key={place.index} onClick={() => setSelectedPlace(place)}>
-                    <Marker key={place.index} longitude={place.longitude} latitude={place.latitude}  >
-                       <div className='imph'>
-                        {place.image && <img src={place.image} alt={place.name}/>}
-                       </div>
-                    </Marker>
-                </div>
-            ))} */}
             {placePassed && (<Marker longitude={placePassed.longitude} latitude={placePassed.latitude}  >
                        <div className='imph'>
                         {placePassed.photo && <img src={placePassed.photo.images.medium ? placePassed.photo.images.medium.url : placePassed.photo.images.large.url} alt={placePassed.name}/>}
@@ -142,21 +133,27 @@ const IMap = ({placePassed, viewPort}) => {
                 <div className='impicia'><InfoArray place={selectedPlace} onMap={true}/></div>
                 {/* <div className='impicd'><p>{selectedPlace.description}</p></div> */}
         </div>}
-        {!placePassed && <div className='impos'>
-            <div className='impcs'>
-                <MdFastfood className={currentSelectedIndex === 0 ? 'imci sel' : 'imci'} onClick={() => SetSubCollectionSearch(currentCollection.Restaurants)}/>
-                <GrAttraction className={currentSelectedIndex === 1 ? 'imci sel' : 'imci'}  onClick={() => SetSubCollectionSearch(currentCollection.Attractions)}/>
-            </div>
-        </div>}
         {!placePassed && 
-        <div className='imcsc'>
-            <div className='imscl'>
-                <CityPanel cityCollection={FortMyersAll}/>
-                <CityPanel cityCollection={CapeCoralAll}/>
-                <CityPanel cityCollection={NaplesAll}/>
-                <CityPanel cityCollection={EsteroAll}/>
+        <>
+        <div className='imbmc'>
+            <div className='impos'>
+                <h3 className='impot'>Categories</h3>
+                <span className='impots'><h3>Restaurants</h3><h3>Attractions</h3></span>
+                <div className='impcs'>
+                    <MdFastfood className={currentSelectedIndex === 0 ? 'imci sel' : 'imci'} onClick={() => SetSubCollectionSearch(currentCollection.Restaurants)}/>
+                    <GrAttraction className={currentSelectedIndex === 1 ? 'imci sel' : 'imci'}  onClick={() => SetSubCollectionSearch(currentCollection.Attractions)}/>
+                </div>
             </div>
-        </div>}
+                <div className='imcsc'>
+                    <div className='imscl'>
+                        <CityPanel cityCollection={FortMyersAll}/>
+                        <CityPanel cityCollection={CapeCoralAll}/>
+                        <CityPanel cityCollection={NaplesAll}/>
+                        <CityPanel cityCollection={EsteroAll}/>
+                    </div>
+                </div>
+            </div>
+        </>}
     </div>
   )
 }
