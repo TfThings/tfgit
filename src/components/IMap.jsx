@@ -126,17 +126,11 @@ const IMap = ({placePassed, viewPort}) => {
                 </div>
                 </Popup>)} */}
         </Map>
-        {selectedPlace &&
-         <div className='impic'>
-                <div className='impict'><h2>{selectedPlace.name}</h2></div>
-                <div className='impicsr'><StarReview rating={selectedPlace.rating} count={selectedPlace.num_reviews}/></div>
-                <div className='impicia'><InfoArray place={selectedPlace} onMap={true}/></div>
-                {/* <div className='impicd'><p>{selectedPlace.description}</p></div> */}
-        </div>}
+        
         {!placePassed && 
         <>
         <div className='imbmc'>
-            <div className='impos'>
+            <div className={selectedPlace ? 'impos celim' : 'impos'}>
                 <h3 className='impot'>Categories</h3>
                 <span className='impots'><h3>Restaurants</h3><h3>Attractions</h3></span>
                 <div className='impcs'>
@@ -144,15 +138,22 @@ const IMap = ({placePassed, viewPort}) => {
                     <GrAttraction className={currentSelectedIndex === 1 ? 'imci sel' : 'imci'}  onClick={() => SetSubCollectionSearch(currentCollection.Attractions)}/>
                 </div>
             </div>
-                <div className='imcsc'>
+            {selectedPlace &&
+            <div className='impic'>
+                <div className='impict'><h2>{selectedPlace.name}</h2></div>
+                <div className='impicsr'><StarReview rating={selectedPlace.rating} count={selectedPlace.num_reviews}/></div>
+                <div className='impicia'><InfoArray place={selectedPlace} onMap={true}/></div>
+                {/* <div className='impicd'><p>{selectedPlace.description}</p></div> */}
+            </div>}
+            <div className='imcsc'>
                     <div className='imscl'>
                         <CityPanel cityCollection={FortMyersAll}/>
                         <CityPanel cityCollection={CapeCoralAll}/>
                         <CityPanel cityCollection={NaplesAll}/>
                         <CityPanel cityCollection={EsteroAll}/>
                     </div>
-                </div>
             </div>
+        </div>
         </>}
     </div>
   )
