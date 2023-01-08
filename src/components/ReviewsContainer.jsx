@@ -4,7 +4,7 @@ import './ReviewsContainer.css'
 import { db } from './Firebase'
 import { collection, onSnapshot, query, orderBy } from 'firebase/firestore'
 import StarArray from './StarArray'
-const ReviewsContainer = ({placeName}) => {
+const ReviewsContainer = ({placeName, onMap}) => {
 
     const [reviews, setReviews] = useState(null)
     const [avgReview, setAvgReview] = useState(0)
@@ -15,9 +15,9 @@ const ReviewsContainer = ({placeName}) => {
                 collection(db, 'places', placeName, 'reviews'), orderBy('createdAt', 'desc')), 
                 (snapshot) => setReviews(snapshot.docs)
         )
-        // console.log("Reviews Changed " + reviews)
+         console.log("Reviews Changed " + reviews)
         
-    },[db, window.location.pathname])
+    },[db, window.location.pathname, placeName])
 
     useEffect(() => {
         if(reviews){CalcAvgReview()}
@@ -58,10 +58,12 @@ const ReviewsContainer = ({placeName}) => {
     // if(!isNaN(reviews)){setReviews(null)}
 
   return (
-    <div className='rc'>
+    <>
+    {!onMap &&
+     <div className='rc'>
         <div className='rcmc'>
             <div className='rsc'>
-                <div><StarArray newAvg={avgReview}/></div>
+                <div><StarArray newAvg={avgReview} onM={true}/></div>
                 <h2 className='rct'>Reviews From Locals</h2>
                 <div className='rcrc'>
                     {isNaN(reviews) ? <ReviewsHolder/> : <h2>No Reviews Yet... Be the First One!</h2>}
@@ -71,7 +73,18 @@ const ReviewsContainer = ({placeName}) => {
                 <ReviewInput placeName={placeName}/>
             </div>
         </div>
+    </div>}
+    {onMap && 
+    <div>
+        <div className='rcrc'>
+            {isNaN(reviews) ? <ReviewsHolder/> : <h2>No Reviews Yet... Be the First One!</h2>}
+        </div>
+        {/* <div className='rci'>
+                <ReviewInput placeName={placeName}/>
+        </div> */}
     </div>
+    }
+    </>
   )
 }
 

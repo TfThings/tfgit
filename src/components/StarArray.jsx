@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {FaStar, FaRegStarHalf} from 'react-icons/fa' 
 import './StarArray.css'
 
-const StarArray = ({sRating, exportRating, newAvg}) => {
+const StarArray = ({sRating, exportRating, newAvg, onM}) => {
 
     let [rating, setRating] = useState(sRating)
 

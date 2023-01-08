@@ -12,6 +12,7 @@ import FortMyersAll from '../StoredJsons/FortMyersAll.json'
 import CapeCoralAll from '../StoredJsons/CapeCoralAll.json'
 import NaplesAll from '../StoredJsons/NaplesAll.json'
 import EsteroAll from '../StoredJsons/EsteroAll.json'
+import ReviewsContainer from './ReviewsContainer'
 const IMap = ({placePassed, viewPort}) => {
 
     // eslint-disable-next-line import/no-webpack-loader-syntax
@@ -142,7 +143,10 @@ const IMap = ({placePassed, viewPort}) => {
             <div className='impic'>
                 <div className='impict'><h2>{selectedPlace.name}</h2></div>
                 <div className='impicsr'><StarReview rating={selectedPlace.rating} count={selectedPlace.num_reviews}/></div>
-                <div className='impicia'><InfoArray place={selectedPlace} onMap={true}/></div>
+                <div className='imrcfp'>
+                    <div className='impicia'><InfoArray place={selectedPlace} onMap={true}/></div>
+                    <div className='imrc'><ReviewsContainer placeName={selectedPlace.name} onMap={true}/></div>
+                </div>
                 {/* <div className='impicd'><p>{selectedPlace.description}</p></div> */}
             </div>}
             <div className='imcsc'>
